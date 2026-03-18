@@ -141,8 +141,8 @@ rep("[ ] Transformer l'énergie magnétique en énergie mécanique");
 rep("[ ] Guider l'arbre moteur par rapport à l'ensemble fixe");
 
 quest("Pourquoi le circuit magnétique est-il constitué d'un empilement de tôles feuilletées ?");
-rep("[ ] Pour augmenter la puissance mécanique");
 rep("[x] Pour limiter les pertes dues aux courants de Foucault");
+rep("[ ] Pour augmenter la puissance mécanique");
 rep("[ ] Pour faciliter le refroidissement par air");
 
 quest("Sur un réseau 400 V triphasé, comment doit-on raccorder un moteur 230 V / 400 V ?");
@@ -152,8 +152,8 @@ rep("[ ] En raccordement direct monophasé");
 
 quest("Quelle est la formule de la fréquence de rotation (n) du champ tournant ?");
 rep("[ ] n = p / f");
-rep("[x] n = f / p");
 rep("[ ] n = U / I");
+rep("[x] n = f / p");
 
 quest("Dans un moteur asynchrone, comment appelle-t-on la différence de vitesse entre le champ tournant et le rotor ?");
 rep("[ ] Le déphasage");
@@ -162,18 +162,19 @@ rep("[ ] La réluctance");
 
 quest("Que se passe-t-il si l'on inverse deux phases à l'alimentation d'un moteur triphasé ?");
 rep("[ ] Le moteur s'arrête immédiatement");
-rep("[x] Le sens de rotation s'inverse immédiatement");
 rep("[ ] La puissance utile est doublée");
+rep("[x] Le sens de rotation s'inverse immédiatement");
 
 quest("À combien peut s'élever l'intensité de démarrage par rapport au courant nominal ?");
+rep("[ ] Elle reste identique");
 rep("[ ] Environ 2 fois le courant nominal");
 rep("[x] Environ 7 à 8 fois le courant nominal");
-rep("[ ] Elle reste identique");
 
 quest("Quel dispositif protège spécifiquement le moteur contre les surcharges modérées ?");
-rep("[ ] Le sectionneur");
 rep("[x] Le relais thermique");
 rep("[ ] Le condensateur de démarrage");
+rep("[ ] Le sectionneur");
+
 
 quest("Quel est l'avantage principal du démarrage étoile-triangle ?");
 rep("[ ] Augmenter le couple de démarrage");
@@ -181,10 +182,9 @@ rep("[x] Réduire le courant au moment du démarrage");
 rep("[ ] Faire varier la vitesse de rotation");
 
 quest("Que risque un moteur triphasé alimenté par seulement 2 phases au lieu de 3 ?");
-rep("[ ] Il tournera plus vite");
 rep("[x] Il va caler et risque de griller définitivement");
 rep("[ ] Il passera automatiquement en mode monophasé");
-
+rep("[ ] Il tournera plus vite");
 
 theme("Synchrone vs Asynchrone");
 
@@ -201,9 +201,9 @@ rep("[ ] Le moteur asynchrone");
 rep("[ ] Le moteur universel");
 
 quest("Un moteur asynchrone monophasé peut-il démarrer seul sans artifice ?");
-rep("[ ] Oui, dès la mise sous tension");
 rep("[x] Non, il ne crée pas de champ tournant initial");
 rep("[ ] Oui, mais seulement dans le sens des aiguilles d'une montre");
+rep("[ ] Oui, dès la mise sous tension");
 
 quest("À quoi sert le condensateur sur un moteur asynchrone monophasé ?");
 rep("[ ] À stocker de l'énergie pour les pannes");
@@ -211,8 +211,8 @@ rep("[x] À créer un déphasage pour générer un champ tournant de démarrage"
 rep("[ ] À transformer le courant alternatif en continu");
 
 quest("Où utilise-t-on principalement les moteurs à Spires de Frager ?");
-rep("[ ] Pour la traction électrique lourde");
 rep("[x] Pour les petits appareils comme les ventilateurs ou sèche-cheveux");
+rep("[ ] Pour la traction électrique lourde");
 rep("[ ] Dans les centrales électriques");
 
 quest("Quel est l'inconvénient majeur d'un moteur à Spires de Frager ?");
@@ -221,9 +221,9 @@ rep("[x] Il possède une puissance très faible et un mauvais rendement");
 rep("[ ] Il nécessite une maintenance quotidienne");
 
 quest("Quelle est l'application typique d'un petit moteur synchrone monophasé ?");
-rep("[ ] Les compresseurs industriels");
 rep("[x] Les horloges et programmateurs (vitesse constante)");
 rep("[ ] Les perceuses à percussion");
+rep("[ ] Les compresseurs industriels");
 
 quest("Comment se comporte un moteur synchrone en cas de forte surcharge ?");
 rep("[ ] Il glisse de 10%");
@@ -236,9 +236,9 @@ rep("[x] Le moteur asynchrone");
 rep("[ ] Le moteur universel");
 
 quest("Peut-on changer le sens de rotation d'un moteur à Spires de Frager ?");
+rep("[ ] Oui, via un boîtier électronique");
 rep("[ ] Oui, en inversant la fiche de courant");
 rep("[x] Non, c'est impossible par construction");
-rep("[ ] Oui, via un boîtier électronique");
 
 
 theme("Moteurs CC et Universel");
@@ -246,19 +246,21 @@ theme("Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
 
 quest("Pourquoi appelle-t-on un moteur 'universel' ?");
-rep("[ ] Parce qu'il est vendu partout dans le monde");
 rep("[x] Car il peut fonctionner en courant continu et alternatif");
 rep("[ ] Car il possède toutes les protections intégrées");
+rep("[ ] Parce qu'il est vendu partout dans le monde");
 
 quest("Quel composant est responsable de l'inversion du courant dans les bobines d'un moteur CC classique ?");
+rep("[ ] Le roulement à billes");
 rep("[ ] Le stator");
 rep("[x] Le collecteur et les balais");
-rep("[ ] Le roulement à billes");
+
 
 quest("Quelle est la formule de la force contre-électromotrice (E') d'un moteur CC ?");
 rep("[ ] E' = U + RI");
-rep("[x] E' = U - RI");
 rep("[ ] E' = P / I");
+rep("[x] E' = U - RI");
+
 
 quest("Quel est le principal inconvénient des moteurs CC à balais ?");
 rep("[ ] Ils sont trop silencieux");
@@ -266,14 +268,14 @@ rep("[x] L'usure des balais nécessite un entretien régulier");
 rep("[ ] Ils ne peuvent pas varier de vitesse");
 
 quest("Quelle est la particularité d'un moteur 'Brushless' ?");
-rep("[ ] Il utilise des balais en or");
 rep("[x] Il n'a pas de collecteur ni de balais (commutation électronique)");
+rep("[ ] Il utilise des balais en or");
 rep("[ ] Il fonctionne sans électricité");
 
 quest("Dans un moteur Brushless, quel élément est généralement le rotor ?");
-rep("[ ] Une bobine de cuivre");
 rep("[x] Un ou plusieurs aimants permanents");
 rep("[ ] Un noyau de fer doux uniquement");
+rep("[ ] Une bobine de cuivre");
 
 quest("À quoi servent les capteurs à effet Hall dans un moteur Brushless ?");
 rep("[ ] À mesurer la température");
@@ -291,6 +293,6 @@ rep("[x] Le courant devient très élevé et risque d'endommager le moteur");
 rep("[ ] Il passe en mode générateur");
 
 quest("Comment varie la vitesse d'un moteur universel ?");
+rep("[ ] Elle ne dépend que du nombre de pôles");
 rep("[ ] Elle est fixe à 3000 tr/min");
 rep("[x] Elle est proportionnelle à la tension d'alimentation");
-rep("[ ] Elle ne dépend que du nombre de pôles");
