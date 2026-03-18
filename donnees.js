@@ -296,3 +296,127 @@ quest("Comment varie la vitesse d'un moteur universel ?");
 rep("[ ] Elle ne dépend que du nombre de pôles");
 rep("[ ] Elle est fixe à 3000 tr/min");
 rep("[x] Elle est proportionnelle à la tension d'alimentation");
+quest("CC1 - Quel composant permet d'inverser le sens du courant dans un moteur à courant continu ?");
+rep("[ ] L'inducteur");
+rep("[ ] Les paliers");
+rep("[ ] Le rotor seul");
+rep("[ ] Le stator");
+rep("[x] Le collecteur et les balais");
+
+quest("CC2 - Quel est le principal usage des moteurs à courant continu de faible puissance ?");
+rep("[ ] Applications industrielles de haute puissance");
+rep("[ ] Alimentation de réseaux électriques");
+rep("[ ] Transmission de données");
+rep("[ ] Conversion d'énergie solaire");
+rep("[x] Applications portatives comme les jouets ou brosses à dents");
+
+quest("CC3 - Quel est le principal inconvénient du moteur à courant continu par rapport aux machines asynchrones ?");
+rep("[ ] Il ne fonctionne qu’en courant alternatif");
+rep("[x] Il est moins robuste");
+rep("[ ] Il ne peut pas être réversible");
+rep("[ ] Il ne peut pas réguler la vitesse");
+
+quest("CC4 - Quelle est la fonction principale du stator dans un moteur à courant continu à aimant permanent ?");
+rep("[ ] Supporter le rotor mécaniquement");
+rep("[x] Créer un flux magnétique fixe");
+rep("[ ] Fournir un courant électrique au rotor");
+rep("[ ] Inverser le sens du courant");
+rep("[ ] Générer un courant alternatif");
+
+quest("CC5 - Quelle est la conséquence d'une pression insuffisante des balais sur le collecteur ?");
+rep("[ ] Une meilleure conduction électrique");
+rep("[ ] Une réduction de la consommation électrique");
+rep("[ ] Une usure plus lente des composants");
+rep("[ ] Une augmentation de la vitesse de rotation");
+rep("[x] La formation d'arcs électriques et des parasites");
+
+quest("CC6 - Quelle est la principale caractéristique du moteur à courant continu à aimant permanent ?");
+rep("[ ] Il nécessite une alimentation en courant alternatif");
+rep("[x] Il utilise des aimants permanents pour le stator");
+rep("[ ] Il fonctionne uniquement avec une excitation à électroaimant");
+rep("[ ] Il ne comporte pas de collecteur ni de balais");
+rep("[ ] Il ne peut pas être utilisé dans des applications portatives");
+
+quest("CC7 - Quelle relation exprime la puissance mécanique en fonction du couple et de la vitesse de rotation ?");
+rep("[ ] P = V × I");
+rep("[ ] P = R × I²");
+rep("[ ] P = U × I");
+rep("[ ] P = N × Ø");
+rep("[x] P = C × ω");
+
+quest("CC8 - Dans un moteur à courant continu à excitation, que peut faire le moteur en mode générateur ?");
+rep("[ ] Fonctionner sans alimentation extérieure");
+rep("[x] Restituer de l’énergie au réseau");
+rep("[ ] Ne pas fonctionner en mode générateur");
+rep("[ ] Produire un courant alternatif");
+rep("[ ] Consommer de l’énergie uniquement");
+
+quest("CC9 - Quel est le rôle du rotor dans un moteur à courant continu ?");
+rep("[ ] Il sert uniquement de support mécanique");
+rep("[x] Il comporte des bobinages qui créent le champ magnétique");
+rep("[ ] Il fixe le stator");
+rep("[ ] Il ne participe pas au fonctionnement électrique");
+rep("[ ] Il génère le flux magnétique fixe");
+
+quest("CC10 - Quel est l'avantage principal du moteur à courant continu avec variateur électronique ?");
+rep("[ ] Il ne produit pas de parasites électriques");
+rep("[ ] Il est plus robuste que les moteurs asynchrones");
+rep("[x] Il offre une large plage de variation de vitesse");
+rep("[ ] Il fonctionne sans alimentation électrique");
+rep("[ ] Il ne nécessite pas d'entretien");
+
+quest("CC11 - Quelle est la relation correcte entre la tension appliquée au moteur à courant continu et sa vitesse de rotation ?");
+rep("[ ] La tension n’a aucun effet sur la vitesse");
+rep("[ ] Plus la tension est élevée, plus le couple diminue systématiquement");
+rep("[x] Une augmentation de la tension entraîne une augmentation de la vitesse de rotation");
+rep("[ ] Une baisse de la tension fait augmenter la vitesse");
+rep("[ ] La tension ne sert qu’à alimenter les balais et n’influence pas le moteur");
+
+quest("CC12 - Pourquoi un moteur à courant continu possède-t-il un couple de démarrage élevé ?");
+rep("[ ] Parce que la tension est automatiquement multipliée au démarrage");
+rep("[ ] Parce que le stator produit un flux magnétique variable");
+rep("[x] Parce que le courant dans l’induit est élevé à basse vitesse");
+rep("[ ] Parce que le collecteur supprime totalement les pertes électriques");
+rep("[ ] Parce que la vitesse de rotation est maximale au démarrage");
+
+quest("CC13 - Quel est le rôle principal du collecteur dans un moteur à courant continu ?");
+rep("[ ] Diminuer la résistance de l’induit");
+rep("[x] Assurer la commutation du courant entre les bobines du rotor");
+rep("[ ] Réguler la vitesse automatiquement");
+rep("[ ] Alimenter directement le stator");
+rep("[ ] Transformer le courant continu en courant alternatif");
+
+quest("CC14 - Quelle action permet de changer le sens de rotation d’un moteur à courant continu ?");
+rep("[ ] Changer uniquement la position du stator");
+rep("[ ] Inverser les polarités du collecteur");
+rep("[ ] Réduire la tension d’alimentation");
+rep("[ ] Modifier la fréquence d'alimentation");
+rep("[x] Inverser la polarité de l’alimentation du rotor (ou de l’induit)");
+
+quest("Q15 - Quelle est l’influence de la charge mécanique sur la vitesse d’un moteur à courant continu ?");
+rep("[x] Une augmentation de la charge tend à diminuer la vitesse");
+rep("[ ] Une augmentation de la charge augmente la vitesse");
+rep("[ ] La charge n’a aucun effet sur la vitesse");
+rep("[ ] La charge modifie seulement la tension, pas la vitesse");
+rep("[ ] La charge fait varier uniquement la direction du flux magnétique");
+
+quest("CC16 - Pourquoi doit-on entretenir régulièrement les balais d’un moteur à courant continu ?");
+rep("[ ] Pour augmenter la tension fournie au moteur");
+rep("[ ] Pour empêcher le moteur de fonctionner à vide");
+rep("[x] Pour limiter l’usure, les arcs électriques et garantir une bonne conduction");
+rep("[ ] Pour éliminer le flux magnétique du stator");
+rep("[ ] Pour éviter que le moteur tourne trop vite");
+
+quest("CC17 - Dans un moteur à courant continu, que se passe-t-il lorsque la vitesse augmente ?");
+rep("[ ] Le courant dans l’induit augmente systématiquement");
+rep("[ ] Le couple augmente proportionnellement");
+rep("[ ] La tension d’alimentation diminue automatiquement");
+rep("[ ] Le flux magnétique du stator devient variable");
+rep("[x] La force contre-électromotrice (f.c.é.m) augmente");
+
+quest("CC18 - Lorsqu’un moteur à courant continu est bloqué mécaniquement (rotor immobile), que se passe-t-il ?");
+rep("[ ] La force contre-électromotrice augmente fortement");
+rep("[ ] Le moteur continue à tourner à faible vitesse");
+rep("[ ] Le couple devient nul et la température diminue");
+rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
+rep("[ ] Le moteur génère spontanément du courant");
