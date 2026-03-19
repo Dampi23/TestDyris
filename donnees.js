@@ -10,7 +10,7 @@ introduction("Testez vos connaissances sur les bases de l'électricité.");
 introduction("Thèmes abordés : Loi d'Ohm, Multimètre, AC/DC.");
 introduction("Identifiant : \"test\" | Mot de passe : \"test\".");
 
-nombre_questions("4","8","12","16");
+nombre_questions("4","8","12","16", "20", "25");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 url_quitter("http://dyris.free.fr/");
 
