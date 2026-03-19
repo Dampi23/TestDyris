@@ -10,7 +10,7 @@ introduction("Testez vos connaissances sur les bases de l'électricité.");
 introduction("Thèmes abordés : Loi d'Ohm, Multimètre, AC/DC.");
 introduction("Identifiant : \"test\" | Mot de passe : \"test\".");
 
-nombre_questions("4","8","12","16", "20", "25");
+nombre_questions("4","8","12","16", "20", "25", "30");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 url_quitter("http://dyris.free.fr/");
 
@@ -806,3 +806,410 @@ rep("[ ] W.m-1.K-1 (autre notation : W/(m.K) )");
 rep("[ ] W.m-2.K-1 (autre notation : W/(m2.K) )");
 rep("[x] m2.K.W-1 (autre notation : m2.K/W )");
 
+theme("Le circuit frigorifique");
+debut("Le circuit frigorifique.");
+
+quest("C001. - Le rôle du détendeur est :");
+rep("[x] d'alimenter l'évaporateur");
+rep("[ ] de limiter le débit à l'évaporateur");
+rep("[ ] de protéger l'électrovanne");
+
+quest("C002. - Le bulbe d'un détendeur thermostatique capte une pression.");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("C003. - Le bulbe du détendeur thermostatique doit contenir le même fluide que l'installation.");
+rep("[x] vrai");
+rep("[ ] faux");
+
+quest("C004. - Un détendeur à égalisation de pression externe possède obligatoirement un point MOP.");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("C005. - Sur un évaporateur, le distributeur est situé à sa sortie.");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("C006. - MOP signifie.");
+rep("[x] motor overload protection");
+rep("[x] maxi operating pressure");
+rep("[ ] mesure d'ouverture à la pression");
+
+quest("C007. - Sur ce schéma d'un circuit frigorifique (norme européenne EN 1861), nommer l'élément numéro 1.");
+rep("[ ] détendeur");
+rep("[ ] vanne d'isolement et de service de la sortie bouteille liquide");
+rep("[ ] vanne d'isolement et de service au refoulement du compresseur");
+rep("[x] vanne d'isolement et de service à l'aspiration du compresseur");
+
+quest("C008. - Sur ce schéma d'un circuit frigorifique (norme européenne EN 1861), identifier, par son numéro ou une lettre, l'élément suivant :");
+rep("[x] le tube d'égalisation de pression externe (A)");
+rep("[x] le détendeur (10)");
+rep("[x] le bulbe (B)");
+
+quest("C009. - Sur ce schéma d'un circuit frigorifique (norme européenne EN 1861), identifier, par leur numéro, les éléments suivants :");
+rep("[x] le compresseur (2)");
+rep("[x] l'évaporateur (11)");
+rep("[x] le détendeur (10)");
+rep("[x] le condenseur (4)");
+
+quest("C010. - Sur ce schéma d'un circuit frigorifique (norme européenne EN 1861), identifier, par leur numéro, les éléments suivants :");
+rep("[x] le voyant liquide avec indicateur d'humidité (8)");
+rep("[x] l'électrovanne (9)");
+rep("[x] la bouteille liquide (5)");
+rep("[x] le filtre-déshydrateur (7)");
+
+quest("C011. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément PSL ?");
+rep("[x] pressostat BP de régulation");
+rep("[ ] pressostat HP de régulation");
+rep("[ ] pressostat HP de sécurité");
+rep("[ ] pressostat BP de sécurité");
+
+quest("C012. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément PZL ?");
+rep("[ ] pressostat BP de régulation");
+rep("[ ] pressostat HP de sécurité");
+rep("[x] pressostat BP de sécurité");
+rep("[ ] pressostat HP de régulation");
+
+quest("C013. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément PZH ?");
+rep("[ ] pressostat BP de régulation");
+rep("[x] pressostat HP de sécurité");
+rep("[ ] pressostat HP de régulation");
+rep("[ ] pressostat BP de sécurité");
+
+quest("C014. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément LI1 ?");
+rep("[ ] limiteur d'intensité moteur");
+rep("[x] indicateur de niveau");
+rep("[ ] limiteur de couple moteur");
+rep("[ ] indicateur de pression carter");
+
+quest("C015. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément LI2 ?");
+rep("[ ] indicateur de pression");
+rep("[ ] limiteur de débit bouteille");
+rep("[x] indicateur de niveau");
+rep("[ ] vase d'expansion");
+
+quest("C016. - Sur ce schéma (norme européenne EN 1861) d'un circuit frigorifique, quelle est la fonction de l'élément TS ?");
+rep("[ ] anémomètre");
+rep("[ ] hygromètre");
+rep("[ ] tensiomètre");
+rep("[x] thermostat");
+
+quest("C017. - Sur un circuit frigorifique de froid négatif, il est impératif d'installer un détendeur à charge MOP et une vanne de démarrage.");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("C018. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[ ] isenthalpe");
+rep("[ ] isotitre");
+rep("[ ] isochore");
+rep("[x] isotherme");
+
+quest("C019. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[x] isotitre");
+rep("[ ] isenthalpe");
+rep("[ ] isotherme");
+rep("[ ] isobare");
+
+quest("C020. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[x] isochore");
+rep("[ ] isobare");
+rep("[ ] isenthalpe");
+rep("[ ] isotherme");
+
+quest("C021. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[ ] isotitre");
+rep("[ ] isotherme");
+rep("[x] isobare");
+rep("[ ] isenthalpe");
+
+quest("C022. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[ ] isotherme");
+rep("[ ] isotitre");
+rep("[ ] isenthalpe");
+rep("[x] isentrope");
+
+quest("C023. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[x] isenthalpe");
+rep("[ ] isentrope");
+rep("[ ] isobare");
+rep("[ ] isotitre");
+
+quest("C024. - D'après ce diagramme enthalpique, identifier les zones remarquables (par les lettres A, B et C) ?");
+rep("[x] A : liquide sous-refroidi");
+rep("[x] C : vapeur surchauffée");
+rep("[x] B : mélange liquide + gaz");
+
+quest("C025. - D'après ce diagramme enthalpique, quel élément d'un circuit frigorifique est situé entre les points 2 et 3 ?");
+rep("[ ] évaporateur");
+rep("[x] compresseur");
+rep("[ ] détendeur");
+rep("[ ] condenseur");
+
+quest("C026. - D'après ce diagramme enthalpique, quel élément d'un circuit frigorifique est situé entre les points 4 et 5 ?");
+rep("[ ] évaporateur");
+rep("[ ] détendeur");
+rep("[x] condenseur");
+rep("[ ] compresseur");
+
+quest("C027. - D'après ce diagramme enthalpique, quel élément d'un circuit frigorifique est situé entre les points 6 et 7 ?");
+rep("[ ] compresseur");
+rep("[ ] évaporateur");
+rep("[ ] condenseur");
+rep("[x] détendeur");
+
+quest("C028. - D'après ce diagramme enthalpique, quel élément d'un circuit frigorifique est situé entre les points 7 et 1 ?");
+rep("[ ] condenseur");
+rep("[ ] compresseur");
+rep("[x] évaporateur");
+rep("[ ] détendeur");
+
+quest("C029. - D'après ce diagramme enthalpique, quels éléments d'un circuit frigorifique peuvent être situés entre les points 5 et 6 ?");
+rep("[x] vanne d'isolement");
+rep("[x] filtre-déshydrateur");
+rep("[ ] évaporateur");
+rep("[x] bouteille liquide");
+rep("[ ] bulbe du détendeur");
+rep("[ ] compresseur");
+rep("[x] électrovanne (G)");
+
+quest("C030. - D'après ce diagramme enthalpique, quels éléments d'un circuit frigorifique peuvent être situés entre les points 1 et 2 ?");
+rep("[x] vanne de démarrage");
+rep("[x] bulbe du détendeur");
+rep("[x] filtre");
+rep("[ ] bouteille liquide");
+rep("[ ] détendeur");
+rep("[x] vanne à pression constante");
+
+quest("C031. - D'après ce diagramme enthalpique, quelle valeur calcule-t-on entre la HP et le points 5 ?");
+rep("[ ] la surchauffe au bulbe");
+rep("[x] le sous-refroidissement au condenseur");
+rep("[ ] la surchauffe totale");
+rep("[ ] la désurchauffe");
+
+quest("C032. - D'après ce diagramme enthalpique, quelle valeur calcule-t-on entre la HP et le points 4 ?");
+rep("[x] la désurchauffe");
+rep("[ ] la surchauffe au bulbe");
+rep("[ ] le sous-refroidissement au condenseur");
+rep("[ ] la surchauffe totale");
+
+quest("C033. - D'après ce diagramme enthalpique, quelle valeur calcule-t-on entre la BP et le points 1 ?");
+rep("[x] la surchauffe au bulbe");
+rep("[ ] la désurchauffe");
+rep("[ ] la surchauffe totale");
+rep("[ ] le sous-refroidissement au condenseur");
+
+quest("C034. - D'après ce diagramme enthalpique, quelle valeur calcule-t-on entre la BP et le points 2 ?");
+rep("[ ] la désurchauffe");
+rep("[x] la surchauffe totale");
+rep("[ ] le sous-refroidissement au condenseur");
+rep("[ ] la surchauffe au bulbe");
+
+quest("C035. - D'après ce diagramme enthalpique, quelle valeur calcule-t-on entre la HP et le points 6 ?");
+rep("[x] le sous-refroidissement total");
+rep("[ ] la surchauffe au bulbe");
+rep("[ ] la désurchauffe");
+rep("[ ] la surchauffe totale");
+
+quest("C036. - D'après ce diagramme enthalpique, quels éléments d'un circuit frigorifique peuvent être situés entre les points 5 et 6 ?");
+rep("[x] bouteille liquide");
+rep("[x] vanne d'isolement");
+rep("[ ] compresseur");
+rep("[ ] évaporateur");
+rep("[x] filtre-déshydrateur");
+
+quest("C037. - D'après ce diagramme enthalpique, que représente le point 8 ?");
+rep("[x] point critique");
+rep("[ ] point G");
+rep("[ ] point d'exclamation");
+rep("[ ] point culminant");
+
+quest("C038. - D'après ce diagramme enthalpique, quel élément est placé au point 1 ?");
+rep("[ ] Évaporateur");
+rep("[ ] Condenseur");
+rep("[ ] Bouteille");
+rep("[x] Bulbe");
+rep("[ ] Filtre");
+rep("[ ] Électrovanne");
+
+quest("C039. - D'après ce diagramme enthalpique, quel élément est placé au point 6 ?");
+rep("[x] le détendeur");
+rep("[ ] le bulbe du détendeur");
+rep("[ ] l'électrovanne");
+rep("[ ] le filtre-déshydrateur");
+
+quest("C040. - Sur une installation frigorifique, quels sont les éléments que l'on trouve du côté basse pression ?");
+rep("[x] le bulbe du détendeur");
+rep("[x] la vanne à pression constante");
+rep("[ ] le condenseur");
+rep("[x] l'évaporateur");
+
+quest("C041. - Sur une installation frigorifique, quels sont les éléments que l'on trouve du côté haute pression ?");
+rep("[ ] la vanne à pression constante");
+rep("[x] la bouteille liquide");
+rep("[x] le condenseur");
+rep("[x] le voyant liquide");
+
+quest("C042. - Sur une installation frigorifique, quel est le rôle principal du condenseur ?");
+rep("[ ] sous-refroidir le fluide frigorigène");
+rep("[ ] ôter l'humidité du circuit frigorigène");
+rep("[ ] désurchauffer les vapeurs en provenance du compresseur");
+rep("[x] évacuer la chaleur du fluide frigorigène en circulation");
+
+quest("C043. - Sur une installation frigorifique, quel est le rôle principal de l'évaporateur ?");
+rep("[ ] capter l'humidité sous forme de givre");
+rep("[x] absorber la chaleur du milieu où il est installé");
+rep("[ ] surchauffer les vapeurs à sa sortie");
+rep("[ ] filtrer les impuretés du milieu où il est installé");
+
+quest("C044. - Sur une installation frigorifique simple, quel est le rôle principal de l'électrovanne sur la ligne liquide ?");
+rep("[x] Empêcher la migration du fluide vers l'évaporateur lorsque le compresseur est à l'arrêt");
+rep("[ ] Capter les variations de pression du côté HP");
+rep("[ ] Limiter le débit de fluide frigorigène à l'entrée de l'évaporateur");
+rep("[ ] Diminuer la puissance du compresseur");
+
+quest("C045. - D'après ce diagramme enthalpique, entre quels points mesure-t-on la puissance frigorifique ?");
+rep("[ ] 1-2");
+rep("[ ] 2-3");
+rep("[ ] 3-4");
+rep("[ ] 4-5");
+rep("[ ] 5-6");
+rep("[ ] 6-7");
+rep("[x] 7-1");
+
+quest("C046. - D'après ce schéma (norme européenne EN 1861), identifier les éléments suivants par leur numéro.");
+rep("[x] régulateur de capacité (21)");
+rep("[x] régulateur de pression de condensation (7)");
+rep("[x] vanne de démarrage (20)");
+rep("[x] vanne à pression constante (18)");
+rep("[x] régulateur de pression bouteille (6)");
+
+quest("C047. - D'après ce schéma (norme européenne EN 1861), donner le numéro de deux des régulateurs de pression.");
+rep("[x] 7 est un régulateur de pression amont");
+rep("[x] 6 est un régulateur de pression aval");
+
+quest("C048. - D'après ce schéma (norme européenne EN 1861), identifier les éléments suivants par leur code (et non par leur chiffre).");
+rep("[x] PZL est le pressostat de sécurité BP");
+rep("[x] PZH est le pressostat de sécurité HP");
+rep("[x] TC est le détendeur thermostatique");
+rep("[x] PSL est le pressostat de régulation BP");
+rep("[x] PSH est le pressostat de régulation HP");
+
+quest("C049. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[ ] courbe isotherme");
+rep("[ ] courbe isenthalpe");
+rep("[x] courbe de saturation liquide");
+rep("[ ] courbe isobare");
+
+quest("C050. - Sur ce diagramme enthalpique que représente la courbe I ?");
+rep("[ ] courbe isobare");
+rep("[ ] courbe isenthalpe");
+rep("[x] courbe de saturation vapeur");
+rep("[ ] courbe isotherme");
+
+quest("C051. - Sur les diagrammes enthalpiques, la pression est indiquée en :");
+rep("[ ] bar relatif (bar)");
+rep("[x] bar absolu (bar)");
+rep("[ ] kelvin (K)");
+rep("[ ] pascal (Pa)");
+
+quest("C052. - D'après ce diagramme enthalpique, entre quels points placez-vous les éléments suivants ?");
+rep("[x] 7 et 1 : évaporateur");
+rep("[x] 2 et 3 : compresseur");
+rep("[x] 6 et 7 : détendeur");
+rep("[x] 4 et 5 : condenseur");
+
+quest("C053. - Avec un bulbe à -3 °C et BP à -8 °C. La surchauffe est de... K");
+rep("[x] 5");
+
+quest("C054. - Avec 37 °C en sortie condenseur et 42 °C en HP. le sous-refroidissement est de ... K");
+rep("[x] 5");
+
+quest("C055. - Avec un bulbe à -3 °C et BP à -8 °C.");
+rep("[ ] la BP est 2,8 bar");
+rep("[ ] la désurchauffe est de 5 K");
+rep("[ ] le sous-refroidissement est de 5 K");
+rep("[x] la surchauffe est de 5 K");
+
+quest("C056. - Avec 37 °C en sortie condenseur et 42 °C en HP.");
+rep("[ ] la surchauffe est de 5 K");
+rep("[x] le sous-refroidissement est de 5 K");
+rep("[ ] la désurchauffe est de 5 K");
+rep("[ ] la HP est 15 bar");
+
+quest("C057. - Avec 3 bar en BP et 15 bar en HP. la Δp au détendeur est de .... bar");
+rep("[x] 12");
+
+quest("C058. - Au sein d'un condenseur, quelles sont les différentes zones que l'on peut trouver ?");
+rep("[x] la zone de sous-refroidissement");
+rep("[x] la zone de condensation");
+rep("[x] la zone de désurchauffe");
+rep("[ ] la zone de surchauffe");
+
+quest("C059. - Si un détendeur thermostatique à égalisation de pression externe est installé sur un évaporateur, cela signifie que les pertes de charges y sont :");
+rep("[ ] faibles");
+rep("[x] élevées");
+rep("[ ] négligeables");
+
+quest("C060. - Un détendeur pompe quand sa puissance devient :");
+rep("[ ] nulle");
+rep("[ ] inférieure à celle de l'évaporateur");
+rep("[x] supérieure à celle de l'évaporateur");
+
+quest("C061. - Après un dégivrage électrique, on ne risque pas de :");
+rep("[x] couper au pressostat BP");
+rep("[ ] couper au pressostat HP");
+rep("[ ] couper au thermique du moteur du compresseur");
+
+quest("C062. - Un régulateur de démarrage bride la pression :");
+rep("[ ] d'évaporation");
+rep("[x] d'aspiration");
+rep("[ ] de refoulement");
+
+quest("C063. - Un régulateur de pression d'évaporation ne protège pas :");
+rep("[ ] des pressions d'évaporation trop basse");
+rep("[x] des coups de liquide");
+rep("[ ] des températures de surface d'évaporation trop basse");
+
+quest("C064. - Pour un régulateur de capacité, si la pression à l'aspiration augmente, alors...");
+rep("[ ] le régulateur s'ouvre");
+rep("[x] le régulateur se ferme");
+rep("[ ] il n'y a pas d'action sur le régulateur");
+
+quest("C065. - Pour un régulateur de pression d'évaporation, si la pression d'aspiration augmente, alors…");
+rep("[x] il n'y a pas d'action sur le régulateur");
+rep("[ ] le régulateur se ferme");
+rep("[ ] le régulateur s'ouvre");
+
+quest("C066. - Pour un régulateur de démarrage, si la pression à l'aspiration augmente, alors...");
+rep("[ ] le régulateur s'ouvre");
+rep("[ ] il n'y a pas d'action sur le régulateur");
+rep("[x] le régulateur se ferme");
+
+quest("C067. - Pour un régulateur de démarrage, si on visse la vis de réglage, alors...");
+rep("[ ] il n'y a pas d'action sur le régulateur");
+rep("[x] le régulateur s'ouvre");
+rep("[ ] le régulateur se ferme");
+
+quest("C068. - Pour un régulateur de pression d'évaporation, si on visse la vis de réglage, alors...");
+rep("[ ] il n'y a pas d'action sur le régulateur");
+rep("[x] le régulateur se ferme");
+rep("[ ] le régulateur s'ouvre");
+
+quest("C070. - Quel élément possède la même fonction qu'un détendeur à point MOP ?");
+rep("[x] un régulateur de démarrage");
+rep("[ ] un klixon");
+rep("[ ] un régulateur de pression d'évaporation");
+
+quest("C071. - Dans quel élément du circuit frigorifique le fluide passe de l'état vapeur à l'état liquide ?");
+rep("[x] condenseur");
+rep("[ ] compresseur");
+rep("[ ] détendeur");
+rep("[ ] évaporateur");
+
+quest("C072. - Dans quel élément du circuit frigorifique le fluide passe de l'état liquide à l'état vapeur ?");
+rep("[ ] condenseur");
+rep("[x] évaporateur");
+rep("[ ] compresseur");
+
+quest("C073. - Le point critique est le point numéro :");
+rep("[x] 8");
