@@ -427,3 +427,209 @@ rep("[ ] Le moteur continue à tourner à faible vitesse");
 rep("[ ] Le couple devient nul et la température diminue");
 rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
 rep("[ ] Le moteur génère spontanément du courant");
+
+theme("Pannes des systèmes frigorifiques");
+debut("Dépannage commun des systèmes frigorifique.");
+
+quest("P001 - Surchauffe importante, sous-refroidissement faible et BP faible sont les symptôme de :");
+rep("[x] manque de fluide frigorigène");
+rep("[ ] détendeur déréglé");
+rep("[ ] évaporateur encrassé");
+rep("[ ] déshydrateur bouché");
+
+quest("P002 - Surchauffe faible et sous-refroidissement faible sont les symptômes de :");
+rep("[ ] clapet de compresseur cassé");
+rep("[ ] excès de fluide frigorigène");
+rep("[ ] filtre à l'aspiration bouché");
+rep("[x] détendeur trop ouvert");
+
+quest("P003 - BP normale à légèrement haute et HP haute :");
+rep("[ ] excès de fluide frigorigène");
+rep("[ ] présence d'incondensable");
+rep("[x] les deux réponses");
+
+quest("P004 - Les symptômes pour un manque de fluide frigorigène sont :");
+rep("[x] surchauffe élevée et sous-refroidissement faible");
+rep("[ ] surchauffe faible et sous-refroidissement élevé");
+rep("[ ] surchauffe faible et sous-refroidissement faible");
+rep("[ ] surchauffe élevée et sous-refroidissement élevée");
+
+quest("P005 - Les symptômes pour un ventilateur de l'évaporateur en panne sont :");
+rep("[ ] BP haute");
+rep("[x] BP faible");
+rep("[ ] HP haute");
+rep("[ ] HP faible");
+
+quest("P006 - La présence d'incondensable dans un circuit frigorifique génère :");
+rep("[x] une augmentation de la HP");
+rep("[ ] une augmentation de la BP");
+rep("[ ] une diminution de la BP");
+rep("[ ] une augmentation de la surchauffe");
+
+quest("P007 - Un sous-refroidissement qui augmente génère :");
+rep("[ ] pas de changement de la production frigorifique");
+rep("[ ] une augmentation de la production frigorifique");
+rep("[ ] une diminution de la production frigorifique");
+rep("[ ] une augmentation de la surchauffe");
+
+quest("P008 - La surchauffe est la différence entre :");
+rep("[ ] température au bulbe et HP");
+rep("[ ] BP et HP");
+rep("[x] température au bulbe et BP");
+rep("[ ] température d'aspiration et BP");
+
+quest("P009 - Le sous-refroidissement est la différence entre :");
+rep("[ ] température de refoulement et HP");
+rep("[x] température sortie condenseur et HP");
+rep("[ ] BP et HP");
+rep("[ ] température au bulbe et BP");
+
+quest("P010 - Le ventilateur en panne d'un condenseur à air provoque :");
+rep("[x] une augmentation de la HP");
+rep("[x] une augmentation du taux de compression");
+rep("[ ] une augmentation du sous-refroidissement");
+
+quest("P011 - La prise en glace d'un évaporateur à air peut être due à :");
+rep("[x] BP faible");
+rep("[x] système de dégivrage défectueux");
+rep("[x] manque de débit d'air à l'évaporateur");
+rep("[x] humidité dans la chambre froide");
+
+quest("P012 - Un pompage du détendeur peut être dû à :");
+rep("[x] détendeur trop puissant");
+rep("[ ] manque de fluide dans l'installation");
+rep("[ ] excès de fluide dans l'installation");
+rep("[x] détendeur trop ouvert");
+
+quest("P013 - À surchauffe trop élevée correspond, sans aucun doute, à :");
+rep("[ ] détendeur trop ouvert");
+rep("[ ] excès de fluide dans l'installation");
+rep("[x] on ne peut pas diagnostiquer précisément");
+rep("[ ] détendeur trop fermé");
+
+quest("P014 - Sur un détendeur, si le bulbe est percé :");
+rep("[x] le détendeur se ferme");
+rep("[ ] tout le fluide de l'installation peut être perdu");
+rep("[ ] le détendeur s'ouvre");
+rep("[ ] excès de fluide dans l'installation");
+
+quest("P015 - Des incondensables dans un circuit frigorifique provoque :");
+rep("[ ] diminution de la consommation électrique du compresseur");
+rep("[ ] augmentation de la surchauffe");
+rep("[x] augmentation HP");
+rep("[x] augmentation température de refoulement compresseur");
+
+quest("P016 - Des incondensables dans un circuit frigorifique provoque :");
+rep("[ ] augmentation de la puissance frigorifique");
+rep("[x] augmentation de la consommation électrique du compresseur");
+rep("[ ] diminution de la surchauffe");
+rep("[x] augmentation de la température de condensation");
+
+quest("P017 - Un excès de fluide dans un circuit frigorifique provoque :");
+rep("[ ] augmentation de la surchauffe");
+rep("[x] augmentation HP");
+rep("[ ] diminution de la consommation électrique du compresseur");
+rep("[x] augmentation température de refoulement compresseur");
+
+quest("P018 - Un excès de fluide dans un circuit frigorifique provoque :");
+rep("[x] augmentation de la consommation électrique du compresseur");
+rep("[x] augmentation de la puissance frigorifique");
+rep("[ ] diminution de la surchauffe");
+rep("[ ] augmentation de la température de condensation");
+
+quest("P019 - Un manque de fluide dans un circuit frigorifique provoque :");
+rep("[x] diminution de la température d'évaporation");
+rep("[x] surchauffe importante");
+rep("[x] diminution de la température de condensation");
+rep("[ ] sous-refroidissement élevé");
+
+quest("P020 - Un manque de fluide dans un circuit frigorifique provoque :");
+rep("[ ] surchauffe faible");
+rep("[x] diminution de la BP");
+rep("[x] sous-refroidissement faible");
+rep("[x] puissance frigorifique faible");
+
+quest("P021 - Un condenseur à air encrassé provoque :");
+rep("[ ] surchauffe élevée");
+rep("[x] HP élevée");
+rep("[x] diminution du Δt sur l'air (temp. sortie d'air - temp. entrée d'air)");
+rep("[x] diminution de la puissance frigorifique");
+
+quest("P022 - Voici une installation au R22 et les mesures suivantes (points de mesure entre crochets). BP : -8 °C et HP : 35 °C. [5] : 31 °C et [12] : 0 °C. Qu'en déduisez-vous ?");
+rep("[x] sous-refroidissement correcte");
+rep("[ ] surchauffe trop élevée");
+rep("[ ] sous-refroidissement trop faible");
+rep("[x] surchauffe correcte");
+
+quest("P023 - Le sous-refroidissement donne une indication sur :");
+rep("[ ] la nature du fluide frigorigène");
+rep("[x] la charge en fluide frigorigène");
+rep("[ ] le réglage du détendeur");
+
+quest("P024 - Avec une installation au R134a en fonctionnement normal, la température d'entrée d'air au condenseur est de 20 °C, on aura alors environ :");
+rep("[ ] HP de 12 bar");
+rep("[x] HP de 8 bar");
+rep("[ ] HP de 14 bar");
+
+quest("P025 - Quelle zone n'appartient pas à l'évaporateur :");
+rep("[ ] la surchauffe");
+rep("[ ] l'évaporation");
+rep("[x] la désurchauffe");
+
+quest("P026 - En fonctionnement normal, la surchauffe doit être comprise entre :");
+rep("[x] 5 et 8 °C");
+rep("[ ] 0 et 4 °C");
+rep("[ ] 10 et 15 °C");
+
+quest("P027 - La valeur de la surchauffe dépend du fluide utilisé :");
+rep("[ ] vrai");
+rep("[ ] faux");
+
+quest("P028 - Si la surchauffe est trop grande, alors on aura :");
+rep("[x] une mauvaise puissance frigorifique");
+rep("[ ] une BP élevée");
+rep("[ ] des risques de coup de liquide");
+
+quest("P029 - Si la surchauffe est trop grande, on risque :");
+rep("[x] d'avoir une température de refoulement trop élevée");
+rep("[ ] d'avoir une prédétente");
+rep("[ ] d'abimer le détendeur");
+
+quest("P030 - L'ensemble de l'installation est bien réglé, sauf la surchauffe qui est trop faible. Alors je ne pourrais jamais avoir :");
+rep("[x] une BP faible");
+rep("[ ] une mauvaise puissance frigorifique");
+rep("[ ] des coups de liquide");
+
+quest("P031 - Si la BP diminue, alors :");
+rep("[ ] on piège moins d'eau sur l'évaporateur");
+rep("[x] l'humidité relative de la chambre froide diminue");
+rep("[ ] la puissance frigorifique augmente");
+
+quest("P032 - Si la BP augmente, alors :");
+rep("[x] le débit masse augmente");
+rep("[ ] la puissance frigorifique diminue");
+rep("[ ] la HP diminue");
+
+quest("P033 - Si la HP augmente, alors :");
+rep("[x] la puissance frigorifique diminue");
+rep("[ ] le débit masse augmente");
+rep("[ ] la puissance du détendeur diminue");
+
+quest("P034 - Si la HP diminue, alors :");
+rep("[ ] la température d'entrée d'air au condenseur a augmenté");
+rep("[x] l'intensité absorbée par le moteur du compresseur diminue");
+rep("[ ] le débit masse diminue");
+
+quest("P035 - Une installation a été prévue pour fonctionner au R134a :");
+rep("[ ] impossible de démarrer l'installation sans détendeur au R134a");
+rep("[x] un détendeur au R12 fera l'affaire");
+
+quest("P036 - L'installation étant en fonctionnement, que se passe-t-il si on coupe le capillaire du détendeur thermostatique ?");
+rep("[ ] une fuite va se déclarer et risquer de vider l'ensemble de l'installation");
+rep("[ ] le détendeur va fonctionner sans contrôle de la surchauffe");
+rep("[x] le pressostat BP va arrêter le compresseur");
+
+quest("P037 - Si l'hélice d'un ventilateur d'évaporateur est bloquée :");
+rep("[ ] rien ne se passe");
+rep("[x] le thermique du moteur va couper");
+rep("[ ] le fusible de protection va fondre");
