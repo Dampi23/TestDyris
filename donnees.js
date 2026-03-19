@@ -241,8 +241,15 @@ rep("[ ] Oui, en inversant la fiche de courant");
 rep("[x] Non, c'est impossible par construction");
 
 
-theme("Moteurs CC et Universel");
+theme("Technique du froid : Dépannage");
+debut("Les différentes pannes classique dans un système frigorifique");
+quest("Comment évolue la HP dans la panne d'un détendeur trop petit ?");
+rep("[ ] Diminue");
+rep("[ ] Reste égale");
+rep("[x] Augmente");
+aj("images/détendeur.png");
 
+theme("Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
 
 quest("Pourquoi appelle-t-on un moteur 'universel' ?");
