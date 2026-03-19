@@ -560,6 +560,7 @@ rep("[x] sous-refroidissement correcte");
 rep("[ ] surchauffe trop élevée");
 rep("[ ] sous-refroidissement trop faible");
 rep("[x] surchauffe correcte");
+aj("images/P022.png");
 
 quest("P023 - Le sous-refroidissement donne une indication sur :");
 rep("[ ] la nature du fluide frigorigène");
