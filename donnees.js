@@ -584,7 +584,7 @@ rep("[ ] 10 et 15 °C");
 
 quest("P027 - La valeur de la surchauffe dépend du fluide utilisé :");
 rep("[ ] vrai");
-rep("[ ] faux");
+rep("[x] faux");
 
 quest("P028 - Si la surchauffe est trop grande, alors on aura :");
 rep("[x] une mauvaise puissance frigorifique");
@@ -634,3 +634,175 @@ quest("P037 - Si l'hélice d'un ventilateur d'évaporateur est bloquée :");
 rep("[ ] rien ne se passe");
 rep("[x] le thermique du moteur va couper");
 rep("[ ] le fusible de protection va fondre");
+
+theme("La physique du froid");
+debut("La physique du froid.");
+quest("Q001. - La puissance au condenseur à air est déterminée par la formule :");
+rep("[ ] ρ =m/V");
+rep("[ ] Δp = ρ.g.h");
+rep("[ ] F = m.g");
+rep("[x] Φk = K.S.Δθ");
+
+quest("Q002. - La variation de pression est déterminée par la formule :");
+rep("[ ] Φk = K.S.Δθ");
+rep("[ ] F = m.g");
+rep("[ ] ρ = m/V");
+rep("[x] Δp = ρ.g.h");
+
+quest("Q003. - La force est déterminée par la formule :");
+rep("[x] F = m.g");
+rep("[ ] ρ = m/V");
+rep("[ ] Δp = ρ.g.h");
+rep("[ ] Φk = K.S.Δθ");
+
+quest("Q004. - La masse volumique est déterminée par la formule :");
+rep("[x] ρ = m/V");
+rep("[ ] Φk = K.S.Δθ");
+rep("[ ] F = m.g");
+rep("[ ] Δp = ρ.g.h");
+
+quest("Q005. - La chaleur latente de vaporisation de l'eau est :");
+rep("[ ] 334 kJ.kg-1 (autre notation 334 kJ/kg)");
+rep("[ ] 4,185 kJ.kg-1.K-1 (autre notation 4,185 kJ/(kg.K) )");
+rep("[x] 2 258 kJ.kg-1 (autre notation 2 258 kJ/kg)");
+
+quest("Q006. - La chaleur massique de l'eau liquide est :");
+rep("[ ] 2 258 kJ.kg-1 (autre notation 2 258 kJ/kg)");
+rep("[ ] 334 kJ.kg-1 (autre notation 334 kJ/kg)");
+rep("[x] 4,185 kJ.kg-1.K-1 (autre notation 4,185 kJ/(kg.K) )");
+
+quest("Q007. - La chaleur latente de fusion de la glace est :");
+rep("[ ] 4,185 kJ.kg-1.K-1 (autre notation 4,185 kJ/(kg.K) )");
+rep("[ ] 2 258 kJ.kg-1 (autre notation 2 258 kJ/kg)");
+rep("[x] 334 kJ.kg-1 (autre notation 334 kJ/kg)");
+
+quest("Q008. - L'unité de mesure principale de la pression est :");
+rep("[ ] le bar (bar)");
+rep("[x] le pascal (Pa)");
+rep("[ ] le joule (J)");
+rep("[ ] le kelvin (K)");
+
+quest("Q009. - L'unité de mesure usuelle de la pression est :");
+rep("[ ] le joule (J)");
+rep("[ ] le pascal (Pa)");
+rep("[ ] le kelvin (K)");
+rep("[x] le bar (bar)");
+
+quest("Q010. - L'unité de mesure principale de la température est :");
+rep("[ ] le pascal (Pa)");
+rep("[ ] le degré Celcius (°C)");
+rep("[ ] le bar (bar)");
+rep("[x] le kelvin (K)");
+
+quest("Q011. - L'unité de mesure principale de l'énergie (ou travail) est :");
+rep("[x] le joule (J)");
+rep("[ ] le bar (bar)");
+rep("[ ] le kelvin (K)");
+rep("[ ] le pascal (Pa)");
+
+quest("Q012. - L'intensité d'un courant électrique se mesure par :");
+rep("[ ] le volt (V)");
+rep("[ ] le kelvin (K)");
+rep("[ ] le joule (J)");
+rep("[x] l'ampère (A)");
+
+quest("Q013. - L'unité de mesure de la tension d'un circuit électrique est :");
+rep("[ ] le joule (J)");
+rep("[x] le volt (V)");
+rep("[ ] l'ampère (A)");
+rep("[ ] le kelvin (K)");
+
+quest("Q014. - L'unité de mesure de la résistance électrique est :");
+rep("[ ] volt (V)");
+rep("[ ] ampère (A)");
+rep("[ ] joule (J)");
+rep("[x] ohm (Ω)");
+
+quest("Q015. - L'unité de mesure de la fréquence est :");
+rep("[ ] le joule (J)");
+rep("[x] le hertz (Hz)");
+rep("[ ] l'ohm (Ω)");
+rep("[ ] le volt (V)");
+
+quest("Q016. - Le zéro absolu correspond à :");
+rep("[x] -273,15 °C");
+rep("[ ] -40 °F");
+rep("[ ] 0 °C");
+
+quest("Q017. - La température de -40 °C est équivalente à :");
+rep("[ ] 32 °F");
+rep("[ ] 0 °F");
+rep("[ ] -18 °F");
+rep("[x] -40 °F");
+
+quest("Q018. - λ (lambda) est le symbole pour représenter la conductivité thermique. Quelle est son unité de mesure ?");
+rep("[x] W.m-1.K-1 (autre notation : W/(m.K) )");
+rep("[ ] W.m-2.K-1 (autre notation : W/(m2.K) )");
+rep("[ ] m2.K.W-1 (autre notation : m2.K/W )");
+rep("[ ] m.K.W-1 (autre notation : m.K/W )");
+
+quest("Q019. - Quel est le nom de naissance de Lord Kelvin ?");
+rep("[ ] Mickael Faraday");
+rep("[x] William Thomson");
+rep("[ ] Sadi Carnot");
+rep("[ ] Celcius");
+
+quest("Q020. - Sélectionner les égalités correctes :");
+rep("[x] 1 W = 1 J/s");
+rep("[x] -40 °C = -40 °F");
+rep("[x] 1 bar = 100 000 Pa");
+rep("[x] 1 atm = 1013 hPa");
+
+quest("Q021. - La loi de Charles est : p1/T1 = p2/T2 , avec :");
+rep("[ ] p en bar relatif et T en kelvin (K)");
+rep("[x] p en bar absolu et T en kelvin (K)");
+rep("[ ] p en bar relatif et T en degré Celcius (°C)");
+
+quest("Q022. - La température de 0 °C est équivalente à :");
+rep("[x] 32 °F");
+rep("[ ] 0 °F");
+rep("[ ] -18 °F");
+rep("[ ] -40 °F");
+
+quest("Q023. - La température de 0 °F est proche de :");
+rep("[ ] 37 °C");
+rep("[ ] 0 °C");
+rep("[ ] -18 °C");
+rep("[x] -40 °C");
+
+quest("Q024. - Identifier la ou les bonnes notations pour le kilowattheure :");
+rep("[ ] Kwh");
+rep("[ ] KWh");
+rep("[ ] kwh");
+rep("[x] kWh");
+
+quest("Q025. - Identifier la ou les bonnes notations pour le kilogramme :");
+rep("[x] kg");
+rep("[ ] Kgs");
+rep("[ ] Kg");
+rep("[ ] kgs");
+
+quest("Q026. - Identifier la ou les bonnes notations pour le kilomètre :");
+rep("[ ] Kms");
+rep("[ ] Km");
+rep("[x] km");
+rep("[ ] kms");
+
+quest("Q027. - Identifier la bonne notation pour le symbole de l'unité de mesure de la pression en pascal :");
+rep("[ ] pa");
+rep("[x] Pa");
+
+quest("Q028. - Identifier la bonne notation pour le symbole de l'unité de mesure de la pression en bar :");
+rep("[ ] Bar");
+rep("[x] bar");
+
+quest("Q029. - Identifier la bonne notation pour le symbole de l'unité de mesure de la température en kelvin :");
+rep("[x] K");
+rep("[ ] °K");
+
+quest("Q030. - R est le symbole pour représenter la résistance thermique. Quelle est son unité de mesure ?");
+rep("[ ] m.K.W-1 (autre notation : m.K/W )");
+rep("[ ] W.m-1.K-1 (autre notation : W/(m.K) )");
+rep("[ ] W.m-2.K-1 (autre notation : W/(m2.K) )");
+rep("[x] m2.K.W-1 (autre notation : m2.K/W )");
+
