@@ -468,7 +468,7 @@ rep("[ ] une augmentation de la surchauffe");
 
 quest("P007 - Un sous-refroidissement qui augmente génère :");
 rep("[ ] pas de changement de la production frigorifique");
-rep("[ ] une augmentation de la production frigorifique");
+rep("[x] une augmentation de la production frigorifique");
 rep("[ ] une diminution de la production frigorifique");
 rep("[ ] une augmentation de la surchauffe");
 
