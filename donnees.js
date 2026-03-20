@@ -34,6 +34,8 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 
 // LE QUESTIONNAIRE
 
+theme("Froid");
+charger("froid.js");
 
 theme("La Loi d'Ohm");
 
