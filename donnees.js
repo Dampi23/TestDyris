@@ -34,6 +34,13 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 
 // LE QUESTIONNAIRE
 
+// ====================================================================================
+// SECTION 1 : Le froid
+// ====================================================================================
+
+theme("Le froid"); 
+quest charger("froid.js");
+
 theme("La Loi d'Ohm");
 
 debut("Questions sur la relation entre Tension, Courant et Résistance.");
