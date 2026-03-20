@@ -1,5 +1,5 @@
 body {
-	background-color: #7d7;
+	background-color: #add8e6;   // test
 	color: #333;
 	margin: 0px;
 	padding: 15px;
@@ -89,4 +89,3 @@ q { quotes: "«\0000A0" "\0000A0»"; }
 	border-radius: 10px;
 	box-shadow: 0px 0px 20px #000;
 }
-
