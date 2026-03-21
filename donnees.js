@@ -38,6 +38,8 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // SECTION 1 : Le froid
 // ====================================================================================
 
+theme("froid");
+
 theme("La Loi d'Ohm");
 
 debut("Questions sur la relation entre Tension, Courant et Résistance.");
