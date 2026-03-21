@@ -38,8 +38,25 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // SECTION 1 : Le froid
 // ====================================================================================
 
-theme("Le froid"); 
-quest charger("froid.js");
+function getParam(param) {
+    let url = new URL(window.location.href);
+    return url.searchParams.get(param);
+}
+
+let themeChoisi = getParam("theme");
+
+alert("Theme = " + themeChoisi);  // ← ICI
+
+if (themeChoisi === "froid") {
+    charger("froid.js");
+}
+else if (themeChoisi === "elec") {
+    charger("elec.js");
+}
+else {
+    charger("froid.js");
+}
+
 
 theme("La Loi d'Ohm");
 
