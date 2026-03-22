@@ -35,10 +35,21 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // LE QUESTIONNAIRE
 
 // ====================================================================================
-// SECTION 1 : Le froid
+// SECTION : Le froid
 // ====================================================================================
 
 theme("froid");
+
+// ====================================================================================
+// SECTION : Les capteurs
+// ====================================================================================
+theme("Les capteurs");
+quest("CAPT21 : Ce sont les symboles des capteurs de proximité ://a");
+rep("[ ] Capacitifs");
+rep("[x] Inductifs");
+aj("images/CAPT21.png");
+juste("C'est exact ! La barre horizontale à l'intérieur du symbole représente l'inductance (la bobine).");
+faux("Attention, le symbole de la bobine indique qu'il s'agit de capteurs inductifs.");
 
 theme("La Loi d'Ohm");
 
