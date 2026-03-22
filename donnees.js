@@ -38,12 +38,301 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // SECTION : Le froid
 // ====================================================================================
 
-theme("froid");
+theme("Le froid");
+
+// ====================================================================================
+// SECTION : La pneumatique
+// ====================================================================================
+theme("La pneumatique");
+
+quest("PNEU1 : Ce vérin est ://a");
+rep("[x] simple effet");
+rep("[ ] double effet");
+aj("images/PNEU1.png");
+
+quest("PNEU2 : Ce symbole représente un réducteur de débit ://a");
+rep("[ ] unidirectionnel");
+rep("[x] bidirectionnel");
+aj("images/PNEU2.png");
+
+quest("PNEU3 : Ce symbole représente ://a");
+rep("[x] un silencieux");
+rep("[ ] une arrivée d'air comprimé");
+rep("[ ] un filtre");
+rep("[ ] un manomètre");
+rep("[ ] un graisseur d'air");
+rep("[ ] un manodétendeur réglable");
+aj("images/PNEU3.png");
+
+quest("PNEU4 : Ce symbole représente un distributeur ://a");
+rep("[ ] 2 voies - 3 orifices");
+rep("[ ] 2 voies - 4 orifices");
+rep("[ ] 2 voies - 5 orifices");
+rep("[x] 3 voies - 4 orifices");
+aj("images/PNEU4.png");
+
+quest("PNEU5 : Ce symbole représente un distributeur ://a");
+rep("[ ] monostable (à simple pilotage)");
+rep("[x] bistable (à double pilotage)");
+aj("images/PNEU5.png");
+
+quest("PNEU6 : Ce vérin est ://a");
+rep("[ ] simple effet");
+rep("[x] double effet");
+aj("images/PNEU6.png");
+
+quest("PNEU7 : Ce symbole représente ://a");
+rep("[ ] un silencieux");
+rep("[ ] une arrivée d'air comprimé");
+rep("[ ] un filtre");
+rep("[ ] un manomètre");
+rep("[ ] un graisseur d'air");
+rep("[x] un manodétendeur réglable");
+aj("images/PNEU7.png");
+
+quest("PNEU8 : Ce symbole représente un vérin ://a");
+rep("[x] simple effet");
+rep("[ ] double effet");
+aj("images/PNEU8.png");
+
+quest("PNEU9 : Ce symbole représente un distributeur ://a");
+rep("[ ] 2 voies - 3 orifices");
+rep("[x] 2 voies - 4 orifices");
+rep("[ ] 2 voies - 5 orifices");
+rep("[ ] 3 voies - 5 orifices");
+aj("images/PNEU9.png");
+
+quest("PNEU10 : Ce symbole représente ://a");
+rep("[ ] un silencieux");
+rep("[x] une arrivée d'air comprimé");
+rep("[ ] un filtre");
+rep("[ ] un manomètre");
+rep("[ ] un graisseur d'air");
+rep("[ ] un manodétendeur réglable");
+aj("images/PNEU10.png");
+
+quest("PNEU11 : Ce symbole représente un distributeur ://a");
+rep("[ ] 2 voies - 3 orifices");
+rep("[ ] 2 voies - 4 orifices");
+rep("[x] 2 voies - 5 orifices");
+rep("[ ] 3 voies - 5 orifices");
+aj("images/PNEU11.png");
+
+quest("PNEU12 : Ce symbole représente un réducteur de débit ://a");
+rep("[x] unidirectionnel");
+rep("[ ] bidirectionnel");
+aj("images/PNEU12.png");
+
+quest("PNEU13 : Ce symbole représente ://a");
+rep("[ ] un silencieux");
+rep("[ ] une arrivée d'air comprimé");
+rep("[ ] un filtre");
+rep("[x] un manomètre");
+rep("[ ] un graisseur d'air");
+rep("[ ] un manodétendeur réglable");
+aj("images/PNEU13.png");
+
+quest("PNEU14 : Ce symbole représente un distributeur ://a");
+rep("[ ] à commande pneumatique");
+rep("[x] à commande électro - pneumatique");
+aj("images/PNEU14.png");
+
+quest("PNEU15 : Ce symbole représente un vérin ://a");
+rep("[ ] simple effet");
+rep("[x] double effet");
+aj("images/PNEU15.png");
+
+quest("PNEU16 : Ce symbole représente un distributeur ://a");
+rep("[x] à commande pneumatique");
+rep("[ ] à commande électro - pneumatique");
+aj("images/PNEU16.png");
+
+quest("PNEU17 : Ce symbole représente ://a");
+rep("[ ] un silencieux");
+rep("[ ] une arrivée d'air comprimé");
+rep("[x] un filtre");
+rep("[ ] un manomètre");
+rep("[ ] un graisseur d'air");
+rep("[ ] un manodétendeur réglable");
+aj("images/PNEU17.png");
+
+quest("PNEU18 : Ce symbole représente ://a");
+rep("[ ] un silencieux");
+rep("[ ] une arrivée d'air comprimé");
+rep("[ ] un filtre");
+rep("[ ] un manomètre");
+rep("[x] un graisseur d'air");
+rep("[ ] un manodétendeur réglable");
+aj("images/PNEU18.png");
+
+quest("PNEU19 : Ce symbole représente un distributeur ://a");
+rep("[x] monostable (à simple pilotage)");
+rep("[ ] bistable (à double pilotage)");
+aj("images/PNEU19.png");
+
+quest("PNEU20 : Ce symbole représente un distributeur ://a");
+rep("[x] 2 voies - 3 orifices");
+rep("[ ] 2 voies - 4 orifices");
+rep("[ ] 2 voies - 5 orifices");
+rep("[ ] 3 voies - 5 orifices");
+aj("images/PNEU20.png");
 
 // ====================================================================================
 // SECTION : Les capteurs
 // ====================================================================================
 theme("Les capteurs");
+quest("CAPT1 : Ce codeur incrémental (500 points/tour) tourne à 600 tr/min. Quelle est la fréquence des impulsions de sortie ?//a");
+rep("[ ] 300 kHz");
+rep("[x] 5 kHz");
+rep("[ ] 50 Hz");
+aj("images/CAPT1.png");
+juste("C'est exact ! Le calcul est : (500 * 600) / 60 = 5000 Hz soit 5 kHz.");
+faux("Mauvaise réponse. La formule est f = (N * n) / 60.");
+
+quest("CAPT2 : C'est le symbole d'une thermistance ://a");
+rep("[x] à coefficient de température positif (CTP)");
+rep("[ ] à coefficient de température négatif (CTN)");
+aj("images/CAPT2.png");
+juste("Exact, le symbole indique une variation positive de la résistance avec la température.");
+faux("Attention au signe de la variation thermique sur le symbole.");
+
+quest("CAPT3 : Ce sont les symboles des capteurs de position (ou de fin de course) ://a");
+rep("[x] VRAI");
+rep("[ ] FAUX");
+aj("images/CAPT3.png");
+juste("Correct, ce sont bien les symboles des contacts mécaniques.");
+faux("C'est pourtant bien la représentation normalisée de ces capteurs.");
+
+quest("CAPT4 : Ce sont les symboles ://a");
+rep("[ ] d'une sonde Pt100");
+rep("[x] d'un thermocouple");
+aj("images/CAPT4.png");
+juste("Exact ! Il s'agit du symbole d'un couple thermoélectrique.");
+faux("Non, le symbole de la sonde Pt100 est différent (résistance variable).");
+
+quest("CAPT5 : La constante de vitesse est 0,06 V/tr/min. Pour 30 V, quelle est la vitesse ?//a");
+rep("[x] 500 tr/min");
+rep("[ ] 1000 tr/min");
+rep("[ ] 1500 tr/min");
+aj("images/CAPT5.png");
+juste("Bien joué ! n = U / K = 30 / 0,06 = 500 tr/min.");
+faux("Erreur de calcul. Il faut diviser la tension par la constante K.");
+
+quest("CAPT6 : C'est un capteur ://a");
+rep("[ ] de niveau");
+rep("[ ] de débit");
+rep("[x] de pression");
+aj("images/CAPT6.png");
+juste("C'est exact, ce symbole représente un capteur de pression (pressostat).");
+faux("Regardez bien le symbole, il s'agit d'un capteur de pression.");
+
+quest("CAPT7 : Un thermocouple (plusieurs réponses possibles) ://a");
+rep("[x] convertit la température en tension");
+rep("[x] est constitué de deux fils de métaux différents");
+rep("[x] exploite l'effet Seebeck");
+rep("[x] peut être de type J");
+rep("[x] peut être de type K");
+aj("images/CAPT7.png");
+juste("Bravo, vous connaissez parfaitement les propriétés du thermocouple !");
+faux("Toutes les affirmations citées sont pourtant correctes pour un thermocouple.");
+
+quest("CAPT8 : C'est un anémomètre à ://a");
+rep("[ ] hélice");
+rep("[x] godets");
+aj("images/CAPT8.png");
+juste("Correct, la forme en demi-sphères correspond aux godets.");
+faux("L'image montre un système à godets, pas à hélice.");
+
+quest("CAPT9 : C'est ://a");
+rep("[ ] un thermocouple");
+rep("[x] une thermistance");
+aj("images/CAPT9.png");
+juste("Exact, c'est un capteur dont la résistance varie avec la température.");
+faux("Ce symbole correspond à une thermistance, pas à un thermocouple.");
+
+quest("CAPT10 : Ce sont les symboles d'un ://a");
+rep("[ ] capteur magnétique");
+rep("[x] thermostat");
+rep("[ ] capteur à ultrasons");
+aj("images/CAPT10.png");
+juste("C'est ça, ce sont des contacts dont l'état dépend de la température.");
+faux("Il s'agit du symbole d'un thermostat.");
+
+quest("CAPT11 : Le capteur de distance à ultrasons (plusieurs réponses possibles) ://a");
+rep("[x] fonctionne suivant le principe de l'écho");
+rep("[x] envoie un signal sonore inaudible");
+rep("[x] mesure la durée de l'émission-réception");
+rep("[x] utilise la vitesse du son (340 m/s)");
+aj("images/CAPT11.png");
+juste("Parfait, ce sont les principes fondamentaux de la détection ultrason.");
+faux("Toutes ces étapes sont nécessaires au calcul de la distance.");
+
+quest("CAPT12 : C'est un capteur de niveau ://a");
+rep("[ ] à ultrasons");
+rep("[x] à flotteur");
+aj("images/CAPT12.png");
+juste("Correct, l'élément mobile monte avec le liquide.");
+faux("C'est un capteur mécanique à flotteur.");
+
+quest("CAPT13 : C'est un capteur ://a");
+rep("[ ] de niveau");
+rep("[x] de débit");
+rep("[ ] de pression");
+aj("images/CAPT13.png");
+juste("Exact, il s'agit d'un débitmètre.");
+faux("Le symbole ou l'image indique un capteur de débit.");
+
+quest("CAPT14 : 10 kHz à 3000 tr/min. Quel est le nombre de points par tour ?//a");
+rep("[ ] 100");
+rep("[x] 200");
+rep("[ ] 500");
+aj("images/CAPT14.png");
+juste("Bravo ! N = (f * 60) / n = (10000 * 60) / 3000 = 200 points/tour.");
+faux("Le calcul est : (Fréquence * 60) / Vitesse.");
+
+quest("CAPT15 : Une sonde Pt100 (plusieurs réponses possibles) ://a");
+rep("[x] a une résistance de 100 ohms à 0°C");
+rep("[x] est constituée de platine");
+aj("images/CAPT15.png");
+juste("Exact ! Pt pour Platine et 100 pour la valeur à 0°C.");
+faux("Rappelez-vous : Pt = Platine et 100 = 100 Ohms à 0°C.");
+
+quest("CAPT16 : 500 pts/tr et 2500 Hz. Quelle est sa vitesse de rotation ?//a");
+rep("[x] 300 tr/min");
+rep("[ ] 600 tr/min");
+rep("[ ] 900 tr/min");
+aj("images/CAPT16.png");
+juste("Correct ! n = (2500 * 60) / 500 = 300 tr/min.");
+faux("Le calcul est : (Fréquence * 60) / N.");
+
+quest("CAPT17 : C'est un disque de codeur ://a");
+rep("[x] incrémental (relatif)");
+rep("[ ] absolu");
+aj("images/CAPT17.png");
+juste("Exact, le motif est répétitif sur toute la piste.");
+faux("Le motif régulier indique un codeur incrémental.");
+
+quest("CAPT18 : C'est un capteur à effet Hall ://a");
+rep("[ ] de tension");
+rep("[x] de courant");
+aj("images/CAPT18.png");
+juste("C'est ça, il mesure l'intensité du courant par induction magnétique.");
+faux("Il s'agit ici d'une mesure de courant.");
+
+quest("CAPT19 : C'est une photorésistance ://a");
+rep("[x] VRAI");
+rep("[ ] FAUX");
+aj("images/CAPT19.png");
+juste("Exact, c'est le composant qui varie avec l'intensité lumineuse.");
+faux("C'est pourtant bien la représentation d'une photorésistance.");
+
+quest("CAPT20 : C'est un capteur à effet Hall ://a");
+rep("[x] de tension");
+rep("[ ] de courant");
+aj("images/CAPT20.png");
+juste("Correct, c'est un montage spécifique pour la mesure de tension.");
+faux("D'après la solution 20a, il s'agit d'un capteur de tension.");
+
 quest("CAPT21 : Ce sont les symboles des capteurs de proximité ://a");
 rep("[ ] Capacitifs");
 rep("[x] Inductifs");
