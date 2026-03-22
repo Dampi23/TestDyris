@@ -75,7 +75,7 @@ faux("Attention, les capteurs inductifs ne détectent que les métaux.");
 quest("CAPT25 : C'est le symbole d'une thermistance ://a");
 rep("[ ] À coefficient de température positif (CTP)");
 rep("[x] À coefficient de température négatif (CTN)");
-aj("images/CAPT20-05.png");
+aj("images/CAPT25.png");
 juste("Bien joué, l'indication '-t°' signifie que la résistance diminue quand la température monte.");
 faux("L'indication '-t°' sur le symbole précise qu'il s'agit d'une CTN.");
 
