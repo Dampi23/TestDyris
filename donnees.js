@@ -51,6 +51,87 @@ aj("images/CAPT21.png");
 juste("C'est exact ! La barre horizontale à l'intérieur du symbole représente l'inductance (la bobine).");
 faux("Attention, le symbole de la bobine indique qu'il s'agit de capteurs inductifs.");
 
+quest("CAPT22 : Ce sont les symboles des capteurs de position (ou de fin de course) ://a");
+rep("[x] VRAI");
+rep("[ ] FAUX");
+aj("images/CAPT22.png");
+juste("Exact, ces symboles représentent des contacts mécaniques NF et NO.");
+faux("C'est pourtant bien le symbole de contacts mécaniques de fin de course.");
+
+quest("CAPT23 : C'est une photorésistance (LDR) ://a");
+rep("[x] VRAI");
+rep("[ ] FAUX");
+aj("images/CAPT23.png");
+juste("Correct, les flèches symbolisent la lumière frappant la résistance.");
+faux("Erreur, le symbole avec les flèches entrantes désigne bien une photorésistance.");
+
+quest("CAPT24 : Un capteur de proximité inductif détecte sans contact ://a");
+rep("[x] Des objets métalliques");
+rep("[ ] Des objets non métalliques");
+aj("images/CAPT24.png");
+juste("Exact, l'induction magnétique ne fonctionne qu'avec des matériaux conducteurs.");
+faux("Attention, les capteurs inductifs ne détectent que les métaux.");
+
+quest("CAPT25 : C'est le symbole d'une thermistance ://a");
+rep("[ ] À coefficient de température positif (CTP)");
+rep("[x] À coefficient de température négatif (CTN)");
+aj("images/CAPT20-05.png");
+juste("Bien joué, l'indication '-t°' signifie que la résistance diminue quand la température monte.");
+faux("L'indication '-t°' sur le symbole précise qu'il s'agit d'une CTN.");
+
+quest("CAPT26 : C'est le symbole d'un ://a");
+rep("[x] Capteur magnétique (I.L.S)");
+rep("[ ] Thermostat");
+rep("[ ] Capteur à ultrasons");
+aj("images/CAPT26.png");
+juste("Correct, c'est un Interrupteur à Lame Souple sensible aux aimants.");
+faux("Il s'agit du symbole d'un capteur sensible au magnétisme.");
+
+quest("CAPT27 : C'est un contact de fin de course à ://a");
+rep("[ ] Poussoir");
+rep("[x] Galet");
+aj("images/CAPT27.png");
+juste("Exact, le petit cercle représente le galet facilitant le contact.");
+faux("Le symbole du petit cercle indique la présence d'un galet.");
+
+quest("CAPT28 : C'est un disque de codeur ://a");
+rep("[x] Incrémental (relatif)");
+rep("[ ] Absolu");
+aj("images/CAPT28.png");
+juste("C'est ça, la piste régulière ne permet que le comptage de pas.");
+faux("C'est un codeur incrémental car les motifs sont répétitifs et réguliers.");
+
+quest("CAPT29 : C'est un disque de codeur ://a");
+rep("[ ] Incrémental (relatif)");
+rep("[x] Absolu");
+aj("images/CAPT29.png");
+juste("Correct, les secteurs possèdent des codes uniques pour chaque position.");
+faux("Le motif complexe permet de connaître la position exacte : c'est un codeur absolu.");
+
+quest("CAPT30 : Ce codeur (500 pts/tr) sort 2500 Hz. Quelle est sa vitesse ?//a");
+rep("[x] 300 tr/mn");
+rep("[ ] 600 tr/mn");
+aj("images/CAPT30.png");
+juste("Calcul exact : (2500 * 60) / 500 = 300 tr/mn.");
+faux("Le calcul est : (Fréquence * 60) / Nombre de points.");
+
+quest("CAPT31 : Ce codeur (500 pts/tr) tourne à 600 tr/mn. Quelle est la fréquence ?//a");
+rep("[ ] 300 kHz");
+rep("[x] 5 kHz");
+aj("images/CAPT31.png");
+juste("Bravo : (500 * 600) / 60 = 5000 Hz, soit 5 kHz.");
+faux("La formule est : (Nombre de points * Vitesse) / 60.");
+
+quest("CAPT32 : Tachymétrie : 60V à 1000 tr/mn. Quelle est sa constante K ?//a");
+rep("[ ] 0,6 V/tr/mn");
+rep("[x] 0,06 V/tr/mn");
+aj("images/CAPT32.png");
+juste("Exact : 60V / 1000 tr/mn = 0,06 V/tr/mn.");
+faux("Il faut diviser la tension par la vitesse : 60 / 1000.");
+
+// ====================================================================================
+// SECTION : La loi d'Ohm
+// ====================================================================================
 theme("La Loi d'Ohm");
 
 debut("Questions sur la relation entre Tension, Courant et Résistance.");
