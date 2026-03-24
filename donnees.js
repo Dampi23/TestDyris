@@ -178,7 +178,7 @@ rep("[ ] 3 voies - 5 orifices");
 aj("images/PNEU20.png");
 
 quest("PNEU21 : En Pneumatique, NO signifie que l'air comprimé.... Mais en électricité NO signifie ://a");
-rep("[x] Que l'air passe mais le courant passe ");
+rep("[x] Que l'air et le courant passe ");
 rep("[ ] Que l'air ne passe pas met que le courant ne passe pas");
 rep("[ ] Que l'air passe mais le courant ne passe pas ");
 rep("[ ] Que l'air ne passe pas mais le courant passe ");
