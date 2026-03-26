@@ -8,7 +8,7 @@ code("essai","essai");
 titre("Électricité Fondamentale");
 introduction("Testez vos connaissances sur les bases de l'électricité.");
 introduction("Thèmes abordés : Loi d'Ohm, Multimètre, AC/DC.");
-introduction("Identifiant : \"test\" | Mot de passe : \"test\".");
+introduction("Identifiant : \" " | Mot de passe : \"test\".");
 
 nombre_questions("4","8","12","16", "20", "25", "30");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
@@ -39,6 +39,107 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // ====================================================================================
 
 theme("Le froid");
+
+// ====================================================================================
+// SECTION : Portes ouvertes
+// ====================================================================================
+
+theme("Les portes ouvertes");
+
+quest("O001 - Quelle est l’unité de la tension électrique ?");
+rep("[ ] l’ampère");
+rep("[x] le volt");
+rep("[ ] l’ohm");
+
+quest("O002 - Quelle est l’unité de l’intensité du courant ?");
+rep("[x] l’ampère");
+rep("[ ] le watt");
+rep("[ ] le volt");
+
+quest("O003 - À quoi sert un fusible dans un circuit ?");
+rep("[x] à protéger contre les surintensités");
+rep("[ ] à augmenter la tension");
+rep("[ ] à stocker l’énergie");
+
+quest("O004 - Que se passe-t-il si un circuit est ouvert ?");
+rep("[ ] le courant augmente");
+rep("[x] le courant ne circule plus");
+rep("[ ] la tension disparaît");
+
+quest("O005 - Quel matériau est un bon conducteur électrique ?");
+rep("[ ] le plastique");
+rep("[x] le cuivre");
+rep("[ ] le bois");
+
+quest("O006 - Quelle est la formule de base de la loi d’Ohm ?");
+rep("[ ] U = I + R");
+rep("[x] U = R × I");
+rep("[ ] P = U × I");
+
+quest("O007 - Que fait un interrupteur dans un circuit ?");
+rep("[ ] il augmente le courant");
+rep("[x] il ouvre ou ferme le circuit");
+rep("[ ] il transforme la tension");
+
+quest("O008 - Que se passe-t-il si on met deux piles en série ?");
+rep("[x] la tension augmente");
+rep("[ ] le courant diminue toujours");
+rep("[ ] la tension reste la même");
+
+quest("O009 - Quelle est l’unité de la puissance électrique ?");
+rep("[ ] le volt");
+rep("[ ] l’ampère");
+rep("[x] le watt");
+
+quest("O010 - Un court-circuit correspond à :");
+rep("[x] une résistance très faible dans le circuit");
+rep("[ ] une coupure du circuit");
+rep("[ ] une tension nulle");
+
+quest("O011 - Que se passe-t-il si on touche un fil sous tension ?");
+rep("[ ] rien ne se passe");
+rep("[x] il y a un risque d’électrocution");
+rep("[ ] le courant s’arrête");
+
+quest("O012 - Quel composant permet de stocker de l’énergie électrique ?");
+rep("[ ] une résistance");
+rep("[x] une batterie");
+rep("[ ] un interrupteur");
+
+quest("O013 - En mécanique, à quoi sert un levier ?");
+rep("[x] à multiplier une force");
+rep("[ ] à réduire la vitesse");
+rep("[ ] à stocker de l’électricité");
+
+quest("O014 - En électronique, une diode permet :");
+rep("[x] de laisser passer le courant dans un seul sens");
+rep("[ ] d’augmenter la tension");
+rep("[ ] de stocker l’énergie");
+
+quest("O015 - Si la résistance augmente dans un circuit (tension constante), que fait le courant ?");
+rep("[ ] il augmente");
+rep("[x] il diminue");
+rep("[ ] il ne change pas");
+
+quest("O016 - À quoi sert la terre dans une installation électrique ?");
+rep("[x] à protéger les personnes");
+rep("[ ] à augmenter la puissance");
+rep("[ ] à stocker l’énergie");
+
+quest("O017 - Une lampe qui ne s’allume pas peut être due à :");
+rep("[x] une ampoule grillée");
+rep("[ ] une tension trop élevée uniquement");
+rep("[ ] un excès de courant utile");
+
+quest("O018 - En mécanique, la vitesse est :");
+rep("[x] une distance parcourue par unité de temps");
+rep("[ ] une force appliquée");
+rep("[ ] une énergie stockée");
+
+quest("O019 - Que mesure un voltmètre ?");
+rep("[ ] le courant");
+rep("[x] la tension");
+rep("[ ] la résistance");
 
 // ====================================================================================
 // SECTION : La pneumatique
