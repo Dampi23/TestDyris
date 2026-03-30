@@ -34,25 +34,7 @@ window.onkeydown=function(event) {
 <script src="controleur.js"></script>
 <script src="textes.js"></script>
 <script src="donnees.js"></script>
-
-<script>
-let url = new URL(window.location.href);
-let theme = url.searchParams.get("theme");
-
-if (theme === "froid") {
-    document.write('<script src="froid.js"><\/script>');
-}
-else if (theme === "elec") {
-    document.write('<script src="elec.js"><\/script>');
-}
-else {
-    document.write('<script src="froid.js"><\/script>');
-}
-</script>
-	
-	
 <script src="minmath.js"></script>
 </body>
 
 </html>
-
