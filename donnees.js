@@ -35,10 +35,370 @@ chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
 // LE QUESTIONNAIRE
 
 // ====================================================================================
-// SECTION : Le froid
+// SECTION : L'agrégation du froid
 // ====================================================================================
 
-theme("Le froid");
+theme("L'agrégation du froid");
+
+quest("AgrFroid001 : Quels frigorigènes attaquent la couche d'ozone ?://a");
+rep("[x] Les (H)CFC");
+rep("[ ] Les HFC");
+rep("[ ] Les mélanges de HFC");
+rep("[ ] Tous les agents réfrigérants");
+
+quest("AgrFroid002 : Lequel ou lesquels des réfrigérants suivants sont les moins nocifs sur le plan de l'effet de serre ?://a");
+rep("[ ] Les HCFC");
+rep("[ ] Les HFC");
+rep("[x] Le NH3 (R717)");
+rep("[ ] Les CFC");
+
+quest("AgrFroid003 : Par substances appauvrissant la couche d'ozone, on entend :://a");
+rep("[ ] l'ammoniac");
+rep("[x] les (H)CFC");
+rep("[ ] les HFC");
+rep("[ ] le CO2");
+
+quest("AgrFroid004 : Par gaz à effet de serre fluorés, on désigne :://a");
+rep("[ ] l'ammoniac");
+rep("[ ] le propane");
+rep("[x] les HFC");
+rep("[ ] le CO2");
+
+quest("AgrFroid005 : Le technicien frigoriste doit-il avoir une bouteille de récupération avec lui pour y transvaser le HFC/HCFC soutiré ?://a");
+rep("[ ] Pas obligatoirement car vu la faible toxicité de ces réfrigérants, s'il ne dispose pas d'un récipient, il peut les rejeter à l'atmosphère");
+rep("[ ] Oui et cette bouteille peut être soit un cylindre à réfrigérant vide ayant contenu préalablement le même gaz neuf ou une bouteille de récupération agréée pour le gaz concerné");
+rep("[x] Oui, il doit avoir avec lui une bouteille de récupération agréée pour le gaz concerné");
+rep("[ ] Oui, et pour effectuer cette opération il peut utiliser un récipient de son choix, pour autant qu'il résiste à la pression attendue");
+
+quest("AgrFroid006 : A quoi se réfère-t-on pour évaluer la mesure dans laquelle les réfrigérants contribuent à l'effet de serre ?://a");
+rep("[ ] Au réfrigérant R11");
+rep("[ ] A un réchauffement effectif de 0,5 °C par an");
+rep("[ ] A l'effet de serre tel qu'il existait en 1900");
+rep("[x] Au dioxyde de carbone (CO2) à un horizon de 100 ans");
+
+quest("AgrFroid007 : Quelles sont les substances visées par le Protocole de Montréal ?://a");
+rep("[ ] Exclusivement les gaz à effet de serre fluorés");
+rep("[ ] Exclusivement les substances qui appauvrissent la couche d'ozone");
+rep("[x] Les substances qui appauvrissent la couche d'ozone et depuis l'accord de Kigali, les gaz à effet de serre fluorés");
+rep("[ ] Les hydrocarbures polyaromatiques");
+
+quest("AgrFroid008 : De quelle propriété des réfrigérants traite le Protocole de Montréal ?://a");
+rep("[ ] Exclusivement de la cause de l'effet de serre");
+rep("[ ] Exclusivement du réchauffement climatique");
+rep("[x] De l'appauvrissement de la couche d'ozone et depuis l'accord de Kigali, des changements climatiques");
+rep("[ ] De l'atténuation du rayonnement solaire");
+
+quest("AgrFroid009 : Quelles sont les substances visées par le Protocole de Kyoto ?://a");
+rep("[ ] Les substances qui appauvrissent la couche d'ozone");
+rep("[x] Les gaz à effet de serre");
+rep("[ ] Les composés organiques volatils");
+rep("[ ] Les hydrocarbures polyaromatiques");
+
+quest("AgrFroid010 : De quelle propriété des réfrigérants traite le Protocole de Kyoto ?://a");
+rep("[ ] De la diminution de la couche d'ozone");
+rep("[x] De leur pouvoir de réchauffement climatique");
+rep("[ ] De la réduction de la pollution atmosphérique photochimique");
+rep("[ ] De l'interdiction de l'utilisation de substances dangereuses pour l'environnement");
+
+quest("AgrFroid011 : Lequel des agents suivants est un gaz à effet de serre fluoré réglementé par l'annexe I du règlement 517/2014 ?://a");
+rep("[ ] Le R717");
+rep("[ ] Le R1234yf");
+rep("[ ] L'eau glycolée");
+rep("[x] Le R407C");
+
+quest("AgrFroid012 : Lequel des agents suivants est un gaz à effet de serre fluoré ?://a");
+rep("[ ] Le R717");
+rep("[ ] R290");
+rep("[ ] R744");
+rep("[x] Le R407C");
+
+quest("AgrFroid013 : Lequel des agents suivants n'appartient pas au groupe des HFC réglementés par l'annexe I du règlement 517/2014 (gaz à effet de serre fluorés) ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R404A");
+rep("[ ] Le R134a");
+rep("[ ] Le R407C");
+
+quest("AgrFroid014 : Quel est le PRG/GWP du R404A ?://a");
+rep("[ ] 250");
+rep("[ ] 1");
+rep("[x] 3922");
+rep("[ ] 1 340");
+
+quest("AgrFroid015 : Une entreprise en technique du froid agréée/enregistrée peut-elle laisser ses techniciens qualifiés réparer des pièces contenant du réfrigérant réglementé alors qu'ils ne disposent pas de l'équipement technique minimal requis pour cela ?://a");
+rep("[ ] Oui, elle peut toujours partir du principe que ses techniciens ont l'équipement nécessaire avec eux");
+rep("[x] Non");
+rep("[ ] Elle ne peut les y autoriser que s'ils ont une expérience d'au moins 5 ans");
+rep("[ ] Elle ne peut les y autoriser que s'ils travaillent sous la surveillance d'un technicien certifié");
+
+quest("AgrFroid016 : Qu'entend-on par réfrigérant recyclé ?://a");
+rep("[x] Un réfrigérant récupéré qui a été soumis à un processus de nettoyage simple");
+rep("[ ] Un réfrigérant récupéré qui a été traité de façon à le rendre comparable à du réfrigérant vierge");
+rep("[ ] Un réfrigérant récupéré qui n'a été soumis à aucun nettoyage ou autre traitement préalable à sa réutilisation");
+rep("[ ] Il s'agit d'un mélange dont la composition a été rééquilibrée");
+
+quest("AgrFroid017 : La couche d'ozone :://a");
+rep("[ ] n'est pas attaquée par le R12, ni par le R22");
+rep("[ ] n'est pas attaquée par les réfrigérants chlorés");
+rep("[ ] est attaquée par le R134a");
+rep("[x] est attaquée par les réfrigérants chlorés");
+
+quest("AgrFroid018 : Laquelle des affirmations suivantes est correcte ?://a");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1,43 kg de CO2");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 14,3 kg de CO2");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 143 kg de CO2");
+rep("[x] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1 430 kg de CO2");
+
+quest("AgrFroid019 : Lequel de ces réfrigérants a un PACO/ODP non nul ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R404A");
+rep("[ ] Le R134a");
+rep("[ ] Le R407C");
+
+quest("AgrFroid020 : Quel est l'effet direct de la diminution de la couche d'ozone ?://a");
+rep("[x] Elle augmente la quantité de rayons solaires UV nocifs qui atteignent la surface de la Terre");
+rep("[ ] Elle favorise le réchauffement de la Terre");
+rep("[ ] Elle favorise la fonte des calottes polaires");
+rep("[ ] Elle augmente les pluies acides");
+
+quest("AgrFroid021 : Qu'entend-on par 'régénérer' un réfrigérant ?://a");
+rep("[ ] Récupérer un réfrigérant");
+rep("[ ] Réutiliser un réfrigérant récupéré, mais sans nettoyage ou traitement préalable");
+rep("[ ] Réutiliser un réfrigérant récupéré et soumis à un processus de nettoyage simple");
+rep("[x] Réutiliser un réfrigérant récupéré et traité de façon à le rendre comparable à un réfrigérant vierge");
+
+quest("AgrFroid022 : De quelle catégorie de certificat une personne a-t-elle besoin pour prélever 4 kg de R407C sur un petit système de climatisation (split system) ?://a");
+rep("[x] D'un certificat de catégorie I");
+rep("[ ] D'un certificat de catégorie II");
+rep("[ ] D'un certificat de catégorie III");
+rep("[ ] D'un certificat de catégorie IV");
+
+quest("AgrFroid023 : Lequel de ces réfrigérants possède le PACO/ODP le plus bas ?://a");
+rep("[x] Le NH3");
+rep("[ ] Le R408A");
+rep("[ ] Le R409A");
+rep("[ ] Le R22");
+
+quest("AgrFroid024 : Lequel de ces agents a un PACO/ODP non nul ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R134a");
+rep("[ ] Le R600a");
+rep("[ ] Le R744");
+
+quest("AgrFroid025 : Quel est le constituant du R22 qui a entraîné son interdiction d'utilisation ?://a");
+rep("[ ] Le fluor");
+rep("[x] Le chlore");
+rep("[ ] L'hydrogène");
+rep("[ ] Le carbone");
+
+quest("AgrFroid026 : A quel terme correspond l'abréviation PACO ?://a");
+rep("[ ] Protocole d'accord sur le monoxyde de carbone (CO)");
+rep("[x] Potentiel d'appauvrissement de la couche d'ozone");
+rep("[ ] Procédé d'atténuation de la consommation d'oxygène");
+rep("[ ] Pic d'assimilation des composés organiques");
+
+quest("AgrFroid027 : Les titulaires d'un certificat de catégorie III ://a");
+rep("[x] peuvent récupérer du HFC dans les installations qui en contiennent moins de 3 kg (ou moins de 6 kg si le système est du type hermétique)");
+rep("[ ] peuvent effectuer des réparations du circuit frigorifique d'installations contenant moins de 3 kg de HFC");
+rep("[ ] peuvent effectuer des réparations du circuit frigorifique des installations contenant 3 kg ou plus de HFC");
+rep("[ ] peuvent récupérer le HFC des installations qui en contiennent 3 kg ou plus");
+
+quest("AgrFroid028 : Quel est le réfrigérant dont les émissions ont la plus grande influence directe négative sur l'effet de serre ?://a");
+rep("[ ] Le NH3");
+rep("[ ] Le CO2");
+rep("[x] Les HFC");
+rep("[ ] Tous les agents réfrigérants");
+
+quest("AgrFroid029 : Un livret de bord / carnet d'entretien / registre ://a");
+rep("[x] est obligatoire pour une installation dont la contenance en agent réfrigérant fluoré est supérieure ou égale à 5 t éq. CO2 de HFC");
+rep("[ ] n'est pas du tout obligatoire quelle que soit l'installation");
+rep("[ ] est uniquement obligatoire pour les installations dont la contenance en agent réfrigérant fluoré est supérieure à 50 t éq. CO2 de HFC");
+rep("[ ] n'est pas obligatoire pour les installations de climatisation");
+
+quest("AgrFroid030 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 1 kg de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
+rep("[ ] Non jamais");
+rep("[x] Oui toujours");
+rep("[ ] Seulement si l'installation a nécessité la connexion d'au moins 2 éléments contenant de l'agent réfrigérant");
+rep("[ ] Seulement si cette installation est visée par la norme NBN EN 378");
+
+quest("AgrFroid031 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 2 kg de HFC doit être effectuée par un technicien frigoriste certifié ?://a");
+rep("[ ] Non jamais");
+rep("[x] Oui toujours");
+rep("[ ] Oui, sauf si il s'agit d'un équipement à circuit hermétique");
+rep("[ ] Oui si cette installation est visée par la norme NBN EN 378");
+
+quest("AgrFroid032 : Est-ce que l'installation d'un circuit frigorifique contenant 500 tonnes équivalent CO2 ou plus de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
+rep("[ ] Seulement si cet équipement est visé par la Directive européenne sur les équipements sous pression");
+rep("[ ] Oui excepté le brasage qui peut être réalisé par des braseurs titulaires de la qualification requise, mais sous la responsabilité d'un technicien frigoriste disposant du certificat adéquat");
+rep("[x] Oui toujours");
+rep("[ ] Non, car l'installation des équipements frigorifiques n'est pas visée par les règlementations régionales");
+
+quest("AgrFroid033 : Est-ce que lorsque le personnel certifié effectue des opérations pour laquelle sa certification est requise il est obligé de notifier certaines informations dans le registre / livret de bord de l'équipement ?://a");
+rep("[ ] Uniquement si l'exploitant de l'équipement dispose d'une certification ISO 14001 ou EMAS");
+rep("[ ] Non, c'est l'exploitant qui doit notifier les informations adéquates dans le livret de bord");
+rep("[ ] Uniquement si une fuite d'agent réfrigérant fluoré a été observée");
+rep("[x] Oui, toujours");
+
+quest("AgrFroid034 : Les agents réfrigérants fluorés récupérés ://a");
+rep("[ ] à moins qu'ils soient toxiques, ne doivent faire l'objet d'aucun traitement spécifique");
+rep("[ ] sont considérés comme déchets non dangereux s'il s'agit de HFC");
+rep("[ ] sont des déchets non dangereux puisqu'ils ne sont pas toxiques");
+rep("[x] sont considérés comme déchets dangereux et doivent être éliminés comme tel");
+
+quest("AgrFroid035 : Le technicien frigoriste disposant du certificat adéquat délivré conformément au Règlement UE 2015/2067 est le seul habilité à ://a");
+rep("[ ] intervenir dans les armoires électriques");
+rep("[x] récupérer les agents réfrigérants fluorés contenus dans les équipements frigorifiques");
+rep("[ ] dimensionner une nouvelle installation frigorifique");
+rep("[ ] transporter les agents réfrigérants fluorés issus des équipements frigorifiques");
+
+quest("AgrFroid036 : Selon la norme NBN EN 378, à quelle pression doit-on effectuer le test d'étanchéité à l'azote sur la totalité d'une installation de réfrigération ?://a");
+rep("[ ] A sa pression de service maximale admissible");
+rep("[ ] A une pression de 16 bars côté HP et 6 bars côté BP");
+rep("[x] A une pression égale à 1,5 fois la pression de service maximale");
+rep("[ ] A une pression égale à 1,1 fois la pression maximale de service");
+
+quest("AgrFroid037 : A partir de quelle pression régnant dans l'installation la soupape de surpression doit-elle s'ouvrir afin de libérer le réfrigérant dans l'atmosphère ?://a");
+rep("[ ] A une pression supérieure de 30 % à la pression maximale de service");
+rep("[ ] A une pression supérieure à 1,1 fois la pression maximale de service");
+rep("[x] Lorsque la surpression dépasse d'au moins 15 % la pression maximale de service");
+rep("[ ] La soupape ne peut en aucun cas laisser du réfrigérant s'échapper dans l'atmosphère");
+
+quest("AgrFroid038 : Une notice d'utilisation doit-elle accompagner chaque installation de réfrigération ?://a");
+rep("[ ] Il n'en faut une que si la puissance dépasse 100 kW");
+rep("[ ] La norme NBN EN 378 ne comprend pas de dispositions");
+rep("[ ] C'est le fabricant du compresseur qui doit fournir la notice");
+rep("[x] Selon la norme NBN-EN 378, toute installation conforme doit être accompagnée d'une notice d'utilisation");
+
+quest("AgrFroid039 : Selon la norme NBN-EN 378, sur quelle pression les pressostats de sécurité du côté haute pression doivent-ils être réglés ?://a");
+rep("[ ] Sur une pression supérieure à 25 bars");
+rep("[x] Sur une pression qui ne peut pas être > à 90% de la pression maximale admissible");
+rep("[ ] Sur une pression correspondant à la température d'évaporation");
+rep("[ ] Sur une pression inférieure à 25 bar");
+
+quest("AgrFroid040 : Qui peut réparer les pannes et fuites d'un circuit frigorifique contenant des gaz à effet de serre fluorés ?://a");
+rep("[ ] Tout le monde");
+rep("[ ] Toute personne disposant de l'accès à la profession");
+rep("[ ] Le propriétaire/exploitant");
+rep("[x] Un technicien frigoriste disposant du certificat requis");
+
+quest("AgrFroid041 : Sur base des informations collectées en application du Règlement 517/2014, de quelle façon peut-on établir formellement quand une installation a été contrôlée pour la dernière fois ?://a");
+rep("[x] En consultant le registre de l'équipement");
+rep("[ ] En vérifiant les factures et bons de travail");
+rep("[ ] En consultant une base de données centralisée");
+rep("[ ] En se renseignant auprès de la personne chargée de l'entretien");
+
+quest("AgrFroid042 : Quand on ajoute du réfrigérant de type HFC dans une installation d'une capacité nominale en frigorigène de 5 t éq. CO2 ou plus pour compenser une perte, faut-il également le noter dans le registre ?://a");
+rep("[x] Oui, tous les ajouts doivent y être notés");
+rep("[ ] Il ne faut y noter que les pertes dues à des fuites");
+rep("[ ] On ne doit pas le noter");
+rep("[ ] L'ajout doit être noté dans un registre des pertes accidentelles");
+
+quest("AgrFroid043 : Quand doit-on contrôler l'étanchéité d'une installation contenant 20 t éq. CO2 de réfrigérant ?://a");
+rep("[ ] Tous les 12 mois");
+rep("[ ] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[x] Tous les 6 mois (ou 12 mois si détecteur de fuite)");
+
+quest("AgrFroid044 : Dans quel délai doit-on procéder à un nouveau contrôle d'étanchéité sur une installation où une fuite a été réparée ?://a");
+rep("[ ] Dans un délai maximum de 2 semaines");
+rep("[x] Dans un délai maximum d'un mois");
+rep("[ ] Dans un délai maximum de 12 mois");
+rep("[ ] Dans un délai maximum de 3 mois");
+
+quest("AgrFroid045 : Quand doit-on contrôler l'étanchéité d'une installation d'une capacité de 5 à < 50 tonnes équivalent CO2 de réfrigérant non équipée d'un détecteur de fuite fixe ?://a");
+rep("[ ] Tous les 2 ans");
+rep("[x] Tous les ans");
+rep("[ ] Tous les ans (+ réparation sous 6 mois)");
+rep("[ ] Tous les 6 mois");
+
+quest("AgrFroid046 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à < 500 tonnes équivalent CO2 sans détecteur ?://a");
+rep("[ ] Tous les ans");
+rep("[ ] Tous les 14 jours");
+rep("[x] Tous les 6 mois");
+rep("[ ] Deux fois par an");
+
+quest("AgrFroid047 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation >500 tonnes équivalent CO2 équipée d'un système de détection de fuite ?://a");
+rep("[x] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[ ] Une fois par an");
+rep("[ ] Tous les 2 ans");
+
+quest("AgrFroid048 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à 500 t éq. CO2 équipée d'un système de détection de fuite ?://a");
+rep("[ ] Tous les 6 mois");
+rep("[ ] Tous les 2 ans");
+rep("[x] Tous les ans");
+rep("[ ] Tous les 6 mois (+ 2 mois réparation)");
+
+quest("AgrFroid049 : Lequel des agents suivants ne peut plus être utilisé ?://a");
+rep("[ ] Le R134a");
+rep("[ ] Le R410A");
+rep("[x] Le R22");
+rep("[ ] Le R507");
+
+quest("AgrFroid050 : Quelle doit être la sensibilité minimale d'un détecteur électronique de fuites utilisé pour effectuer un contrôle d'étanchéité périodique réglementaire ?://a");
+rep("[ ] 5 g/an");
+rep("[ ] 5 % de la capacité");
+rep("[ ] 1 000 ppm");
+rep("[x] 100 g/an");
+
+quest("AgrFroid051 : Depuis quand ne peut-on plus utiliser du HCFC recyclé ?://a");
+rep("[x] Depuis le 01/01/2015");
+rep("[ ] Depuis le 01/01/2016");
+rep("[ ] Depuis le 01/01/2017");
+rep("[ ] Depuis l'Amendement de Kigali");
+
+quest("AgrFroid052 : Qui peut effectuer le nettoyage externe des appareils de réfrigération ?://a");
+rep("[x] Tout le monde");
+rep("[ ] N'importe quel membre d'une entreprise agréée");
+rep("[ ] Sous surveillance d'un frigoriste");
+rep("[ ] Exclusivement un technicien certifié");
+
+quest("AgrFroid053 : Qui peut effectuer des réparations électriques sur une installation de réfrigération ?://a");
+rep("[x] Une personne possédant les compétences techniques requises");
+rep("[ ] Exclusivement un technicien frigoriste certifié");
+rep("[ ] Certifié + module électricité-froid");
+rep("[ ] Sous surveillance");
+
+quest("AgrFroid054 : Quelles installations ne doivent pas subir de contrôle annuel d'étanchéité ?://a");
+rep("[ ] <10 t CO2");
+rep("[ ] Hermétiques <10 t CO2 + <5 t CO2");
+rep("[x] Hermétiques <10 t CO2 avec marquage");
+rep("[ ] <50 t CO2 avec détecteur");
+
+quest("AgrFroid055 : Le type de réfrigérant doit-il être indiqué sur le registre ?://a");
+rep("[ ] Oui à partir de 5 kg");
+rep("[ ] Oui à partir de 50 t CO2");
+rep("[x] Oui à partir de 5 t CO2");
+rep("[ ] Oui à partir de 500 t CO2");
+
+quest("AgrFroid056 : Si aucune fuite, quand vérifier une installation de 20 t CO2 sans détecteur ?://a");
+rep("[ ] Chaque semaine");
+rep("[ ] Tous les 3 mois");
+rep("[x] Tous les 12 mois");
+rep("[ ] Tous les mois");
+
+quest("AgrFroid057 : Les raccords évasés flare sont-ils toujours autorisés ?://a");
+rep("[ ] Seulement démontables");
+rep("[x] Oui mais non recommandés");
+rep("[ ] Interdits");
+rep("[ ] Remplacés par euroraccords");
+
+quest("AgrFroid058 : Quand contrôler une installation 5 à <50 t CO2 sans détecteur ?://a");
+rep("[ ] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[x] Tous les 12 mois");
+rep("[ ] Tous les 24 mois");
+
+quest("AgrFroid059 : Une installation de 10 t CO2 doit comprendre ://a");
+rep("[ ] Détection fuite");
+rep("[ ] Contrôle T° et pression");
+rep("[x] Un registre");
+rep("[ ] Voyant liquide");
+
+quest("AgrFroid060 : A quoi sert essentiellement le registre ?://a");
+rep("[ ] Document paraphé");
+rep("[ ] Vérifié organisme");
+rep("[ ] Consigner entretien uniquement");
+rep("[x] Noter entretien + quantités de fluide");
 
 // ====================================================================================
 // SECTION : Portes ouvertes
