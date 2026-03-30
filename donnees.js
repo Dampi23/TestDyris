@@ -8,9 +8,9 @@ code("essai","essai");
 titre("Moteurs Électriques Industriels et Domestiques");
 introduction("Évaluez vos connaissances sur les différents types de moteurs.");
 introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
-introduction("Identifiant : \" " | Mot de passe : \" ".");
+introduction("Ci-dessous, entrez \"test\" comme identifiant et \"test\" comme mot de passe.");
 
-nombre_questions("1", "2", "3");
+nombre_questions("1", "2", "3","10", "20", "30", );
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 fenetre_info("test","ISL");
 url_quitter("http://dyris.free.fr/");
