@@ -3,15 +3,16 @@
 mode_presentation("1");
 mode_evaluation("1");
 mode_sauvegarde("1");
-code("test","test");
+code(" "," ");
 code("essai","essai");
-titre("Électricité Fondamentale");
-introduction("Testez vos connaissances sur les bases de l'électricité.");
-introduction("Thèmes abordés : Loi d'Ohm, Multimètre, AC/DC.");
-introduction("Identifiant : \" " | Mot de passe : \"test\".");
+titre("Moteurs Électriques Industriels et Domestiques");
+introduction("Évaluez vos connaissances sur les différents types de moteurs.");
+introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
+introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
-nombre_questions("4","8","12","16", "20", "25", "30");
+nombre_questions("1", "2", "3");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
+fenetre_info("test","ISL");
 url_quitter("http://dyris.free.fr/");
 
 coef_rep_juste("2");
@@ -19,17 +20,15 @@ coef_rep_fausse("-1");
 coef_rep_nulle("0");
 note_sur("20");
 
-appreciation("16","20","C'est très bien !||Parfait !||Excellent travail !");
-appreciation("13","16","Bon travail !");
-appreciation("10","13","Ensemble moyen.");
-appreciation("6","10","Vous devriez relire votre cours sur l'électricité.");
-appreciation("0","6","Ne vous découragez pas ! Révisez les bases (Loi d'Ohm).");
-non_termine("Vous avez quitté l'exercice sans avoir répondu à toutes les questions !");
+appreciation("16","20","Excellent ! Vous maîtrisez parfaitement les machines électriques.");
+appreciation("13","16","Bon travail ! Vos bases sont solides.");
+appreciation("10","13","Ensemble moyen, revoyez les couplages et les principes de glissement.");
+appreciation("0","10","Révisez les documents techniques sur les moteurs triphasés et CC.");
 
 juste("Parfait !||Excellent !||Juste !||Correct !||Bravo !");
 faux("Non...||Faux...||Erreur...||Inexact...");
 abandon("Tentez de répondre la prochaine fois !");
-chronometre("45","Le temps imparti est écoulé ! Soyez plus vif.");
+chronometre("60","Le temps est écoulé !");
 
 
 // LE QUESTIONNAIRE
