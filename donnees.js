@@ -8,7 +8,7 @@ code("essai","essai");
 titre("Moteurs Électriques Industriels et Domestiques");
 introduction("Évaluez vos connaissances sur les différents types de moteurs.");
 introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
-introduction("Identifiant : \"\" | Mot de passe : \"\".");
+introduction("Identifiant : \" " | Mot de passe : \" ".");
 
 nombre_questions("1", "2", "3");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
