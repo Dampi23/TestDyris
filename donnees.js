@@ -12,7 +12,7 @@ introduction("Ci-dessous, entrez \"test\" comme identifiant et \"test\" comme mo
 
 nombre_questions("1", "2", "3","10", "20", "30", );
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
-fenetre_info("test","ISL");
+fenetre_info("Score","scores.html");
 url_quitter("http://dyris.free.fr/");
 
 coef_rep_juste("2");
