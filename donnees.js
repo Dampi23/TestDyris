@@ -4,7 +4,7 @@ mode_presentation("1");
 mode_evaluation("1");
 mode_sauvegarde("1");
 code(" "," ");
-code("essai","essai");
+code("test","test");
 titre("Moteurs Électriques Industriels et Domestiques");
 introduction("Évaluez vos connaissances sur les différents types de moteurs.");
 introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
