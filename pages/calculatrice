@@ -9,8 +9,10 @@
 <body>
 <section>
 <h2>RAPPEL</h2>
-https://www.la-calculatrice.fr/scientifique/ 
 
+<a href="https://www.la-calculatrice.fr/scientifique/" target="_blank">
+    Ouvrir la calculatrice
+</a>
   
 </section>
 </body>
