@@ -219,6 +219,51 @@ rep("[x] Une boucle qui ne s’arrête jamais");
 rep("[ ] Une boucle exécutée une fois");
 rep("[ ] Une boucle inutile");
 
+quest("electro31 : Quelle est l’unité de la tension électrique ?");
+rep("[ ] l’ampère");
+rep("[x] le volt");
+rep("[ ] l’ohm");
+
+quest("electro32 : Quelle est l’unité de l’intensité du courant ?");
+rep("[x] l’ampère");
+rep("[ ] le watt");
+rep("[ ] le volt");
+
+quest("electro33 : À quoi sert un fusible dans un circuit ?");
+rep("[x] à protéger contre les surintensités");
+rep("[ ] à augmenter la tension");
+rep("[ ] à stocker l’énergie");
+
+quest("electro34 : Quelle est la formule de base de la loi d’Ohm ?");
+rep("[ ] U = I + R");
+rep("[x] U = R × I");
+rep("[ ] P = U × I");
+
+quest("electro35 : Que se passe-t-il si on met deux piles en série ?");
+rep("[x] la tension augmente");
+rep("[ ] le courant diminue toujours");
+rep("[ ] la tension reste la même");
+
+quest("electro36 : Quelle est l’unité de la puissance électrique ?");
+rep("[ ] le volt");
+rep("[ ] l’ampère");
+rep("[x] le watt");
+
+quest("electro37 : Un court-circuit correspond à :");
+rep("[x] une résistance très faible dans le circuit");
+rep("[ ] une coupure du circuit");
+rep("[ ] une tension nulle");
+
+quest("electro38 : À quoi sert la terre dans une installation électrique ?");
+rep("[x] à protéger les personnes");
+rep("[ ] à augmenter la puissance");
+rep("[ ] à stocker l’énergie");
+
+quest("electro39 : Que mesure un voltmètre ?");
+rep("[ ] le courant");
+rep("[x] la tension");
+rep("[ ] la résistance");
+
 // ====================================================================================
 // SECTION : L'agrégation du froid
 // ====================================================================================
