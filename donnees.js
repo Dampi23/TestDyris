@@ -34,6 +34,18 @@ chronometre("60","Le temps est écoulé !");
 // LE QUESTIONNAIRE
 
 // ====================================================================================
+// SECTION : calculatrice online
+// ====================================================================================
+
+theme("test calculatrice");
+
+quest("O001 - Quelle est l’unité de la tension électrique ?");
+rep("[ ] l’ampère");
+rep("[x] le volt");
+rep("[ ] l’ohm");
+fenetre_aide("AIDE","calculatrice","400","300");
+
+// ====================================================================================
 // SECTION : L'électronique
 // ====================================================================================
 
