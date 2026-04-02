@@ -34,6 +34,192 @@ chronometre("60","Le temps est écoulé !");
 // LE QUESTIONNAIRE
 
 // ====================================================================================
+// SECTION : L'électronique
+// ====================================================================================
+
+theme("L'electronique");
+
+quest("electro01 : Quelle est l’unité de l’intensité du courant électrique ?://a");
+rep("[x] L’ampère (A)");
+rep("[ ] Le volt (V)");
+rep("[ ] Le watt (W)");
+rep("[ ] L’ohm (Ω)");
+
+quest("electro02 : Quelle est l’unité de la tension électrique ?://a");
+rep("[ ] L’ampère (A)");
+rep("[x] Le volt (V)");
+rep("[ ] Le watt (W)");
+rep("[ ] L’ohm (Ω)");
+
+quest("electro03 : Quelle est l’unité de la résistance électrique ?://a");
+rep("[ ] Le volt (V)");
+rep("[ ] L’ampère (A)");
+rep("[x] L’ohm (Ω)");
+rep("[ ] Le watt (W)");
+
+quest("electro04 : Que représente le courant électrique ?://a");
+rep("[ ] Une différence de potentiel");
+rep("[x] Un déplacement d’électrons");
+rep("[ ] Une résistance au passage du courant");
+rep("[ ] Une puissance");
+
+quest("electro05 : Que représente la tension électrique ?://a");
+rep("[x] Une différence de potentiel entre deux points");
+rep("[ ] Un flux d’électrons");
+rep("[ ] Une puissance");
+rep("[ ] Une fréquence");
+
+quest("electro06 : Quelle est la loi d’Ohm ?://a");
+rep("[ ] U = R / I");
+rep("[ ] I = U × R");
+rep("[x] U = R × I");
+rep("[ ] R = U × I");
+
+quest("electro07 : Dans un circuit, si la résistance augmente, que se passe-t-il pour le courant (à tension constante) ?://a");
+rep("[x] Il diminue");
+rep("[ ] Il augmente");
+rep("[ ] Il reste constant");
+rep("[ ] Il disparaît");
+
+quest("electro08 : Une pile fournit quel type de courant ?://a");
+rep("[ ] Courant alternatif");
+rep("[x] Courant continu");
+rep("[ ] Courant variable");
+rep("[ ] Courant triphasé");
+
+quest("electro09 : Le courant alternatif (AC) signifie ://a");
+rep("[x] Le courant change de sens périodiquement");
+rep("[ ] Le courant est constant");
+rep("[ ] Le courant est nul");
+rep("[ ] Le courant est stocké");
+
+quest("electro10 : Le courant continu (DC) signifie ://a");
+rep("[ ] Le courant change de sens");
+rep("[x] Le courant circule toujours dans le même sens");
+rep("[ ] Le courant est variable");
+rep("[ ] Le courant est alternatif");
+
+quest("electro11 : Quel est le rôle d’une résistance dans un circuit ?://a");
+rep("[x] Limiter le courant");
+rep("[ ] Augmenter la tension");
+rep("[ ] Produire du courant");
+rep("[ ] Stocker l’énergie");
+
+quest("electro12 : Que se passe-t-il si on met des résistances en série ?://a");
+rep("[x] Les résistances s’additionnent");
+rep("[ ] Elles diminuent");
+rep("[ ] Elles s’annulent");
+rep("[ ] Elles restent identiques");
+
+quest("electro13 : Que se passe-t-il si on met des résistances en parallèle ?://a");
+rep("[ ] Elles s’additionnent");
+rep("[x] La résistance équivalente diminue");
+rep("[ ] Elles augmentent");
+rep("[ ] Elles deviennent nulles");
+
+quest("electro14 : Une diode laisse passer le courant ://a");
+rep("[ ] Dans les deux sens");
+rep("[x] Dans un seul sens");
+rep("[ ] Aucun sens");
+rep("[ ] Seulement en alternatif");
+
+quest("electro15 : Quel est le rôle d’une LED ?://a");
+rep("[ ] Stocker de l’énergie");
+rep("[ ] Amplifier un signal");
+rep("[x] Émettre de la lumière");
+rep("[ ] Résister au courant");
+
+quest("electro16 : Pourquoi utilise-t-on une résistance avec une LED ?://a");
+rep("[x] Pour limiter le courant et éviter de la griller");
+rep("[ ] Pour augmenter la luminosité");
+rep("[ ] Pour changer la couleur");
+rep("[ ] Pour stocker l’énergie");
+
+quest("electro17 : Une LED RGB permet ://a");
+rep("[ ] D’émettre une seule couleur");
+rep("[x] De produire plusieurs couleurs");
+rep("[ ] De mesurer la tension");
+rep("[ ] De stocker des données");
+
+quest("electro18 : Combien de broches possède généralement une LED RGB ?://a");
+rep("[ ] 2");
+rep("[ ] 3");
+rep("[x] 4");
+rep("[ ] 5");
+
+quest("electro19 : Dans une LED RGB, que signifie RGB ?://a");
+rep("[ ] Rouge Gris Bleu");
+rep("[x] Rouge Vert Bleu");
+rep("[ ] Résistance Générale Basse");
+rep("[ ] Rotation Génératrice Binaire");
+
+quest("electro20 : Qu’est-ce qu’une variable en programmation Arduino ?://a");
+rep("[ ] Une boucle");
+rep("[ ] Une fonction");
+rep("[x] Un espace mémoire pour stocker une valeur");
+rep("[ ] Un capteur");
+
+quest("electro21 : À quoi sert la fonction void setup() dans Arduino ?://a");
+rep("[ ] À répéter le code en boucle");
+rep("[x] À initialiser le programme (une seule fois)");
+rep("[ ] À arrêter le programme");
+rep("[ ] À lire les capteurs");
+
+quest("electro22 : À quoi sert la fonction void loop() dans Arduino ?://a");
+rep("[ ] À s’exécuter une seule fois");
+rep("[x] À répéter le programme en continu");
+rep("[ ] À stocker des variables");
+rep("[ ] À compiler le code");
+
+quest("electro23 : Que fait une boucle for ?://a");
+rep("[ ] Exécute une condition une fois");
+rep("[x] Répète une action un nombre défini de fois");
+rep("[ ] Arrête le programme");
+rep("[ ] Crée une variable");
+
+quest("electro24 : Que permet une structure if ?://a");
+rep("[ ] Répéter une action");
+rep("[x] Tester une condition");
+rep("[ ] Créer une boucle infinie");
+rep("[ ] Déclarer une variable");
+
+quest("electro25 : Que signifie une condition if (x > 5) ?://a");
+rep("[ ] x est égal à 5");
+rep("[x] x est supérieur à 5");
+rep("[ ] x est inférieur à 5");
+rep("[ ] x vaut toujours 5");
+
+quest("electro26 : Dans un circuit série, le courant est ://a");
+rep("[x] Identique partout");
+rep("[ ] Différent à chaque endroit");
+rep("[ ] Nul");
+rep("[ ] Variable uniquement");
+
+quest("electro27 : Dans un circuit parallèle, la tension est ://a");
+rep("[x] Identique sur chaque branche");
+rep("[ ] Différente partout");
+rep("[ ] Nulle");
+rep("[ ] Variable uniquement");
+
+quest("electro28 : Que se passe-t-il si une LED est branchée à l’envers ?://a");
+rep("[ ] Elle s’allume plus fort");
+rep("[ ] Elle explose");
+rep("[x] Elle ne s’allume pas");
+rep("[ ] Elle change de couleur");
+
+quest("electro29 : Une pile transforme ://a");
+rep("[ ] Énergie mécanique en électrique");
+rep("[x] Énergie chimique en électrique");
+rep("[ ] Énergie électrique en thermique");
+rep("[ ] Énergie lumineuse en électrique");
+
+quest("electro30 : Que signifie une boucle infinie ?://a");
+rep("[ ] Une boucle qui s’arrête automatiquement");
+rep("[x] Une boucle qui ne s’arrête jamais");
+rep("[ ] Une boucle exécutée une fois");
+rep("[ ] Une boucle inutile");
+
+// ====================================================================================
 // SECTION : L'agrégation du froid
 // ====================================================================================
 
