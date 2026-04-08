@@ -46,6 +46,214 @@ rep("[ ] l’ohm");
 fenetre_aide("AIDE","calculatrice","400","300");
 
 // ====================================================================================
+// SECTION : Protections des personnes
+// ====================================================================================
+
+theme("Les protections des personnes");
+
+quest("Protection01 : À partir de quelle intensité un courant peut-il devenir dangereux pour l’homme ?://a");
+rep("[x] Environ 30 mA");
+rep("[ ] 1 A");
+rep("[ ] 5 A");
+rep("[ ] 230 mA");
+
+quest("Protection02 : Que se passe-t-il lorsqu’une personne touche deux points de potentiels différents ?://a");
+rep("[x] Un courant traverse son corps");
+rep("[ ] Rien ne se passe");
+rep("[ ] La tension disparaît");
+rep("[ ] Le courant s’arrête");
+
+quest("Protection03 : Une protection passive sert à ://a");
+rep("[x] Limiter l’exposition au danger");
+rep("[ ] Couper automatiquement le courant");
+rep("[ ] Augmenter la tension");
+rep("[ ] Mesurer le courant");
+
+quest("Protection04 : Exemple de protection passive ://a");
+rep("[x] Une armoire de confinement");
+rep("[ ] Un disjoncteur différentiel");
+rep("[ ] Un fusible");
+rep("[ ] Un transformateur");
+
+quest("Protection05 : Une protection active sert à ://a");
+rep("[x] Détecter et interrompre un danger");
+rep("[ ] Isoler mécaniquement");
+rep("[ ] Augmenter la puissance");
+rep("[ ] Réduire la tension");
+
+quest("Protection06 : Exemple de protection active ://a");
+rep("[x] Un disjoncteur différentiel");
+rep("[ ] Une armoire électrique");
+rep("[ ] Un câble isolé");
+rep("[ ] Une prise de terre");
+
+quest("Protection07 : En régime TT, le neutre est ://a");
+rep("[x] Relié à la terre");
+rep("[ ] Isolé");
+rep("[ ] Relié à la phase");
+rep("[ ] Supprimé");
+
+quest("Protection08 : Le courant de fuite apparaît lorsque ://a");
+rep("[x] Du courant s’échappe de l’installation");
+rep("[ ] Le courant est nul");
+rep("[ ] La tension disparaît");
+rep("[ ] Le neutre est coupé");
+
+quest("Protection09 : En fonctionnement normal, le courant dans la phase est ://a");
+rep("[x] Égal au courant dans le neutre");
+rep("[ ] Supérieur au neutre");
+rep("[ ] Inférieur au neutre");
+rep("[ ] Nul");
+
+quest("Protection10 : Le dispositif différentiel mesure ://a");
+rep("[x] La différence entre phase et neutre");
+rep("[ ] La tension uniquement");
+rep("[ ] La puissance");
+rep("[ ] La résistance");
+
+quest("Protection11 : Quel élément détecte le courant de fuite ?://a");
+rep("[x] Le tore magnétique");
+rep("[ ] Le fusible");
+rep("[ ] La prise de terre");
+rep("[ ] Le transformateur");
+
+quest("Protection12 : Le disjoncteur différentiel coupe le courant en cas de ://a");
+rep("[x] Défaut d’isolement");
+rep("[ ] Surcharge uniquement");
+rep("[ ] Court-circuit uniquement");
+rep("[ ] Tension faible");
+
+quest("Protection13 : La formule du courant traversant le corps est ://a");
+rep("[x] Ic = Uc / R");
+rep("[ ] Ic = Uc × R");
+rep("[ ] Ic = R / Uc");
+rep("[ ] Ic = Uc²");
+
+quest("Protection14 : La résistance moyenne du corps humain est d’environ ://a");
+rep("[x] 1500 ohms");
+rep("[ ] 50 ohms");
+rep("[ ] 10 000 ohms");
+rep("[ ] 230 ohms");
+
+quest("Protection15 : En milieu humide, la résistance du corps est environ ://a");
+rep("[x] 500 ohms");
+rep("[ ] 1500 ohms");
+rep("[ ] 3000 ohms");
+rep("[ ] 100 ohms");
+
+quest("Protection16 : Le DDR déclenche généralement à ://a");
+rep("[x] 30 mA");
+rep("[ ] 1 A");
+rep("[ ] 10 A");
+rep("[ ] 100 mA");
+
+quest("Protection17 : Le temps de coupure du DDR est environ ://a");
+rep("[x] 10 ms");
+rep("[ ] 1 s");
+rep("[ ] 100 ms");
+rep("[ ] 1 ms");
+
+quest("Protection18 : La norme imposée pour les habitations est ://a");
+rep("[x] NF C15-100");
+rep("[ ] NF C10-100");
+rep("[ ] ISO 9001");
+rep("[ ] CEI 6000");
+
+quest("Protection19 : Le DDR de 30 mA protège contre ://a");
+rep("[x] Contact phase-terre");
+rep("[ ] Contact phase-phase");
+rep("[ ] Contact phase-neutre");
+rep("[ ] Toutes les situations");
+
+quest("Protection20 : Une zone 1 correspond à ://a");
+rep("[x] Aucune réaction");
+rep("[ ] Arrêt cardiaque");
+rep("[ ] Brûlures graves");
+rep("[ ] Tétanisation");
+
+quest("Protection21 : Une zone 4 correspond à ://a");
+rep("[x] Risque de fibrillation et brûlures");
+rep("[ ] Aucun effet");
+rep("[ ] Effets légers");
+rep("[ ] Aucun danger");
+
+quest("Protection22 : La protection contre les contacts indirects utilise ://a");
+rep("[x] DDR + prise de terre");
+rep("[ ] Fusible seul");
+rep("[ ] Transformateur");
+rep("[ ] Disjoncteur thermique");
+
+quest("Protection23 : Les masses métalliques doivent être ://a");
+rep("[x] Reliées à la terre");
+rep("[ ] Isolées de tout");
+rep("[ ] Reliées à la phase");
+rep("[ ] Supprimées");
+
+quest("Protection24 : La tension limite UL est de ://a");
+rep("[x] 50 V");
+rep("[ ] 230 V");
+rep("[ ] 100 V");
+rep("[ ] 12 V");
+
+quest("Protection25 : Condition de sécurité ://a");
+rep("[x] UD ≤ UL");
+rep("[ ] UD ≥ UL");
+rep("[ ] UD = 0");
+rep("[ ] UD > 230 V");
+
+quest("Protection26 : Relation de sécurité avec la terre ://a");
+rep("[x] Ra × Id ≤ UL");
+rep("[ ] Ra + Id ≥ UL");
+rep("[ ] Ra = UL");
+rep("[ ] Id = UL");
+
+quest("Protection27 : Type AC correspond à ://a");
+rep("[x] Usage classique");
+rep("[ ] Usage industriel uniquement");
+rep("[ ] Usage médical");
+rep("[ ] Usage informatique");
+
+quest("Protection28 : Type A est utilisé pour ://a");
+rep("[x] Appareils avec composante continue");
+rep("[ ] Lampes simples");
+rep("[ ] Câbles");
+rep("[ ] Résistances");
+
+quest("Protection29 : Type HI sert à ://a");
+rep("[x] Éviter les déclenchements intempestifs");
+rep("[ ] Augmenter la tension");
+rep("[ ] Réduire la puissance");
+rep("[ ] Supprimer la terre");
+
+quest("Protection30 : En cas de défaut, le DDR doit ://a");
+rep("[x] Couper rapidement l’alimentation");
+rep("[ ] Augmenter le courant");
+rep("[ ] Stabiliser la tension");
+rep("[ ] Ignorer le défaut");
+
+quest("Protection31 : Cette image représente un : //a");
+rep("[x] Contact direct");
+rep("[ ] Contact Indirect");
+aj("images/contactdirect1.png");
+
+quest("Protection32 : Cette image représente un : //a");
+rep("[x] Contact direct");
+rep("[ ] Contact Indirect");
+aj("images/contactdirect2.png");
+
+quest("Protection33 : Cette image représente un : //a");
+rep("[ ] Contact direct");
+rep("[x] Contact Indirect");
+aj("images/contactindirect1.png");
+
+quest("Protection34 : Cette image représente un : //a");
+rep("[ ] Contact direct");
+rep("[x] Contact Indirect");
+aj("images/contactindirect2.png");
+
+
+
+// ====================================================================================
 // SECTION : L'électronique
 // ====================================================================================
 
