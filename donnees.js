@@ -252,6 +252,16 @@ rep("[x] Contact Indirect");
 aj("images/contactindirect2.png");
 
 
+quest("Protection35 : Cette image représente une : //a");
+rep("[ ] protection active");
+rep("[x] protection passive");
+aj("images/protectionpassive.png");
+
+quest("Protection36 : Cette image représente une : //a");
+rep("[x] protection active");
+rep("[ ] protection passive");
+aj("images/protectionactive.png");
+
 
 // ====================================================================================
 // SECTION : L'électronique
