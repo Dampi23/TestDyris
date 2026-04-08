@@ -262,6 +262,12 @@ rep("[x] protection active");
 rep("[ ] protection passive");
 aj("images/protectionactive.png");
 
+quest("Protection37 : Dans quel cas un DDR 30 mA NE protège-t-il PAS une personne ?://a");
+rep("[x] Lors d’un contact entre la phase et le neutre");
+rep("[ ] Lors d’un contact entre la phase et la terre");
+rep("[ ] Lors d’un défaut d’isolement vers la terre");
+rep("[ ] Lors d’un courant de fuite vers la terre");
+
 
 // ====================================================================================
 // SECTION : L'électronique
