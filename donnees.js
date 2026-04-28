@@ -34,19 +34,7 @@ chronometre("60","Le temps est écoulé !");
 // LE QUESTIONNAIRE
 
 // ====================================================================================
-// SECTION : calculatrice online
-// ====================================================================================
-
-theme("test calculatrice");
-
-quest("O001 - Quelle est l’unité de la tension électrique ?");
-rep("[ ] l’ampère");
-rep("[x] le volt");
-rep("[ ] l’ohm");
-fenetre_aide("AIDE","calculatrice","400","300");
-
-// ====================================================================================
-// SECTION : Protections des personnes
+// SECTION : Bac2 : Protections des personnes
 // ====================================================================================
 
 theme("Les protections des personnes");
@@ -268,12 +256,11 @@ rep("[ ] Lors d’un contact entre la phase et la terre");
 rep("[ ] Lors d’un défaut d’isolement vers la terre");
 rep("[ ] Lors d’un courant de fuite vers la terre");
 
-
 // ====================================================================================
-// SECTION : L'électronique
+// SECTION : L'électrotechnique 
 // ====================================================================================
 
-theme("L'electronique");
+theme("Bac 1 bac 2 : L'electro - technique ");
 
 quest("electro01 : Quelle est l’unité de l’intensité du courant électrique ?://a");
 rep("[x] L’ampère (A)");
@@ -377,592 +364,231 @@ rep("[x] De produire plusieurs couleurs");
 rep("[ ] De mesurer la tension");
 rep("[ ] De stocker des données");
 
-quest("electro18 : Combien de broches possède généralement une LED RGB ?://a");
-rep("[ ] 2");
-rep("[ ] 3");
-rep("[x] 4");
-rep("[ ] 5");
-
 quest("electro19 : Dans une LED RGB, que signifie RGB ?://a");
 rep("[ ] Rouge Gris Bleu");
 rep("[x] Rouge Vert Bleu");
 rep("[ ] Résistance Générale Basse");
 rep("[ ] Rotation Génératrice Binaire");
 
-quest("electro20 : Qu’est-ce qu’une variable en programmation Arduino ?://a");
-rep("[ ] Une boucle");
-rep("[ ] Une fonction");
-rep("[x] Un espace mémoire pour stocker une valeur");
-rep("[ ] Un capteur");
-
-quest("electro21 : À quoi sert la fonction void setup() dans Arduino ?://a");
-rep("[ ] À répéter le code en boucle");
-rep("[x] À initialiser le programme (une seule fois)");
-rep("[ ] À arrêter le programme");
-rep("[ ] À lire les capteurs");
-
-quest("electro22 : À quoi sert la fonction void loop() dans Arduino ?://a");
-rep("[ ] À s’exécuter une seule fois");
-rep("[x] À répéter le programme en continu");
-rep("[ ] À stocker des variables");
-rep("[ ] À compiler le code");
-
-quest("electro23 : Que fait une boucle for ?://a");
-rep("[ ] Exécute une condition une fois");
-rep("[x] Répète une action un nombre défini de fois");
-rep("[ ] Arrête le programme");
-rep("[ ] Crée une variable");
-
-quest("electro24 : Que permet une structure if ?://a");
-rep("[ ] Répéter une action");
-rep("[x] Tester une condition");
-rep("[ ] Créer une boucle infinie");
-rep("[ ] Déclarer une variable");
-
-quest("electro25 : Que signifie une condition if (x > 5) ?://a");
-rep("[ ] x est égal à 5");
-rep("[x] x est supérieur à 5");
-rep("[ ] x est inférieur à 5");
-rep("[ ] x vaut toujours 5");
-
-quest("electro26 : Dans un circuit série, le courant est ://a");
+quest("electro20 : Dans un circuit série, le courant est ://a");
 rep("[x] Identique partout");
 rep("[ ] Différent à chaque endroit");
 rep("[ ] Nul");
 rep("[ ] Variable uniquement");
 
-quest("electro27 : Dans un circuit parallèle, la tension est ://a");
+quest("electro21 : Dans un circuit parallèle, la tension est ://a");
 rep("[x] Identique sur chaque branche");
 rep("[ ] Différente partout");
 rep("[ ] Nulle");
 rep("[ ] Variable uniquement");
 
-quest("electro28 : Que se passe-t-il si une LED est branchée à l’envers ?://a");
+quest("electro22 : Que se passe-t-il si une LED est branchée à l’envers ?://a");
 rep("[ ] Elle s’allume plus fort");
 rep("[ ] Elle explose");
 rep("[x] Elle ne s’allume pas");
 rep("[ ] Elle change de couleur");
 
-quest("electro29 : Une pile transforme ://a");
+quest("electro23 : Une pile transforme ://a");
 rep("[ ] Énergie mécanique en électrique");
 rep("[x] Énergie chimique en électrique");
 rep("[ ] Énergie électrique en thermique");
 rep("[ ] Énergie lumineuse en électrique");
 
-quest("electro30 : Que signifie une boucle infinie ?://a");
+quest("electro24 : Quelle est l’unité de la tension électrique ?");
+rep("[ ] l’ampère");
+rep("[x] le volt");
+rep("[ ] l’ohm");
+
+quest("electro25 : Quelle est l’unité de l’intensité du courant ?");
+rep("[x] l’ampère");
+rep("[ ] le watt");
+rep("[ ] le volt");
+
+quest("electro26 : À quoi sert un fusible dans un circuit ?");
+rep("[x] à protéger contre les surintensités");
+rep("[ ] à augmenter la tension");
+rep("[ ] à stocker l’énergie");
+
+quest("electro27 : Quelle est la formule de base de la loi d’Ohm ?");
+rep("[ ] U = I + R");
+rep("[x] U = R × I");
+rep("[ ] P = U × I");
+
+quest("electro28 : Que se passe-t-il si on met deux piles en série ?");
+rep("[x] la tension augmente");
+rep("[ ] le courant diminue toujours");
+rep("[ ] la tension reste la même");
+
+quest("electro29 : Quelle est l’unité de la puissance électrique ?");
+rep("[ ] le volt");
+rep("[ ] l’ampère");
+rep("[x] le watt");
+
+quest("electro30 : Un court-circuit correspond à :");
+rep("[x] une résistance très faible dans le circuit");
+rep("[ ] une coupure du circuit");
+rep("[ ] une tension nulle");
+
+quest("electro31 : À quoi sert la terre dans une installation électrique ?");
+rep("[x] à protéger les personnes");
+rep("[ ] à augmenter la puissance");
+rep("[ ] à stocker l’énergie");
+
+quest("electro32 : Que mesure un voltmètre ?");
+rep("[ ] le courant");
+rep("[x] la tension");
+rep("[ ] la résistance");
+
+quest("electronique33 - En électronique, une diode permet :");
+rep("[x] de laisser passer le courant dans un seul sens");
+rep("[ ] d’augmenter la tension");
+rep("[ ] de stocker l’énergie");
+
+// ====================================================================================
+// SECTION : L'électronique
+// ====================================================================================
+
+theme("Saint laurent : L'électronique ");
+
+quest("electronique1 - Qu’est-ce qu’une variable en programmation Arduino ?://a");
+rep("[ ] Une boucle");
+rep("[ ] Une fonction");
+rep("[x] Un espace mémoire pour stocker une valeur");
+rep("[ ] Un capteur");
+
+quest("electronique2 - À quoi sert la fonction void setup() dans Arduino ?://a");
+rep("[ ] À répéter le code en boucle");
+rep("[x] À initialiser le programme (une seule fois)");
+rep("[ ] À arrêter le programme");
+rep("[ ] À lire les capteurs");
+
+quest("electronique3 - À quoi sert la fonction void loop() dans Arduino ?://a");
+rep("[ ] À s’exécuter une seule fois");
+rep("[x] À répéter le programme en continu");
+rep("[ ] À stocker des variables");
+rep("[ ] À compiler le code");
+
+quest("electronique4 - Que fait une boucle for ?://a");
+rep("[ ] Exécute une condition une fois");
+rep("[x] Répète une action un nombre défini de fois");
+rep("[ ] Arrête le programme");
+rep("[ ] Crée une variable");
+
+quest("electronique5 - Que permet une structure if ?://a");
+rep("[ ] Répéter une action");
+rep("[x] Tester une condition");
+rep("[ ] Créer une boucle infinie");
+rep("[ ] Déclarer une variable");
+
+quest("electronique6 - Que signifie une condition if (x > 5) ?://a");
+rep("[ ] x est égal à 5");
+rep("[x] x est supérieur à 5");
+rep("[ ] x est inférieur à 5");
+rep("[ ] x vaut toujours 5");
+
+quest("electronique7 - Combien de broches possède généralement une LED RGB ?://a");
+rep("[ ] 2");
+rep("[ ] 3");
+rep("[x] 4");
+rep("[ ] 5");
+
+quest("electronique8 - Que signifie une boucle infinie ?://a");
 rep("[ ] Une boucle qui s’arrête automatiquement");
 rep("[x] Une boucle qui ne s’arrête jamais");
 rep("[ ] Une boucle exécutée une fois");
 rep("[ ] Une boucle inutile");
 
-quest("electro31 : Quelle est l’unité de la tension électrique ?");
+quest("electronique9 - Quelle est l’unité de la tension électrique ?");
 rep("[ ] l’ampère");
 rep("[x] le volt");
 rep("[ ] l’ohm");
 
-quest("electro32 : Quelle est l’unité de l’intensité du courant ?");
+quest("electronique10 - Quelle est l’unité de l’intensité du courant ?");
 rep("[x] l’ampère");
 rep("[ ] le watt");
 rep("[ ] le volt");
 
-quest("electro33 : À quoi sert un fusible dans un circuit ?");
+quest("electronique11 - À quoi sert un fusible dans un circuit ?");
 rep("[x] à protéger contre les surintensités");
 rep("[ ] à augmenter la tension");
 rep("[ ] à stocker l’énergie");
 
-quest("electro34 : Quelle est la formule de base de la loi d’Ohm ?");
-rep("[ ] U = I + R");
-rep("[x] U = R × I");
-rep("[ ] P = U × I");
-
-quest("electro35 : Que se passe-t-il si on met deux piles en série ?");
-rep("[x] la tension augmente");
-rep("[ ] le courant diminue toujours");
-rep("[ ] la tension reste la même");
-
-quest("electro36 : Quelle est l’unité de la puissance électrique ?");
-rep("[ ] le volt");
-rep("[ ] l’ampère");
-rep("[x] le watt");
-
-quest("electro37 : Un court-circuit correspond à :");
-rep("[x] une résistance très faible dans le circuit");
-rep("[ ] une coupure du circuit");
-rep("[ ] une tension nulle");
-
-quest("electro38 : À quoi sert la terre dans une installation électrique ?");
-rep("[x] à protéger les personnes");
-rep("[ ] à augmenter la puissance");
-rep("[ ] à stocker l’énergie");
-
-quest("electro39 : Que mesure un voltmètre ?");
-rep("[ ] le courant");
-rep("[x] la tension");
-rep("[ ] la résistance");
-
-// ====================================================================================
-// SECTION : L'agrégation du froid
-// ====================================================================================
-
-theme("L'agrégation du froid");
-
-quest("AgrFroid001 : Quels frigorigènes attaquent la couche d'ozone ?://a");
-rep("[x] Les (H)CFC");
-rep("[ ] Les HFC");
-rep("[ ] Les mélanges de HFC");
-rep("[ ] Tous les agents réfrigérants");
-
-quest("AgrFroid002 : Lequel ou lesquels des réfrigérants suivants sont les moins nocifs sur le plan de l'effet de serre ?://a");
-rep("[ ] Les HCFC");
-rep("[ ] Les HFC");
-rep("[x] Le NH3 (R717)");
-rep("[ ] Les CFC");
-
-quest("AgrFroid003 : Par substances appauvrissant la couche d'ozone, on entend :://a");
-rep("[ ] l'ammoniac");
-rep("[x] les (H)CFC");
-rep("[ ] les HFC");
-rep("[ ] le CO2");
-
-quest("AgrFroid004 : Par gaz à effet de serre fluorés, on désigne :://a");
-rep("[ ] l'ammoniac");
-rep("[ ] le propane");
-rep("[x] les HFC");
-rep("[ ] le CO2");
-
-quest("AgrFroid005 : Le technicien frigoriste doit-il avoir une bouteille de récupération avec lui pour y transvaser le HFC/HCFC soutiré ?://a");
-rep("[ ] Pas obligatoirement car vu la faible toxicité de ces réfrigérants, s'il ne dispose pas d'un récipient, il peut les rejeter à l'atmosphère");
-rep("[ ] Oui et cette bouteille peut être soit un cylindre à réfrigérant vide ayant contenu préalablement le même gaz neuf ou une bouteille de récupération agréée pour le gaz concerné");
-rep("[x] Oui, il doit avoir avec lui une bouteille de récupération agréée pour le gaz concerné");
-rep("[ ] Oui, et pour effectuer cette opération il peut utiliser un récipient de son choix, pour autant qu'il résiste à la pression attendue");
-
-quest("AgrFroid006 : A quoi se réfère-t-on pour évaluer la mesure dans laquelle les réfrigérants contribuent à l'effet de serre ?://a");
-rep("[ ] Au réfrigérant R11");
-rep("[ ] A un réchauffement effectif de 0,5 °C par an");
-rep("[ ] A l'effet de serre tel qu'il existait en 1900");
-rep("[x] Au dioxyde de carbone (CO2) à un horizon de 100 ans");
-
-quest("AgrFroid007 : Quelles sont les substances visées par le Protocole de Montréal ?://a");
-rep("[ ] Exclusivement les gaz à effet de serre fluorés");
-rep("[ ] Exclusivement les substances qui appauvrissent la couche d'ozone");
-rep("[x] Les substances qui appauvrissent la couche d'ozone et depuis l'accord de Kigali, les gaz à effet de serre fluorés");
-rep("[ ] Les hydrocarbures polyaromatiques");
-
-quest("AgrFroid008 : De quelle propriété des réfrigérants traite le Protocole de Montréal ?://a");
-rep("[ ] Exclusivement de la cause de l'effet de serre");
-rep("[ ] Exclusivement du réchauffement climatique");
-rep("[x] De l'appauvrissement de la couche d'ozone et depuis l'accord de Kigali, des changements climatiques");
-rep("[ ] De l'atténuation du rayonnement solaire");
-
-quest("AgrFroid009 : Quelles sont les substances visées par le Protocole de Kyoto ?://a");
-rep("[ ] Les substances qui appauvrissent la couche d'ozone");
-rep("[x] Les gaz à effet de serre");
-rep("[ ] Les composés organiques volatils");
-rep("[ ] Les hydrocarbures polyaromatiques");
-
-quest("AgrFroid010 : De quelle propriété des réfrigérants traite le Protocole de Kyoto ?://a");
-rep("[ ] De la diminution de la couche d'ozone");
-rep("[x] De leur pouvoir de réchauffement climatique");
-rep("[ ] De la réduction de la pollution atmosphérique photochimique");
-rep("[ ] De l'interdiction de l'utilisation de substances dangereuses pour l'environnement");
-
-quest("AgrFroid011 : Lequel des agents suivants est un gaz à effet de serre fluoré réglementé par l'annexe I du règlement 517/2014 ?://a");
-rep("[ ] Le R717");
-rep("[ ] Le R1234yf");
-rep("[ ] L'eau glycolée");
-rep("[x] Le R407C");
-
-quest("AgrFroid012 : Lequel des agents suivants est un gaz à effet de serre fluoré ?://a");
-rep("[ ] Le R717");
-rep("[ ] R290");
-rep("[ ] R744");
-rep("[x] Le R407C");
-
-quest("AgrFroid013 : Lequel des agents suivants n'appartient pas au groupe des HFC réglementés par l'annexe I du règlement 517/2014 (gaz à effet de serre fluorés) ?://a");
-rep("[x] Le R22");
-rep("[ ] Le R404A");
-rep("[ ] Le R134a");
-rep("[ ] Le R407C");
-
-quest("AgrFroid014 : Quel est le PRG/GWP du R404A ?://a");
-rep("[ ] 250");
-rep("[ ] 1");
-rep("[x] 3922");
-rep("[ ] 1 340");
-
-quest("AgrFroid015 : Une entreprise en technique du froid agréée/enregistrée peut-elle laisser ses techniciens qualifiés réparer des pièces contenant du réfrigérant réglementé alors qu'ils ne disposent pas de l'équipement technique minimal requis pour cela ?://a");
-rep("[ ] Oui, elle peut toujours partir du principe que ses techniciens ont l'équipement nécessaire avec eux");
-rep("[x] Non");
-rep("[ ] Elle ne peut les y autoriser que s'ils ont une expérience d'au moins 5 ans");
-rep("[ ] Elle ne peut les y autoriser que s'ils travaillent sous la surveillance d'un technicien certifié");
-
-quest("AgrFroid016 : Qu'entend-on par réfrigérant recyclé ?://a");
-rep("[x] Un réfrigérant récupéré qui a été soumis à un processus de nettoyage simple");
-rep("[ ] Un réfrigérant récupéré qui a été traité de façon à le rendre comparable à du réfrigérant vierge");
-rep("[ ] Un réfrigérant récupéré qui n'a été soumis à aucun nettoyage ou autre traitement préalable à sa réutilisation");
-rep("[ ] Il s'agit d'un mélange dont la composition a été rééquilibrée");
-
-quest("AgrFroid017 : La couche d'ozone :://a");
-rep("[ ] n'est pas attaquée par le R12, ni par le R22");
-rep("[ ] n'est pas attaquée par les réfrigérants chlorés");
-rep("[ ] est attaquée par le R134a");
-rep("[x] est attaquée par les réfrigérants chlorés");
-
-quest("AgrFroid018 : Laquelle des affirmations suivantes est correcte ?://a");
-rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1,43 kg de CO2");
-rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 14,3 kg de CO2");
-rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 143 kg de CO2");
-rep("[x] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1 430 kg de CO2");
-
-quest("AgrFroid019 : Lequel de ces réfrigérants a un PACO/ODP non nul ?://a");
-rep("[x] Le R22");
-rep("[ ] Le R404A");
-rep("[ ] Le R134a");
-rep("[ ] Le R407C");
-
-quest("AgrFroid020 : Quel est l'effet direct de la diminution de la couche d'ozone ?://a");
-rep("[x] Elle augmente la quantité de rayons solaires UV nocifs qui atteignent la surface de la Terre");
-rep("[ ] Elle favorise le réchauffement de la Terre");
-rep("[ ] Elle favorise la fonte des calottes polaires");
-rep("[ ] Elle augmente les pluies acides");
-
-quest("AgrFroid021 : Qu'entend-on par 'régénérer' un réfrigérant ?://a");
-rep("[ ] Récupérer un réfrigérant");
-rep("[ ] Réutiliser un réfrigérant récupéré, mais sans nettoyage ou traitement préalable");
-rep("[ ] Réutiliser un réfrigérant récupéré et soumis à un processus de nettoyage simple");
-rep("[x] Réutiliser un réfrigérant récupéré et traité de façon à le rendre comparable à un réfrigérant vierge");
-
-quest("AgrFroid022 : De quelle catégorie de certificat une personne a-t-elle besoin pour prélever 4 kg de R407C sur un petit système de climatisation (split system) ?://a");
-rep("[x] D'un certificat de catégorie I");
-rep("[ ] D'un certificat de catégorie II");
-rep("[ ] D'un certificat de catégorie III");
-rep("[ ] D'un certificat de catégorie IV");
-
-quest("AgrFroid023 : Lequel de ces réfrigérants possède le PACO/ODP le plus bas ?://a");
-rep("[x] Le NH3");
-rep("[ ] Le R408A");
-rep("[ ] Le R409A");
-rep("[ ] Le R22");
-
-quest("AgrFroid024 : Lequel de ces agents a un PACO/ODP non nul ?://a");
-rep("[x] Le R22");
-rep("[ ] Le R134a");
-rep("[ ] Le R600a");
-rep("[ ] Le R744");
-
-quest("AgrFroid025 : Quel est le constituant du R22 qui a entraîné son interdiction d'utilisation ?://a");
-rep("[ ] Le fluor");
-rep("[x] Le chlore");
-rep("[ ] L'hydrogène");
-rep("[ ] Le carbone");
-
-quest("AgrFroid026 : A quel terme correspond l'abréviation PACO ?://a");
-rep("[ ] Protocole d'accord sur le monoxyde de carbone (CO)");
-rep("[x] Potentiel d'appauvrissement de la couche d'ozone");
-rep("[ ] Procédé d'atténuation de la consommation d'oxygène");
-rep("[ ] Pic d'assimilation des composés organiques");
-
-quest("AgrFroid027 : Les titulaires d'un certificat de catégorie III ://a");
-rep("[x] peuvent récupérer du HFC dans les installations qui en contiennent moins de 3 kg (ou moins de 6 kg si le système est du type hermétique)");
-rep("[ ] peuvent effectuer des réparations du circuit frigorifique d'installations contenant moins de 3 kg de HFC");
-rep("[ ] peuvent effectuer des réparations du circuit frigorifique des installations contenant 3 kg ou plus de HFC");
-rep("[ ] peuvent récupérer le HFC des installations qui en contiennent 3 kg ou plus");
-
-quest("AgrFroid028 : Quel est le réfrigérant dont les émissions ont la plus grande influence directe négative sur l'effet de serre ?://a");
-rep("[ ] Le NH3");
-rep("[ ] Le CO2");
-rep("[x] Les HFC");
-rep("[ ] Tous les agents réfrigérants");
-
-quest("AgrFroid029 : Un livret de bord / carnet d'entretien / registre ://a");
-rep("[x] est obligatoire pour une installation dont la contenance en agent réfrigérant fluoré est supérieure ou égale à 5 t éq. CO2 de HFC");
-rep("[ ] n'est pas du tout obligatoire quelle que soit l'installation");
-rep("[ ] est uniquement obligatoire pour les installations dont la contenance en agent réfrigérant fluoré est supérieure à 50 t éq. CO2 de HFC");
-rep("[ ] n'est pas obligatoire pour les installations de climatisation");
-
-quest("AgrFroid030 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 1 kg de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
-rep("[ ] Non jamais");
-rep("[x] Oui toujours");
-rep("[ ] Seulement si l'installation a nécessité la connexion d'au moins 2 éléments contenant de l'agent réfrigérant");
-rep("[ ] Seulement si cette installation est visée par la norme NBN EN 378");
-
-quest("AgrFroid031 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 2 kg de HFC doit être effectuée par un technicien frigoriste certifié ?://a");
-rep("[ ] Non jamais");
-rep("[x] Oui toujours");
-rep("[ ] Oui, sauf si il s'agit d'un équipement à circuit hermétique");
-rep("[ ] Oui si cette installation est visée par la norme NBN EN 378");
-
-quest("AgrFroid032 : Est-ce que l'installation d'un circuit frigorifique contenant 500 tonnes équivalent CO2 ou plus de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
-rep("[ ] Seulement si cet équipement est visé par la Directive européenne sur les équipements sous pression");
-rep("[ ] Oui excepté le brasage qui peut être réalisé par des braseurs titulaires de la qualification requise, mais sous la responsabilité d'un technicien frigoriste disposant du certificat adéquat");
-rep("[x] Oui toujours");
-rep("[ ] Non, car l'installation des équipements frigorifiques n'est pas visée par les règlementations régionales");
-
-quest("AgrFroid033 : Est-ce que lorsque le personnel certifié effectue des opérations pour laquelle sa certification est requise il est obligé de notifier certaines informations dans le registre / livret de bord de l'équipement ?://a");
-rep("[ ] Uniquement si l'exploitant de l'équipement dispose d'une certification ISO 14001 ou EMAS");
-rep("[ ] Non, c'est l'exploitant qui doit notifier les informations adéquates dans le livret de bord");
-rep("[ ] Uniquement si une fuite d'agent réfrigérant fluoré a été observée");
-rep("[x] Oui, toujours");
-
-quest("AgrFroid034 : Les agents réfrigérants fluorés récupérés ://a");
-rep("[ ] à moins qu'ils soient toxiques, ne doivent faire l'objet d'aucun traitement spécifique");
-rep("[ ] sont considérés comme déchets non dangereux s'il s'agit de HFC");
-rep("[ ] sont des déchets non dangereux puisqu'ils ne sont pas toxiques");
-rep("[x] sont considérés comme déchets dangereux et doivent être éliminés comme tel");
-
-quest("AgrFroid035 : Le technicien frigoriste disposant du certificat adéquat délivré conformément au Règlement UE 2015/2067 est le seul habilité à ://a");
-rep("[ ] intervenir dans les armoires électriques");
-rep("[x] récupérer les agents réfrigérants fluorés contenus dans les équipements frigorifiques");
-rep("[ ] dimensionner une nouvelle installation frigorifique");
-rep("[ ] transporter les agents réfrigérants fluorés issus des équipements frigorifiques");
-
-quest("AgrFroid036 : Selon la norme NBN EN 378, à quelle pression doit-on effectuer le test d'étanchéité à l'azote sur la totalité d'une installation de réfrigération ?://a");
-rep("[ ] A sa pression de service maximale admissible");
-rep("[ ] A une pression de 16 bars côté HP et 6 bars côté BP");
-rep("[x] A une pression égale à 1,5 fois la pression de service maximale");
-rep("[ ] A une pression égale à 1,1 fois la pression maximale de service");
-
-quest("AgrFroid037 : A partir de quelle pression régnant dans l'installation la soupape de surpression doit-elle s'ouvrir afin de libérer le réfrigérant dans l'atmosphère ?://a");
-rep("[ ] A une pression supérieure de 30 % à la pression maximale de service");
-rep("[ ] A une pression supérieure à 1,1 fois la pression maximale de service");
-rep("[x] Lorsque la surpression dépasse d'au moins 15 % la pression maximale de service");
-rep("[ ] La soupape ne peut en aucun cas laisser du réfrigérant s'échapper dans l'atmosphère");
-
-quest("AgrFroid038 : Une notice d'utilisation doit-elle accompagner chaque installation de réfrigération ?://a");
-rep("[ ] Il n'en faut une que si la puissance dépasse 100 kW");
-rep("[ ] La norme NBN EN 378 ne comprend pas de dispositions");
-rep("[ ] C'est le fabricant du compresseur qui doit fournir la notice");
-rep("[x] Selon la norme NBN-EN 378, toute installation conforme doit être accompagnée d'une notice d'utilisation");
-
-quest("AgrFroid039 : Selon la norme NBN-EN 378, sur quelle pression les pressostats de sécurité du côté haute pression doivent-ils être réglés ?://a");
-rep("[ ] Sur une pression supérieure à 25 bars");
-rep("[x] Sur une pression qui ne peut pas être > à 90% de la pression maximale admissible");
-rep("[ ] Sur une pression correspondant à la température d'évaporation");
-rep("[ ] Sur une pression inférieure à 25 bar");
-
-quest("AgrFroid040 : Qui peut réparer les pannes et fuites d'un circuit frigorifique contenant des gaz à effet de serre fluorés ?://a");
-rep("[ ] Tout le monde");
-rep("[ ] Toute personne disposant de l'accès à la profession");
-rep("[ ] Le propriétaire/exploitant");
-rep("[x] Un technicien frigoriste disposant du certificat requis");
-
-quest("AgrFroid041 : Sur base des informations collectées en application du Règlement 517/2014, de quelle façon peut-on établir formellement quand une installation a été contrôlée pour la dernière fois ?://a");
-rep("[x] En consultant le registre de l'équipement");
-rep("[ ] En vérifiant les factures et bons de travail");
-rep("[ ] En consultant une base de données centralisée");
-rep("[ ] En se renseignant auprès de la personne chargée de l'entretien");
-
-quest("AgrFroid042 : Quand on ajoute du réfrigérant de type HFC dans une installation d'une capacité nominale en frigorigène de 5 t éq. CO2 ou plus pour compenser une perte, faut-il également le noter dans le registre ?://a");
-rep("[x] Oui, tous les ajouts doivent y être notés");
-rep("[ ] Il ne faut y noter que les pertes dues à des fuites");
-rep("[ ] On ne doit pas le noter");
-rep("[ ] L'ajout doit être noté dans un registre des pertes accidentelles");
-
-quest("AgrFroid043 : Quand doit-on contrôler l'étanchéité d'une installation contenant 20 t éq. CO2 de réfrigérant ?://a");
-rep("[ ] Tous les 12 mois");
-rep("[ ] Tous les 3 mois");
-rep("[ ] Tous les 6 mois");
-rep("[x] Tous les 6 mois (ou 12 mois si détecteur de fuite)");
-
-quest("AgrFroid044 : Dans quel délai doit-on procéder à un nouveau contrôle d'étanchéité sur une installation où une fuite a été réparée ?://a");
-rep("[ ] Dans un délai maximum de 2 semaines");
-rep("[x] Dans un délai maximum d'un mois");
-rep("[ ] Dans un délai maximum de 12 mois");
-rep("[ ] Dans un délai maximum de 3 mois");
-
-quest("AgrFroid045 : Quand doit-on contrôler l'étanchéité d'une installation d'une capacité de 5 à < 50 tonnes équivalent CO2 de réfrigérant non équipée d'un détecteur de fuite fixe ?://a");
-rep("[ ] Tous les 2 ans");
-rep("[x] Tous les ans");
-rep("[ ] Tous les ans (+ réparation sous 6 mois)");
-rep("[ ] Tous les 6 mois");
-
-quest("AgrFroid046 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à < 500 tonnes équivalent CO2 sans détecteur ?://a");
-rep("[ ] Tous les ans");
-rep("[ ] Tous les 14 jours");
-rep("[x] Tous les 6 mois");
-rep("[ ] Deux fois par an");
-
-quest("AgrFroid047 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation >500 tonnes équivalent CO2 équipée d'un système de détection de fuite ?://a");
-rep("[x] Tous les 3 mois");
-rep("[ ] Tous les 6 mois");
-rep("[ ] Une fois par an");
-rep("[ ] Tous les 2 ans");
-
-quest("AgrFroid048 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à 500 t éq. CO2 équipée d'un système de détection de fuite ?://a");
-rep("[ ] Tous les 6 mois");
-rep("[ ] Tous les 2 ans");
-rep("[x] Tous les ans");
-rep("[ ] Tous les 6 mois (+ 2 mois réparation)");
-
-quest("AgrFroid049 : Lequel des agents suivants ne peut plus être utilisé ?://a");
-rep("[ ] Le R134a");
-rep("[ ] Le R410A");
-rep("[x] Le R22");
-rep("[ ] Le R507");
-
-quest("AgrFroid050 : Quelle doit être la sensibilité minimale d'un détecteur électronique de fuites utilisé pour effectuer un contrôle d'étanchéité périodique réglementaire ?://a");
-rep("[ ] 5 g/an");
-rep("[ ] 5 % de la capacité");
-rep("[ ] 1 000 ppm");
-rep("[x] 100 g/an");
-
-quest("AgrFroid051 : Depuis quand ne peut-on plus utiliser du HCFC recyclé ?://a");
-rep("[x] Depuis le 01/01/2015");
-rep("[ ] Depuis le 01/01/2016");
-rep("[ ] Depuis le 01/01/2017");
-rep("[ ] Depuis l'Amendement de Kigali");
-
-quest("AgrFroid052 : Qui peut effectuer le nettoyage externe des appareils de réfrigération ?://a");
-rep("[x] Tout le monde");
-rep("[ ] N'importe quel membre d'une entreprise agréée");
-rep("[ ] Sous surveillance d'un frigoriste");
-rep("[ ] Exclusivement un technicien certifié");
-
-quest("AgrFroid053 : Qui peut effectuer des réparations électriques sur une installation de réfrigération ?://a");
-rep("[x] Une personne possédant les compétences techniques requises");
-rep("[ ] Exclusivement un technicien frigoriste certifié");
-rep("[ ] Certifié + module électricité-froid");
-rep("[ ] Sous surveillance");
-
-quest("AgrFroid054 : Quelles installations ne doivent pas subir de contrôle annuel d'étanchéité ?://a");
-rep("[ ] <10 t CO2");
-rep("[ ] Hermétiques <10 t CO2 + <5 t CO2");
-rep("[x] Hermétiques <10 t CO2 avec marquage");
-rep("[ ] <50 t CO2 avec détecteur");
-
-quest("AgrFroid055 : Le type de réfrigérant doit-il être indiqué sur le registre ?://a");
-rep("[ ] Oui à partir de 5 kg");
-rep("[ ] Oui à partir de 50 t CO2");
-rep("[x] Oui à partir de 5 t CO2");
-rep("[ ] Oui à partir de 500 t CO2");
-
-quest("AgrFroid056 : Si aucune fuite, quand vérifier une installation de 20 t CO2 sans détecteur ?://a");
-rep("[ ] Chaque semaine");
-rep("[ ] Tous les 3 mois");
-rep("[x] Tous les 12 mois");
-rep("[ ] Tous les mois");
-
-quest("AgrFroid057 : Les raccords évasés flare sont-ils toujours autorisés ?://a");
-rep("[ ] Seulement démontables");
-rep("[x] Oui mais non recommandés");
-rep("[ ] Interdits");
-rep("[ ] Remplacés par euroraccords");
-
-quest("AgrFroid058 : Quand contrôler une installation 5 à <50 t CO2 sans détecteur ?://a");
-rep("[ ] Tous les 3 mois");
-rep("[ ] Tous les 6 mois");
-rep("[x] Tous les 12 mois");
-rep("[ ] Tous les 24 mois");
-
-quest("AgrFroid059 : Une installation de 10 t CO2 doit comprendre ://a");
-rep("[ ] Détection fuite");
-rep("[ ] Contrôle T° et pression");
-rep("[x] Un registre");
-rep("[ ] Voyant liquide");
-
-quest("AgrFroid060 : A quoi sert essentiellement le registre ?://a");
-rep("[ ] Document paraphé");
-rep("[ ] Vérifié organisme");
-rep("[ ] Consigner entretien uniquement");
-rep("[x] Noter entretien + quantités de fluide");
-
-// ====================================================================================
-// SECTION : Portes ouvertes
-// ====================================================================================
-
-theme("Les portes ouvertes");
-
-quest("O001 - Quelle est l’unité de la tension électrique ?");
-rep("[ ] l’ampère");
-rep("[x] le volt");
-rep("[ ] l’ohm");
-
-quest("O002 - Quelle est l’unité de l’intensité du courant ?");
-rep("[x] l’ampère");
-rep("[ ] le watt");
-rep("[ ] le volt");
-
-quest("O003 - À quoi sert un fusible dans un circuit ?");
-rep("[x] à protéger contre les surintensités");
-rep("[ ] à augmenter la tension");
-rep("[ ] à stocker l’énergie");
-
-quest("O004 - Que se passe-t-il si un circuit est ouvert ?");
+quest("electronique12 - Que se passe-t-il si un circuit est ouvert ?");
 rep("[ ] le courant augmente");
 rep("[x] le courant ne circule plus");
 rep("[ ] la tension disparaît");
 
-quest("O005 - Quel matériau est un bon conducteur électrique ?");
+quest("electronique13 - Quel matériau est un bon conducteur électrique ?");
 rep("[ ] le plastique");
 rep("[x] le cuivre");
 rep("[ ] le bois");
 
-quest("O006 - Quelle est la formule de base de la loi d’Ohm ?");
+quest("electronique14 - Quelle est la formule de base de la loi d’Ohm ?");
 rep("[ ] U = I + R");
 rep("[x] U = R × I");
 rep("[ ] P = U × I");
 
-quest("O007 - Que fait un interrupteur dans un circuit ?");
+quest("electronique15 - Que fait un interrupteur dans un circuit ?");
 rep("[ ] il augmente le courant");
 rep("[x] il ouvre ou ferme le circuit");
 rep("[ ] il transforme la tension");
 
-quest("O008 - Que se passe-t-il si on met deux piles en série ?");
+quest("electronique16 - Que se passe-t-il si on met deux piles en série ?");
 rep("[x] la tension augmente");
 rep("[ ] le courant diminue toujours");
 rep("[ ] la tension reste la même");
 
-quest("O009 - Quelle est l’unité de la puissance électrique ?");
+quest("electronique17 - Quelle est l’unité de la puissance électrique ?");
 rep("[ ] le volt");
 rep("[ ] l’ampère");
 rep("[x] le watt");
 
-quest("O010 - Un court-circuit correspond à :");
+quest("electronique18 - Un court-circuit correspond à :");
 rep("[x] une résistance très faible dans le circuit");
 rep("[ ] une coupure du circuit");
 rep("[ ] une tension nulle");
 
-quest("O011 - Que se passe-t-il si on touche un fil sous tension ?");
+quest("electronique19 - Que se passe-t-il si on touche un fil sous tension ?");
 rep("[ ] rien ne se passe");
 rep("[x] il y a un risque d’électrocution");
 rep("[ ] le courant s’arrête");
 
-quest("O012 - Quel composant permet de stocker de l’énergie électrique ?");
+quest("electronique20- Quel composant permet de stocker de l’énergie électrique ?");
 rep("[ ] une résistance");
 rep("[x] une batterie");
 rep("[ ] un interrupteur");
 
-quest("O013 - En mécanique, à quoi sert un levier ?");
+quest("electronique21- En mécanique, à quoi sert un levier ?");
 rep("[x] à multiplier une force");
 rep("[ ] à réduire la vitesse");
 rep("[ ] à stocker de l’électricité");
 
-quest("O014 - En électronique, une diode permet :");
+quest("electronique22 - En électronique, une diode permet :");
 rep("[x] de laisser passer le courant dans un seul sens");
 rep("[ ] d’augmenter la tension");
 rep("[ ] de stocker l’énergie");
 
-quest("O015 - Si la résistance augmente dans un circuit (tension constante), que fait le courant ?");
+quest("electronique23 - Si la résistance augmente dans un circuit (tension constante), que fait le courant ?");
 rep("[ ] il augmente");
 rep("[x] il diminue");
 rep("[ ] il ne change pas");
 
-quest("O016 - À quoi sert la terre dans une installation électrique ?");
+quest("electronique24 - À quoi sert la terre dans une installation électrique ?");
 rep("[x] à protéger les personnes");
 rep("[ ] à augmenter la puissance");
 rep("[ ] à stocker l’énergie");
 
-quest("O017 - Une lampe qui ne s’allume pas peut être due à :");
+quest("electronique25 - Une lampe qui ne s’allume pas peut être due à :");
 rep("[x] une ampoule grillée");
 rep("[ ] une tension trop élevée uniquement");
 rep("[ ] un excès de courant utile");
 
-quest("O018 - En mécanique, la vitesse est :");
+quest("electronique26 - En mécanique, la vitesse est :");
 rep("[x] une distance parcourue par unité de temps");
 rep("[ ] une force appliquée");
 rep("[ ] une énergie stockée");
 
-quest("O019 - Que mesure un voltmètre ?");
+quest("electronique27 - Que mesure un voltmètre ?");
 rep("[ ] le courant");
 rep("[x] la tension");
 rep("[ ] la résistance");
@@ -970,7 +596,7 @@ rep("[ ] la résistance");
 // ====================================================================================
 // SECTION : La pneumatique
 // ====================================================================================
-theme("La pneumatique");
+theme("Bac 3 : La pneumatique");
 
 quest("PNEU1 : Ce vérin est ://a");
 rep("[x] simple effet");
@@ -1115,7 +741,7 @@ rep("[ ] Que l'air ne passe pas mais le courant passe ");
 // ====================================================================================
 // SECTION : Les capteurs
 // ====================================================================================
-theme("Les capteurs");
+theme(" Bac 3 : Les capteurs");
 quest("CAPT1 : Ce codeur incrémental (500 points/tour) tourne à 600 tr/min. Quelle est la fréquence des impulsions de sortie ?//a");
 rep("[ ] 300 kHz");
 rep("[x] 5 kHz");
@@ -1356,7 +982,7 @@ faux("Il faut diviser la tension par la vitesse : 60 / 1000.");
 // ====================================================================================
 // SECTION : La loi d'Ohm
 // ====================================================================================
-theme("La Loi d'Ohm");
+theme("Bac 1 : La Loi d'Ohm");
 
 debut("Questions sur la relation entre Tension, Courant et Résistance.");
 
@@ -1377,7 +1003,7 @@ rep("[x] 2 Ampères");
 rep("[ ] 200 Ampères");
 
 
-theme("Le Multimètre");
+theme(" Bac 1 : Le Multimètre");
 
 debut("Savoir utiliser les appareils de mesure.");
 
@@ -1397,7 +1023,7 @@ rep("[ ] La borne A");
 rep("[x] La borne COM");
 
 
-theme("Courant Continu (DC)");
+theme(" Bac 1 : Courant Continu (DC)");
 
 debut("Le courant fourni par les piles et batteries.");
 
@@ -1417,7 +1043,7 @@ rep("[x] Une batterie de voiture");
 rep("[ ] Un alternateur de centrale");
 
 
-theme("Courant Alternatif (AC)");
+theme("Bac 2 : Courant Alternatif (AC)");
 
 debut("Le courant du secteur (maison).");
 
@@ -1438,7 +1064,7 @@ rep("[ ] Une parabole");
 rep("[x] Une sinusoïde");
 
 
-theme("Sécurité et Unités");
+theme("Bac 2 : Sécurité et Unités");
 
 quest("Reliez chaque grandeur à son unité ://2");
 rep("Tension : [Volt]");
@@ -1452,7 +1078,7 @@ rep("[x] Un fusible ou un disjoncteur");
 rep("[ ] Un interrupteur");
 rep("[ ] Une pile");
 
-theme("Les Moteurs Triphasés");
+theme(" Bac 2 : Les Moteurs Triphasés");
 
 debut("Questions sur le fonctionnement et le câblage des moteurs triphasés.");
 
@@ -1507,7 +1133,7 @@ rep("[x] Il va caler et risque de griller définitivement");
 rep("[ ] Il passera automatiquement en mode monophasé");
 rep("[ ] Il tournera plus vite");
 
-theme("Synchrone vs Asynchrone");
+theme("Bac 2 : Synchrone vs Asynchrone");
 
 debut("Différences fondamentales entre les technologies synchrones et asynchrones.");
 
@@ -1570,7 +1196,7 @@ rep("[ ] Reste égale");
 rep("[x] Augmente");
 aj("images/détendeur.png");
 
-theme("Moteurs CC et Universel");
+theme("Bac 2 : Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
 
 quest("Pourquoi appelle-t-on un moteur 'universel' ?");
@@ -1749,7 +1375,7 @@ rep("[ ] Le couple devient nul et la température diminue");
 rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
 rep("[ ] Le moteur génère spontanément du courant");
 
-theme("Pannes des systèmes frigorifiques");
+theme("St Laurent : Pannes des systèmes frigorifiques");
 debut("Dépannage commun des systèmes frigorifique.");
 
 quest("P001 - Surchauffe importante, sous-refroidissement faible et BP faible sont les symptôme de :");
@@ -1956,7 +1582,7 @@ rep("[ ] rien ne se passe");
 rep("[x] le thermique du moteur va couper");
 rep("[ ] le fusible de protection va fondre");
 
-theme("La physique du froid");
+theme("St laurent : La physique du froid");
 debut("La physique du froid.");
 quest("Q001. - La puissance au condenseur à air est déterminée par la formule :");
 rep("[ ] ρ =m/V");
@@ -2127,7 +1753,7 @@ rep("[ ] W.m-1.K-1 (autre notation : W/(m.K) )");
 rep("[ ] W.m-2.K-1 (autre notation : W/(m2.K) )");
 rep("[x] m2.K.W-1 (autre notation : m2.K/W )");
 
-theme("Le circuit frigorifique");
+theme("St laurent : Le circuit frigorifique");
 debut("Le circuit frigorifique.");
 
 quest("C001. - Le rôle du détendeur est :");
@@ -2534,3 +2160,369 @@ rep("[ ] compresseur");
 
 quest("C073. - Le point critique est le point numéro :");
 rep("[x] 8");
+
+// ====================================================================================
+// SECTION : L'agrégation du froid
+// ====================================================================================
+
+theme("St Laurent : L'agrégation du froid");
+
+quest("AgrFroid001 : Quels frigorigènes attaquent la couche d'ozone ?://a");
+rep("[x] Les (H)CFC");
+rep("[ ] Les HFC");
+rep("[ ] Les mélanges de HFC");
+rep("[ ] Tous les agents réfrigérants");
+
+quest("AgrFroid002 : Lequel ou lesquels des réfrigérants suivants sont les moins nocifs sur le plan de l'effet de serre ?://a");
+rep("[ ] Les HCFC");
+rep("[ ] Les HFC");
+rep("[x] Le NH3 (R717)");
+rep("[ ] Les CFC");
+
+quest("AgrFroid003 : Par substances appauvrissant la couche d'ozone, on entend :://a");
+rep("[ ] l'ammoniac");
+rep("[x] les (H)CFC");
+rep("[ ] les HFC");
+rep("[ ] le CO2");
+
+quest("AgrFroid004 : Par gaz à effet de serre fluorés, on désigne :://a");
+rep("[ ] l'ammoniac");
+rep("[ ] le propane");
+rep("[x] les HFC");
+rep("[ ] le CO2");
+
+quest("AgrFroid005 : Le technicien frigoriste doit-il avoir une bouteille de récupération avec lui pour y transvaser le HFC/HCFC soutiré ?://a");
+rep("[ ] Pas obligatoirement car vu la faible toxicité de ces réfrigérants, s'il ne dispose pas d'un récipient, il peut les rejeter à l'atmosphère");
+rep("[ ] Oui et cette bouteille peut être soit un cylindre à réfrigérant vide ayant contenu préalablement le même gaz neuf ou une bouteille de récupération agréée pour le gaz concerné");
+rep("[x] Oui, il doit avoir avec lui une bouteille de récupération agréée pour le gaz concerné");
+rep("[ ] Oui, et pour effectuer cette opération il peut utiliser un récipient de son choix, pour autant qu'il résiste à la pression attendue");
+
+quest("AgrFroid006 : A quoi se réfère-t-on pour évaluer la mesure dans laquelle les réfrigérants contribuent à l'effet de serre ?://a");
+rep("[ ] Au réfrigérant R11");
+rep("[ ] A un réchauffement effectif de 0,5 °C par an");
+rep("[ ] A l'effet de serre tel qu'il existait en 1900");
+rep("[x] Au dioxyde de carbone (CO2) à un horizon de 100 ans");
+
+quest("AgrFroid007 : Quelles sont les substances visées par le Protocole de Montréal ?://a");
+rep("[ ] Exclusivement les gaz à effet de serre fluorés");
+rep("[ ] Exclusivement les substances qui appauvrissent la couche d'ozone");
+rep("[x] Les substances qui appauvrissent la couche d'ozone et depuis l'accord de Kigali, les gaz à effet de serre fluorés");
+rep("[ ] Les hydrocarbures polyaromatiques");
+
+quest("AgrFroid008 : De quelle propriété des réfrigérants traite le Protocole de Montréal ?://a");
+rep("[ ] Exclusivement de la cause de l'effet de serre");
+rep("[ ] Exclusivement du réchauffement climatique");
+rep("[x] De l'appauvrissement de la couche d'ozone et depuis l'accord de Kigali, des changements climatiques");
+rep("[ ] De l'atténuation du rayonnement solaire");
+
+quest("AgrFroid009 : Quelles sont les substances visées par le Protocole de Kyoto ?://a");
+rep("[ ] Les substances qui appauvrissent la couche d'ozone");
+rep("[x] Les gaz à effet de serre");
+rep("[ ] Les composés organiques volatils");
+rep("[ ] Les hydrocarbures polyaromatiques");
+
+quest("AgrFroid010 : De quelle propriété des réfrigérants traite le Protocole de Kyoto ?://a");
+rep("[ ] De la diminution de la couche d'ozone");
+rep("[x] De leur pouvoir de réchauffement climatique");
+rep("[ ] De la réduction de la pollution atmosphérique photochimique");
+rep("[ ] De l'interdiction de l'utilisation de substances dangereuses pour l'environnement");
+
+quest("AgrFroid011 : Lequel des agents suivants est un gaz à effet de serre fluoré réglementé par l'annexe I du règlement 517/2014 ?://a");
+rep("[ ] Le R717");
+rep("[ ] Le R1234yf");
+rep("[ ] L'eau glycolée");
+rep("[x] Le R407C");
+
+quest("AgrFroid012 : Lequel des agents suivants est un gaz à effet de serre fluoré ?://a");
+rep("[ ] Le R717");
+rep("[ ] R290");
+rep("[ ] R744");
+rep("[x] Le R407C");
+
+quest("AgrFroid013 : Lequel des agents suivants n'appartient pas au groupe des HFC réglementés par l'annexe I du règlement 517/2014 (gaz à effet de serre fluorés) ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R404A");
+rep("[ ] Le R134a");
+rep("[ ] Le R407C");
+
+quest("AgrFroid014 : Quel est le PRG/GWP du R404A ?://a");
+rep("[ ] 250");
+rep("[ ] 1");
+rep("[x] 3922");
+rep("[ ] 1 340");
+
+quest("AgrFroid015 : Une entreprise en technique du froid agréée/enregistrée peut-elle laisser ses techniciens qualifiés réparer des pièces contenant du réfrigérant réglementé alors qu'ils ne disposent pas de l'équipement technique minimal requis pour cela ?://a");
+rep("[ ] Oui, elle peut toujours partir du principe que ses techniciens ont l'équipement nécessaire avec eux");
+rep("[x] Non");
+rep("[ ] Elle ne peut les y autoriser que s'ils ont une expérience d'au moins 5 ans");
+rep("[ ] Elle ne peut les y autoriser que s'ils travaillent sous la surveillance d'un technicien certifié");
+
+quest("AgrFroid016 : Qu'entend-on par réfrigérant recyclé ?://a");
+rep("[x] Un réfrigérant récupéré qui a été soumis à un processus de nettoyage simple");
+rep("[ ] Un réfrigérant récupéré qui a été traité de façon à le rendre comparable à du réfrigérant vierge");
+rep("[ ] Un réfrigérant récupéré qui n'a été soumis à aucun nettoyage ou autre traitement préalable à sa réutilisation");
+rep("[ ] Il s'agit d'un mélange dont la composition a été rééquilibrée");
+
+quest("AgrFroid017 : La couche d'ozone :://a");
+rep("[ ] n'est pas attaquée par le R12, ni par le R22");
+rep("[ ] n'est pas attaquée par les réfrigérants chlorés");
+rep("[ ] est attaquée par le R134a");
+rep("[x] est attaquée par les réfrigérants chlorés");
+
+quest("AgrFroid018 : Laquelle des affirmations suivantes est correcte ?://a");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1,43 kg de CO2");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 14,3 kg de CO2");
+rep("[ ] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 143 kg de CO2");
+rep("[x] Le rejet de 1 kg de R134a aggrave autant l'effet de serre que le rejet de 1 430 kg de CO2");
+
+quest("AgrFroid019 : Lequel de ces réfrigérants a un PACO/ODP non nul ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R404A");
+rep("[ ] Le R134a");
+rep("[ ] Le R407C");
+
+quest("AgrFroid020 : Quel est l'effet direct de la diminution de la couche d'ozone ?://a");
+rep("[x] Elle augmente la quantité de rayons solaires UV nocifs qui atteignent la surface de la Terre");
+rep("[ ] Elle favorise le réchauffement de la Terre");
+rep("[ ] Elle favorise la fonte des calottes polaires");
+rep("[ ] Elle augmente les pluies acides");
+
+quest("AgrFroid021 : Qu'entend-on par 'régénérer' un réfrigérant ?://a");
+rep("[ ] Récupérer un réfrigérant");
+rep("[ ] Réutiliser un réfrigérant récupéré, mais sans nettoyage ou traitement préalable");
+rep("[ ] Réutiliser un réfrigérant récupéré et soumis à un processus de nettoyage simple");
+rep("[x] Réutiliser un réfrigérant récupéré et traité de façon à le rendre comparable à un réfrigérant vierge");
+
+quest("AgrFroid022 : De quelle catégorie de certificat une personne a-t-elle besoin pour prélever 4 kg de R407C sur un petit système de climatisation (split system) ?://a");
+rep("[x] D'un certificat de catégorie I");
+rep("[ ] D'un certificat de catégorie II");
+rep("[ ] D'un certificat de catégorie III");
+rep("[ ] D'un certificat de catégorie IV");
+
+quest("AgrFroid023 : Lequel de ces réfrigérants possède le PACO/ODP le plus bas ?://a");
+rep("[x] Le NH3");
+rep("[ ] Le R408A");
+rep("[ ] Le R409A");
+rep("[ ] Le R22");
+
+quest("AgrFroid024 : Lequel de ces agents a un PACO/ODP non nul ?://a");
+rep("[x] Le R22");
+rep("[ ] Le R134a");
+rep("[ ] Le R600a");
+rep("[ ] Le R744");
+
+quest("AgrFroid025 : Quel est le constituant du R22 qui a entraîné son interdiction d'utilisation ?://a");
+rep("[ ] Le fluor");
+rep("[x] Le chlore");
+rep("[ ] L'hydrogène");
+rep("[ ] Le carbone");
+
+quest("AgrFroid026 : A quel terme correspond l'abréviation PACO ?://a");
+rep("[ ] Protocole d'accord sur le monoxyde de carbone (CO)");
+rep("[x] Potentiel d'appauvrissement de la couche d'ozone");
+rep("[ ] Procédé d'atténuation de la consommation d'oxygène");
+rep("[ ] Pic d'assimilation des composés organiques");
+
+quest("AgrFroid027 : Les titulaires d'un certificat de catégorie III ://a");
+rep("[x] peuvent récupérer du HFC dans les installations qui en contiennent moins de 3 kg (ou moins de 6 kg si le système est du type hermétique)");
+rep("[ ] peuvent effectuer des réparations du circuit frigorifique d'installations contenant moins de 3 kg de HFC");
+rep("[ ] peuvent effectuer des réparations du circuit frigorifique des installations contenant 3 kg ou plus de HFC");
+rep("[ ] peuvent récupérer le HFC des installations qui en contiennent 3 kg ou plus");
+
+quest("AgrFroid028 : Quel est le réfrigérant dont les émissions ont la plus grande influence directe négative sur l'effet de serre ?://a");
+rep("[ ] Le NH3");
+rep("[ ] Le CO2");
+rep("[x] Les HFC");
+rep("[ ] Tous les agents réfrigérants");
+
+quest("AgrFroid029 : Un livret de bord / carnet d'entretien / registre ://a");
+rep("[x] est obligatoire pour une installation dont la contenance en agent réfrigérant fluoré est supérieure ou égale à 5 t éq. CO2 de HFC");
+rep("[ ] n'est pas du tout obligatoire quelle que soit l'installation");
+rep("[ ] est uniquement obligatoire pour les installations dont la contenance en agent réfrigérant fluoré est supérieure à 50 t éq. CO2 de HFC");
+rep("[ ] n'est pas obligatoire pour les installations de climatisation");
+
+quest("AgrFroid030 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 1 kg de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
+rep("[ ] Non jamais");
+rep("[x] Oui toujours");
+rep("[ ] Seulement si l'installation a nécessité la connexion d'au moins 2 éléments contenant de l'agent réfrigérant");
+rep("[ ] Seulement si cette installation est visée par la norme NBN EN 378");
+
+quest("AgrFroid031 : Est-ce qu'une intervention sur le circuit frigorifique d'une installation de climatisation contenant 2 kg de HFC doit être effectuée par un technicien frigoriste certifié ?://a");
+rep("[ ] Non jamais");
+rep("[x] Oui toujours");
+rep("[ ] Oui, sauf si il s'agit d'un équipement à circuit hermétique");
+rep("[ ] Oui si cette installation est visée par la norme NBN EN 378");
+
+quest("AgrFroid032 : Est-ce que l'installation d'un circuit frigorifique contenant 500 tonnes équivalent CO2 ou plus de HFC doit être effectuée par un technicien frigoriste disposant du certificat adéquat ?://a");
+rep("[ ] Seulement si cet équipement est visé par la Directive européenne sur les équipements sous pression");
+rep("[ ] Oui excepté le brasage qui peut être réalisé par des braseurs titulaires de la qualification requise, mais sous la responsabilité d'un technicien frigoriste disposant du certificat adéquat");
+rep("[x] Oui toujours");
+rep("[ ] Non, car l'installation des équipements frigorifiques n'est pas visée par les règlementations régionales");
+
+quest("AgrFroid033 : Est-ce que lorsque le personnel certifié effectue des opérations pour laquelle sa certification est requise il est obligé de notifier certaines informations dans le registre / livret de bord de l'équipement ?://a");
+rep("[ ] Uniquement si l'exploitant de l'équipement dispose d'une certification ISO 14001 ou EMAS");
+rep("[ ] Non, c'est l'exploitant qui doit notifier les informations adéquates dans le livret de bord");
+rep("[ ] Uniquement si une fuite d'agent réfrigérant fluoré a été observée");
+rep("[x] Oui, toujours");
+
+quest("AgrFroid034 : Les agents réfrigérants fluorés récupérés ://a");
+rep("[ ] à moins qu'ils soient toxiques, ne doivent faire l'objet d'aucun traitement spécifique");
+rep("[ ] sont considérés comme déchets non dangereux s'il s'agit de HFC");
+rep("[ ] sont des déchets non dangereux puisqu'ils ne sont pas toxiques");
+rep("[x] sont considérés comme déchets dangereux et doivent être éliminés comme tel");
+
+quest("AgrFroid035 : Le technicien frigoriste disposant du certificat adéquat délivré conformément au Règlement UE 2015/2067 est le seul habilité à ://a");
+rep("[ ] intervenir dans les armoires électriques");
+rep("[x] récupérer les agents réfrigérants fluorés contenus dans les équipements frigorifiques");
+rep("[ ] dimensionner une nouvelle installation frigorifique");
+rep("[ ] transporter les agents réfrigérants fluorés issus des équipements frigorifiques");
+
+quest("AgrFroid036 : Selon la norme NBN EN 378, à quelle pression doit-on effectuer le test d'étanchéité à l'azote sur la totalité d'une installation de réfrigération ?://a");
+rep("[ ] A sa pression de service maximale admissible");
+rep("[ ] A une pression de 16 bars côté HP et 6 bars côté BP");
+rep("[x] A une pression égale à 1,5 fois la pression de service maximale");
+rep("[ ] A une pression égale à 1,1 fois la pression maximale de service");
+
+quest("AgrFroid037 : A partir de quelle pression régnant dans l'installation la soupape de surpression doit-elle s'ouvrir afin de libérer le réfrigérant dans l'atmosphère ?://a");
+rep("[ ] A une pression supérieure de 30 % à la pression maximale de service");
+rep("[ ] A une pression supérieure à 1,1 fois la pression maximale de service");
+rep("[x] Lorsque la surpression dépasse d'au moins 15 % la pression maximale de service");
+rep("[ ] La soupape ne peut en aucun cas laisser du réfrigérant s'échapper dans l'atmosphère");
+
+quest("AgrFroid038 : Une notice d'utilisation doit-elle accompagner chaque installation de réfrigération ?://a");
+rep("[ ] Il n'en faut une que si la puissance dépasse 100 kW");
+rep("[ ] La norme NBN EN 378 ne comprend pas de dispositions");
+rep("[ ] C'est le fabricant du compresseur qui doit fournir la notice");
+rep("[x] Selon la norme NBN-EN 378, toute installation conforme doit être accompagnée d'une notice d'utilisation");
+
+quest("AgrFroid039 : Selon la norme NBN-EN 378, sur quelle pression les pressostats de sécurité du côté haute pression doivent-ils être réglés ?://a");
+rep("[ ] Sur une pression supérieure à 25 bars");
+rep("[x] Sur une pression qui ne peut pas être > à 90% de la pression maximale admissible");
+rep("[ ] Sur une pression correspondant à la température d'évaporation");
+rep("[ ] Sur une pression inférieure à 25 bar");
+
+quest("AgrFroid040 : Qui peut réparer les pannes et fuites d'un circuit frigorifique contenant des gaz à effet de serre fluorés ?://a");
+rep("[ ] Tout le monde");
+rep("[ ] Toute personne disposant de l'accès à la profession");
+rep("[ ] Le propriétaire/exploitant");
+rep("[x] Un technicien frigoriste disposant du certificat requis");
+
+quest("AgrFroid041 : Sur base des informations collectées en application du Règlement 517/2014, de quelle façon peut-on établir formellement quand une installation a été contrôlée pour la dernière fois ?://a");
+rep("[x] En consultant le registre de l'équipement");
+rep("[ ] En vérifiant les factures et bons de travail");
+rep("[ ] En consultant une base de données centralisée");
+rep("[ ] En se renseignant auprès de la personne chargée de l'entretien");
+
+quest("AgrFroid042 : Quand on ajoute du réfrigérant de type HFC dans une installation d'une capacité nominale en frigorigène de 5 t éq. CO2 ou plus pour compenser une perte, faut-il également le noter dans le registre ?://a");
+rep("[x] Oui, tous les ajouts doivent y être notés");
+rep("[ ] Il ne faut y noter que les pertes dues à des fuites");
+rep("[ ] On ne doit pas le noter");
+rep("[ ] L'ajout doit être noté dans un registre des pertes accidentelles");
+
+quest("AgrFroid043 : Quand doit-on contrôler l'étanchéité d'une installation contenant 20 t éq. CO2 de réfrigérant ?://a");
+rep("[ ] Tous les 12 mois");
+rep("[ ] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[x] Tous les 6 mois (ou 12 mois si détecteur de fuite)");
+
+quest("AgrFroid044 : Dans quel délai doit-on procéder à un nouveau contrôle d'étanchéité sur une installation où une fuite a été réparée ?://a");
+rep("[ ] Dans un délai maximum de 2 semaines");
+rep("[x] Dans un délai maximum d'un mois");
+rep("[ ] Dans un délai maximum de 12 mois");
+rep("[ ] Dans un délai maximum de 3 mois");
+
+quest("AgrFroid045 : Quand doit-on contrôler l'étanchéité d'une installation d'une capacité de 5 à < 50 tonnes équivalent CO2 de réfrigérant non équipée d'un détecteur de fuite fixe ?://a");
+rep("[ ] Tous les 2 ans");
+rep("[x] Tous les ans");
+rep("[ ] Tous les ans (+ réparation sous 6 mois)");
+rep("[ ] Tous les 6 mois");
+
+quest("AgrFroid046 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à < 500 tonnes équivalent CO2 sans détecteur ?://a");
+rep("[ ] Tous les ans");
+rep("[ ] Tous les 14 jours");
+rep("[x] Tous les 6 mois");
+rep("[ ] Deux fois par an");
+
+quest("AgrFroid047 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation >500 tonnes équivalent CO2 équipée d'un système de détection de fuite ?://a");
+rep("[x] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[ ] Une fois par an");
+rep("[ ] Tous les 2 ans");
+
+quest("AgrFroid048 : Quand est-il obligatoire de contrôler l'étanchéité d'une installation de 50 à 500 t éq. CO2 équipée d'un système de détection de fuite ?://a");
+rep("[ ] Tous les 6 mois");
+rep("[ ] Tous les 2 ans");
+rep("[x] Tous les ans");
+rep("[ ] Tous les 6 mois (+ 2 mois réparation)");
+
+quest("AgrFroid049 : Lequel des agents suivants ne peut plus être utilisé ?://a");
+rep("[ ] Le R134a");
+rep("[ ] Le R410A");
+rep("[x] Le R22");
+rep("[ ] Le R507");
+
+quest("AgrFroid050 : Quelle doit être la sensibilité minimale d'un détecteur électronique de fuites utilisé pour effectuer un contrôle d'étanchéité périodique réglementaire ?://a");
+rep("[ ] 5 g/an");
+rep("[ ] 5 % de la capacité");
+rep("[ ] 1 000 ppm");
+rep("[x] 100 g/an");
+
+quest("AgrFroid051 : Depuis quand ne peut-on plus utiliser du HCFC recyclé ?://a");
+rep("[x] Depuis le 01/01/2015");
+rep("[ ] Depuis le 01/01/2016");
+rep("[ ] Depuis le 01/01/2017");
+rep("[ ] Depuis l'Amendement de Kigali");
+
+quest("AgrFroid052 : Qui peut effectuer le nettoyage externe des appareils de réfrigération ?://a");
+rep("[x] Tout le monde");
+rep("[ ] N'importe quel membre d'une entreprise agréée");
+rep("[ ] Sous surveillance d'un frigoriste");
+rep("[ ] Exclusivement un technicien certifié");
+
+quest("AgrFroid053 : Qui peut effectuer des réparations électriques sur une installation de réfrigération ?://a");
+rep("[x] Une personne possédant les compétences techniques requises");
+rep("[ ] Exclusivement un technicien frigoriste certifié");
+rep("[ ] Certifié + module électricité-froid");
+rep("[ ] Sous surveillance");
+
+quest("AgrFroid054 : Quelles installations ne doivent pas subir de contrôle annuel d'étanchéité ?://a");
+rep("[ ] <10 t CO2");
+rep("[ ] Hermétiques <10 t CO2 + <5 t CO2");
+rep("[x] Hermétiques <10 t CO2 avec marquage");
+rep("[ ] <50 t CO2 avec détecteur");
+
+quest("AgrFroid055 : Le type de réfrigérant doit-il être indiqué sur le registre ?://a");
+rep("[ ] Oui à partir de 5 kg");
+rep("[ ] Oui à partir de 50 t CO2");
+rep("[x] Oui à partir de 5 t CO2");
+rep("[ ] Oui à partir de 500 t CO2");
+
+quest("AgrFroid056 : Si aucune fuite, quand vérifier une installation de 20 t CO2 sans détecteur ?://a");
+rep("[ ] Chaque semaine");
+rep("[ ] Tous les 3 mois");
+rep("[x] Tous les 12 mois");
+rep("[ ] Tous les mois");
+
+quest("AgrFroid057 : Les raccords évasés flare sont-ils toujours autorisés ?://a");
+rep("[ ] Seulement démontables");
+rep("[x] Oui mais non recommandés");
+rep("[ ] Interdits");
+rep("[ ] Remplacés par euroraccords");
+
+quest("AgrFroid058 : Quand contrôler une installation 5 à <50 t CO2 sans détecteur ?://a");
+rep("[ ] Tous les 3 mois");
+rep("[ ] Tous les 6 mois");
+rep("[x] Tous les 12 mois");
+rep("[ ] Tous les 24 mois");
+
+quest("AgrFroid059 : Une installation de 10 t CO2 doit comprendre ://a");
+rep("[ ] Détection fuite");
+rep("[ ] Contrôle T° et pression");
+rep("[x] Un registre");
+rep("[ ] Voyant liquide");
+
+quest("AgrFroid060 : A quoi sert essentiellement le registre ?://a");
+rep("[ ] Document paraphé");
+rep("[ ] Vérifié organisme");
+rep("[ ] Consigner entretien uniquement");
+rep("[x] Noter entretien + quantités de fluide");
