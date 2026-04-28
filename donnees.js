@@ -56,7 +56,7 @@ rep("[x] 2 Ampères");
 rep("[ ] 200 Ampères");
 
 
-theme(" Bac 1 : Le Multimètre");
+theme("Bac 1 : Le Multimètre");
 
 debut("Savoir utiliser les appareils de mesure.");
 
@@ -76,7 +76,7 @@ rep("[ ] La borne A");
 rep("[x] La borne COM");
 
 
-theme(" Bac 1 : Courant Continu (DC)");
+theme("Bac 1 : Courant Continu (DC)");
 
 debut("Le courant fourni par les piles et batteries.");
 
@@ -99,7 +99,7 @@ rep("[ ] Un alternateur de centrale");
 // SECTION : L'électrotechnique 
 // ====================================================================================
 
-theme("Bac 1 bac 2 : L'electro - technique ");
+theme("Bac 1 / Bac 2 : L'electro - technique ");
 
 quest("electro01 : Quelle est l’unité de l’intensité du courant électrique ?://a");
 rep("[x] L’ampère (A)");
@@ -287,7 +287,7 @@ rep("[ ] de stocker l’énergie");
 // SECTION : Bac2 : Protections des personnes
 // ====================================================================================
 
-theme("BAc 2 : Les protections des personnes");
+theme("Bac 2 : Les protections des personnes");
 
 quest("Protection01 : À partir de quelle intensité un courant peut-il devenir dangereux pour l’homme ?://a");
 rep("[x] Environ 30 mA");
@@ -541,7 +541,7 @@ rep("[x] Un fusible ou un disjoncteur");
 rep("[ ] Un interrupteur");
 rep("[ ] Une pile");
 
-theme(" Bac 2 : Les Moteurs Triphasés");
+theme("Bac 2 : Les Moteurs Triphasés");
 
 debut("Questions sur le fonctionnement et le câblage des moteurs triphasés.");
 
@@ -986,7 +986,8 @@ rep("[ ] Que l'air ne passe pas mais le courant passe ");
 // ====================================================================================
 // SECTION : Les capteurs
 // ====================================================================================
-theme(" Bac 3 : Les capteurs");
+theme("Bac 3 : Les capteurs");
+
 quest("CAPT1 : Ce codeur incrémental (500 points/tour) tourne à 600 tr/min. Quelle est la fréquence des impulsions de sortie ?//a");
 rep("[ ] 300 kHz");
 rep("[x] 5 kHz");
@@ -1583,6 +1584,7 @@ rep("[ ] le fusible de protection va fondre");
 
 theme("St laurent : La physique du froid");
 debut("La physique du froid.");
+
 quest("Q001. - La puissance au condenseur à air est déterminée par la formule :");
 rep("[ ] ρ =m/V");
 rep("[ ] Δp = ρ.g.h");
