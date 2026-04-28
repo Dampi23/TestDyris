@@ -650,15 +650,6 @@ rep("[ ] Oui, via un boîtier électronique");
 rep("[ ] Oui, en inversant la fiche de courant");
 rep("[x] Non, c'est impossible par construction");
 
-
-theme("Technique du froid : Dépannage");
-debut("Les différentes pannes classique dans un système frigorifique");
-quest("Comment évolue la HP dans la panne d'un détendeur trop petit ?");
-rep("[ ] Diminue");
-rep("[ ] Reste égale");
-rep("[x] Augmente");
-aj("images/détendeur.png");
-
 theme("Bac 2 : Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
 
@@ -713,6 +704,7 @@ quest("Comment varie la vitesse d'un moteur universel ?");
 rep("[ ] Elle ne dépend que du nombre de pôles");
 rep("[ ] Elle est fixe à 3000 tr/min");
 rep("[x] Elle est proportionnelle à la tension d'alimentation");
+
 quest("CC1 - Quel composant permet d'inverser le sens du courant dans un moteur à courant continu ?");
 rep("[ ] L'inducteur");
 rep("[ ] Les paliers");
@@ -2161,6 +2153,18 @@ rep("[ ] compresseur");
 
 quest("C073. - Le point critique est le point numéro :");
 rep("[x] 8");
+
+// ====================================================================================
+// SECTION : Technique du froid : Dépannage
+// ====================================================================================
+
+theme("St Laurent : Dépannage Technique du froid");
+debut("Les différentes pannes classique dans un système frigorifique");
+quest("Comment évolue la HP dans la panne d'un détendeur trop petit ?");
+rep("[ ] Diminue");
+rep("[ ] Reste égale");
+rep("[x] Augmente");
+aj("images/détendeur.png");
 
 // ====================================================================================
 // SECTION : L'agrégation du froid
