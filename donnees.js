@@ -1013,6 +1013,41 @@ rep("[ ] Sectionneur");
 rep("[ ] Contacteur");
 rep("[x] Relais thermique");
 
+quest("APP77 : Quel est le composant représenté sur l’image ://a");
+rep("[x] Un contacteur");
+rep("[ ] Un relais");
+rep("[ ] Un disjoncteur magnéto-thermique");
+aj("images/APP77.png");
+
+quest("APP78 : À quoi sert le composant représenté sur l’image ://a");
+rep("[ ] Il permet de mesurer la température d’un moteur");
+rep("[x] Il permet de protéger contre les surcharges");
+rep("[ ] Il permet d’augmenter la vitesse d’un moteur");
+aj("images/APP78.png");
+
+quest("APP79 : Quel mode de démarrage est représenté sur l’image ://a");
+rep("[x] Démarrage direct 2 sens de marche");
+rep("[ ] Démarrage étoile-triangle");
+rep("[ ] Démarrage direct 1 sens de marche");
+aj("images/APP79.png");
+
+quest("APP80 : Quel est le composant électrique représenté sur l'image ?//a");
+rep("[ ] Contacteur");
+rep("[x] Bloc de contacts auxiliaires");
+rep("[ ] Relais");
+aj("images/APP80.png");
+
+quest("APP81 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Capteur photo-électrique");
+rep("[x] Fin de course");
+rep("[ ] Capteur électromagnétique");
+aj("images/APP81.png");
+
+quest("APP82 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Bloc temporisé à l'enclenchement");
+rep("[x] Bloc temporisé au déclenchement");
+aj("images/APP82.png");
+
 
 // ====================================================================================
 // SECTION : Les moteurs triphasés
