@@ -32,6 +32,7 @@ chronometre("60","Le temps est écoulé !");
 
 
 // LE QUESTIONNAIRE
+
 // ====================================================================================
 // SECTION : La loi d'Ohm
 // ====================================================================================
@@ -55,6 +56,9 @@ rep("[ ] 0.5 Ampère");
 rep("[x] 2 Ampères");
 rep("[ ] 200 Ampères");
 
+// ====================================================================================
+// SECTION : Le multimètre
+// ====================================================================================
 
 theme("Bac 1 : Le Multimètre");
 
@@ -75,6 +79,9 @@ rep("[ ] La borne V");
 rep("[ ] La borne A");
 rep("[x] La borne COM");
 
+// ====================================================================================
+// SECTION : Le courant continu
+// ====================================================================================
 
 theme("Bac 1 : Courant Continu (DC)");
 
@@ -540,6 +547,10 @@ rep("[ ] Une lampe");
 rep("[x] Un fusible ou un disjoncteur");
 rep("[ ] Un interrupteur");
 rep("[ ] Une pile");
+
+// ====================================================================================
+// SECTION : Les moteurs triphasés
+// ====================================================================================
 
 theme("Bac 2 : Les Moteurs Triphasés");
 
@@ -1221,7 +1232,7 @@ faux("Il faut diviser la tension par la vitesse : 60 / 1000.");
 // SECTION : L'électronique
 // ====================================================================================
 
-theme("Saint laurent : L'électronique ");
+theme("St laurent : L'électronique ");
 
 quest("electronique1 - Qu’est-ce qu’une variable en programmation Arduino ?://a");
 rep("[ ] Une boucle");
@@ -1366,6 +1377,9 @@ rep("[ ] le courant");
 rep("[x] la tension");
 rep("[ ] la résistance");
 
+// ====================================================================================
+// SECTION : Pannes des systèmes frigorifiques
+// ====================================================================================
 
 theme("St Laurent : Pannes des systèmes frigorifiques");
 debut("Dépannage commun des systèmes frigorifique.");
@@ -1574,6 +1588,10 @@ rep("[ ] rien ne se passe");
 rep("[x] le thermique du moteur va couper");
 rep("[ ] le fusible de protection va fondre");
 
+// ====================================================================================
+// SECTION : La physique du froid
+// ====================================================================================
+
 theme("St laurent : La physique du froid");
 debut("La physique du froid.");
 
@@ -1745,6 +1763,10 @@ rep("[ ] m.K.W-1 (autre notation : m.K/W )");
 rep("[ ] W.m-1.K-1 (autre notation : W/(m.K) )");
 rep("[ ] W.m-2.K-1 (autre notation : W/(m2.K) )");
 rep("[x] m2.K.W-1 (autre notation : m2.K/W )");
+
+// ====================================================================================
+// SECTION : Le circuit frigorifique
+// ====================================================================================
 
 theme("St laurent : Le circuit frigorifique");
 debut("Le circuit frigorifique.");
