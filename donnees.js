@@ -1049,11 +1049,11 @@ rep("[ ] Bloc temporisé à l'enclenchement");
 rep("[x] Bloc temporisé au déclenchement");
 aj("images/APP82.png");
 
-quest("APP83 : La description représentée sur l'image est-elle juste ? Quand on ferme le contact Q1 du sectionneur et que l’on appuie sur le bouton poussoir S1, le courant passe au niveau de la bobine du contacteur KM1 et l’excite. L’excitation de la bobine du contacteur KM1 entraîne la fermeture du contact km1 (en parallèle avec le bouton poussoir S1). Cela a comme effet de maintenir la bobine KM1 alimentée (le moteur piloté par le contacteur KM1 reste allumé). C’est le principe de l’auto-maintien. Un appui sur le bouton poussoir normalement fermé S0 entraîne la désexcitation de la bobine du contacteur KM1 et l’ouverture du contact km1. Le moteur piloté par le contacteur KM1 s’arrête.
+//quest("APP83 : La description représentée sur l'image est-elle juste ? Quand on ferme le contact Q1 du sectionneur et que l’on appuie sur le bouton poussoir S1, le courant passe au niveau de la bobine du contacteur KM1 et l’excite. L’excitation de la bobine du contacteur KM1 entraîne la fermeture du contact km1 (en parallèle avec le bouton poussoir S1). Cela a comme effet de maintenir la bobine KM1 alimentée (le moteur piloté par le contacteur KM1 reste allumé). C’est le principe de l’auto-maintien. Un appui sur le bouton poussoir normalement fermé S0 entraîne la désexcitation de la bobine du contacteur KM1 et l’ouverture du contact km1. Le moteur piloté par le contacteur KM1 s’arrête.
  ?//a");
-rep("[x] Correct");
-rep("[ ] Incorrect");
-aj("images/APP83.png");
+//rep("[x] Correct");
+//rep("[ ] Incorrect");
+//aj("images/APP83.png");
 
 // ====================================================================================
 // SECTION : Les moteurs triphasés
