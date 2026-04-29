@@ -5,7 +5,7 @@ mode_evaluation("1");
 mode_sauvegarde("2");
 //code(" "," ");
 //code("test","test");
-titre("Moteurs Électriques Industriels et Domestiques");
+titre("QCM : Comprendre l'électricité");
 introduction("Évaluez vos connaissances sur les différents thèmes.");
 introduction("N'ayez pas peur de l'échec : une fleur doit se planter pour pousser.");
 //introduction("Ci-dessous, entrez \"test\" comme identifiant et \"test\" comme mot de passe.");
