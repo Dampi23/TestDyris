@@ -10,7 +10,7 @@ introduction("Évaluez vos connaissances sur les différents thèmes.");
 introduction("N'ayez pas peur de l'échec : une fleur doit se planter pour pousser.");
 //introduction("Ci-dessous, entrez \"test\" comme identifiant et \"test\" comme mot de passe.");
 
-nombre_questions("2", "5","10", "20", "30","50" ,"70" );
+nombre_questions("5","10", "20", "30","50" ,"70" );
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 fenetre_info("Score","scores.html");
 url_quitter("http://dyris.free.fr/");
