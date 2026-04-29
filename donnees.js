@@ -2,17 +2,17 @@
 
 mode_presentation("1");
 mode_evaluation("1");
-mode_sauvegarde("2");
+mode_sauvegarde("1");
 //code(" "," ");
-//code("test","test");
-titre("QCM : Comprendre l'électricité");
-introduction("Évaluez vos connaissances sur les différents thèmes.");
-introduction("N'ayez pas peur de l'échec : une fleur doit se planter pour pousser.");
-//introduction("Ci-dessous, entrez \"test\" comme identifiant et \"test\" comme mot de passe.");
+//code("essai","essai");
+titre("Moteurs Électriques Industriels et Domestiques");
+introduction("Évaluez vos connaissances sur les différents types de moteurs.");
+introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
+introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
-nombre_questions("5","10", "20", "30","50" ,"70" );
+nombre_questions("1", "2", "3", "10");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
-fenetre_info("Score","scores.html");
+fenetre_info("test","ISL");
 url_quitter("http://dyris.free.fr/");
 
 coef_rep_juste("2");
@@ -29,7 +29,6 @@ juste("Parfait !||Excellent !||Juste !||Correct !||Bravo !");
 faux("Non...||Faux...||Erreur...||Inexact...");
 abandon("Tentez de répondre la prochaine fois !");
 chronometre("60","Le temps est écoulé !");
-
 
 // LE QUESTIONNAIRE
 
