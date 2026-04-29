@@ -40,18 +40,18 @@ theme("Bac 1 : La Loi d'Ohm");
 
 debut("Questions sur la relation entre Tension, Courant et Résistance.");
 
-quest("Quelle est la formule correcte de la Loi d'Ohm ?");
+quest("Quelle est la formule correcte de la Loi d'Ohm ?//a");
 rep("[ ] P = U x I");
 rep("[x] U = R x I");
 rep("[ ] R = U x I");
 rep("[ ] U = R / I");
 
-quest("Si la résistance R augmente (dans un circuit simple), que fait l'intensité I ?");
+quest("Si la résistance R augmente (dans un circuit simple), que fait l'intensité I ?//a");
 rep("[ ] L'intensité augmente");
 rep("[x] L'intensité diminue");
 rep("[ ] L'intensité reste la même");
 
-quest("Un appareil de 10 Ohms est branché sur 20 Volts. Quelle est l'intensité ? (I = U / R)");
+quest("Un appareil de 10 Ohms est branché sur 20 Volts. Quelle est l'intensité ? (I = U / R)//a");
 rep("[ ] 0.5 Ampère");
 rep("[x] 2 Ampères");
 rep("[ ] 200 Ampères");
@@ -63,21 +63,95 @@ rep("[ ] 200 Ampères");
 theme("Bac 1 : Le Multimètre");
 
 debut("Savoir utiliser les appareils de mesure.");
+quest("Multi01 : Que peut mesurer un multimètre en mode ohmmètre ?//a");
+rep("[ ] La puissance électrique");
+rep("[x] La résistance électrique");
+rep("[ ] La fréquence du réseau");
+aj("images/Multi01.png");
 
-quest("Pour mesurer une tension (en Volts), comment branche-t-on le multimètre ?");
+quest("Multi02 : Que risque-t-on si on mesure une tension avec le multimètre réglé sur ampèremètre ?//a");
+rep("[x] Un court-circuit et la détérioration du multimètre");
+rep("[ ] Une mesure plus précise");
+rep("[ ] Aucun risque");
+aj("images/Multi01.png");
+
+quest("Multi03 : Un voltmètre fait-il partie des fonctions d’un multimètre ?//a");
+rep("[x] Oui, un multimètre peut fonctionner comme voltmètre");
+rep("[ ] Non, ce sont deux appareils totalement différents");
+rep("[ ] Seulement sur les multimètres analogiques");
+aj("images/Multi01.png");
+
+quest("Multi04 : Pourquoi ne faut-il jamais mesurer une résistance sur un circuit sous tension ?//a");
+rep("[x] Cela peut endommager le multimètre et fausser la mesure");
+rep("[ ] Cela améliore la précision");
+rep("[ ] Cela permet de mesurer plus vite");
+aj("images/Multi01.png");
+
+quest("Multi05 : Pour mesurer un courant, comment doit-on brancher le multimètre ?//a");
+rep("[x] En série dans le circuit");
+rep("[ ] En parallèle aux bornes du composant");
+rep("[ ] Directement sur la prise de terre");
+aj("images/Multi01.png");
+
+quest("Multi06 : Quelle borne utilise-t-on généralement avec la borne COM pour mesurer une tension ?//a");
+rep("[x] La borne V");
+rep("[ ] La borne A");
+rep("[ ] La borne Terre");
+aj("images/Multi01.png");
+
+quest("Multi07 : Avant de mesurer une tension inconnue, que faut-il faire ?//a");
+rep("[x] Choisir le plus grand calibre disponible");
+rep("[ ] Régler directement sur le plus petit calibre");
+rep("[ ] Débrancher la borne COM");
+aj("images/Multi01.png");
+
+quest("Multi08 : Peut-on utiliser le multimètre pour vérifier la continuité d’un fil ?//a");
+rep("[x] Oui, avec le mode continuité ou ohmmètre");
+rep("[ ] Non, jamais");
+rep("[ ] Seulement avec le mode ampèremètre");
+aj("images/Multi01.png");
+
+quest("Multi09 : Que signifie OL ou 1 affiché sur certains multimètres en mode ohmmètre ?//a");
+rep("[x] La résistance est infinie ou le circuit est ouvert");
+rep("[ ] Le circuit est en court-circuit");
+rep("[ ] La pile du multimètre est pleine");
+aj("images/Multi01.png");
+
+quest("Multi10 : Pourquoi faut-il remettre le cordon rouge sur la borne V après une mesure de courant ?//a");
+rep("[x] Pour éviter un court-circuit lors d’une prochaine mesure de tension");
+rep("[ ] Pour recharger le multimètre");
+rep("[ ] Pour mesurer plus rapidement");
+aj("images/Multi01.png");
+
+quest("Multi11 : Que se passe-t-il si le fusible interne du multimètre est grillé ?//a");
+rep("[x] La mesure de courant ne fonctionne plus");
+rep("[ ] La mesure devient plus précise");
+rep("[ ] Le multimètre mesure uniquement la tension");
+aj("images/Multi01.png");
+
+quest("Multi12 : Peut-on mesurer directement la tension d’une prise secteur avec n’importe quel réglage ?//a");
+rep("[ ] Oui, sans précaution");
+rep("[x] Non, il faut choisir le bon mode et un calibre adapté");
+rep("[ ] Oui, seulement en mode ohmmètre");
+aj("images/Multi01.png");
+
+quest("Multi13 : Pour mesurer une tension (en Volts), comment branche-t-on le multimètre ?//a");
 rep("[ ] En série (on coupe le circuit)");
 rep("[x] En dérivation / parallèle (aux bornes du composant)");
 rep("[ ] On ne le branche pas, on utilise une pince");
+aj("images/Multi01.png");
 
-quest("Sur quel mode doit-on régler le multimètre pour mesurer un courant ?");
+quest("Multi14 : Sur quel mode doit-on régler le multimètre pour mesurer un courant ?//a");
 rep("[ ] Voltmètre");
 rep("[x] Ampèremètre");
 rep("[ ] Ohmmètre");
+aj("images/Multi01.png");
 
-quest("Quelle borne est commune à toutes les mesures sur un multimètre ?");
+quest("Multi15 : Quelle borne est commune à toutes les mesures sur un multimètre ?//a");
 rep("[ ] La borne V");
 rep("[ ] La borne A");
 rep("[x] La borne COM");
+aj("images/Multi01.png");
 
 // ====================================================================================
 // SECTION : Le courant continu
