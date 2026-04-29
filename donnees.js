@@ -108,6 +108,12 @@ rep("[ ] Un alternateur de centrale");
 
 theme("Bac 1 / Bac 2 : L'electro - technique ");
 
+quest("electro00 : Reliez chaque grandeur à son unité ://2");
+rep("Tension : [Volt]");
+rep("Intensité : [Ampère]");
+rep("Résistance : [Ohm]");
+rep("Puissance : [Watt]");
+
 quest("electro01 : Quelle est l’unité de l’intensité du courant électrique ?://a");
 rep("[x] L’ampère (A)");
 rep("[ ] Le volt (V)");
@@ -513,6 +519,10 @@ rep("[ ] Lors d’un contact entre la phase et la terre");
 rep("[ ] Lors d’un défaut d’isolement vers la terre");
 rep("[ ] Lors d’un courant de fuite vers la terre");
 
+// ====================================================================================
+// SECTION : Le cournant Alternatif
+// ====================================================================================
+
 theme("Bac 2 : Courant Alternatif (AC)");
 
 debut("Le courant du secteur (maison).");
@@ -533,20 +543,20 @@ rep("[ ] Une droite");
 rep("[ ] Une parabole");
 rep("[x] Une sinusoïde");
 
+// ====================================================================================
+// SECTION : Electricité et rôles des appareillages
+// ====================================================================================
 
-theme("Bac 2 : Sécurité et Unités");
+theme("Bac 2 : Appareillage ");
 
-quest("Reliez chaque grandeur à son unité ://2");
-rep("Tension : [Volt]");
-rep("Intensité : [Ampère]");
-rep("Résistance : [Ohm]");
-rep("Puissance : [Watt]");
-
-quest("Quel composant protège un circuit contre les surintensités ?");
-rep("[ ] Une lampe");
+quest("APP01 : Quel composant protège un circuit contre les surintensités ?//");
+rep("[ ] La prise de terre");
 rep("[x] Un fusible ou un disjoncteur");
 rep("[ ] Un interrupteur");
-rep("[ ] Une pile");
+rep("[ ] Un contacteur");
+aj("");
+juste("Bien joué ! Un fusible ou un disjoncteur protège le circuit contre les surintensités en coupant le courant en cas de défaut.");
+faux("Erreur. La protection contre les surintensités est assurée par un fusible ou un disjoncteur.");
 
 // ====================================================================================
 // SECTION : Les moteurs triphasés
@@ -607,6 +617,10 @@ rep("[x] Il va caler et risque de griller définitivement");
 rep("[ ] Il passera automatiquement en mode monophasé");
 rep("[ ] Il tournera plus vite");
 
+// ====================================================================================
+// SECTION : Synchrone vs Asynchrone
+// ====================================================================================
+
 theme("Bac 2 : Synchrone vs Asynchrone");
 
 debut("Différences fondamentales entre les technologies synchrones et asynchrones.");
@@ -660,6 +674,10 @@ quest("Peut-on changer le sens de rotation d'un moteur à Spires de Frager ?");
 rep("[ ] Oui, via un boîtier électronique");
 rep("[ ] Oui, en inversant la fiche de courant");
 rep("[x] Non, c'est impossible par construction");
+
+// ====================================================================================
+// SECTION : Les moteurs CC et universel
+// ====================================================================================
 
 theme("Bac 2 : Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
@@ -840,6 +858,151 @@ rep("[ ] Le moteur continue à tourner à faible vitesse");
 rep("[ ] Le couple devient nul et la température diminue");
 rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
 rep("[ ] Le moteur génère spontanément du courant");
+
+// ====================================================================================
+// SECTION : Le cournat triphasé
+// ====================================================================================
+theme("Bac 2 : La courant triphasé");
+
+quest("TRI01 : Dans un système triphasé, combien de phases différentes sont utilisées ?//a");
+rep("[x] 3 phases");
+rep("[ ] 1 phase");
+rep("[ ] 2 phases");
+rep("[ ] 6 phases");
+aj("images/TRI1.png");
+
+quest("TRI02 : Quelle est la tension entre phase et neutre dans un réseau triphasé 230/400 V ?//a");
+rep("[x] 230 V");
+rep("[ ] 400 V");
+rep("[ ] 690 V");
+rep("[ ] 110 V");
+aj("images/TRI1.png");
+
+quest("TRI03 : Quelle est la tension entre deux phases dans un réseau triphasé 230/400 V ?//a");
+rep("[ ] 230 V");
+rep("[x] 400 V");
+rep("[ ] 500 V");
+rep("[ ] 24 V");
+aj("images/TRI1.png");
+
+quest("TRI04 : Dans un moteur triphasé, pour changer le sens de rotation, il faut ://a");
+rep("[x] Inverser deux phases");
+rep("[ ] Ajouter un fusible");
+rep("[ ] Supprimer le neutre");
+rep("[ ] Ajouter une résistance");
+aj("images/TRI1.png");
+
+quest("TRI05 : Quel appareil permet de protéger un moteur triphasé contre les surcharges ?//a");
+rep("[x] Le relais thermique");
+rep("[ ] Le contacteur");
+rep("[ ] L’interrupteur");
+rep("[ ] Le transformateur");
+aj("images/TRI1.png");
+
+quest("TRI06 : Le couplage étoile est représenté par le symbole ://a");
+rep("[x] Y");
+rep("[ ] Δ");
+rep("[ ] N");
+rep("[ ] T");
+aj("images/TRI1.png");
+
+quest("TRI07 : Le couplage triangle est représenté par le symbole ://a");
+rep("[ ] Y");
+rep("[x] Δ");
+rep("[ ] X");
+rep("[ ] N");
+aj("images/TRI1.png");
+
+quest("TRI08 : Quel est l’avantage principal du courant triphasé pour les moteurs ?//a");
+rep("[x] Il permet un démarrage plus facile et un meilleur rendement");
+rep("[ ] Il supprime le besoin de protection");
+rep("[ ] Il réduit la tension à 12 V");
+rep("[ ] Il fonctionne sans alimentation");
+aj("images/TRI1.png");
+
+quest("TRI09 : Dans un réseau triphasé équilibré, les trois tensions sont décalées de ://a");
+rep("[ ] 60°");
+rep("[ ] 90°");
+rep("[x] 120°");
+rep("[ ] 180°");
+aj("images/TRI1.png");
+
+quest("TRI10 : Quel appareil permet de commander la mise en marche d’un moteur triphasé ?//a");
+rep("[x] Le contacteur");
+rep("[ ] Le fusible");
+rep("[ ] Le transformateur");
+rep("[ ] Le sectionneur");
+aj("images/TRI1.png");
+
+quest("TRI11 : Le neutre est généralement de couleur ://a");
+rep("[x] Bleu");
+rep("[ ] Vert");
+rep("[ ] Rouge");
+rep("[ ] Noir");
+aj("images/TRI1.png");
+
+quest("TRI12 : Le conducteur de protection (terre) est de couleur ://a");
+rep("[x] Vert/jaune");
+rep("[ ] Bleu");
+rep("[ ] Rouge");
+rep("[ ] Noir");
+aj("images/TRI1.png");
+
+quest("TRI13 : Quel couplage est utilisé pour un moteur 230/400 V alimenté en 400 V ?//a");
+rep("[x] Étoile");
+rep("[ ] Triangle");
+rep("[ ] Série");
+rep("[ ] Parallèle");
+aj("images/TRI1.png");
+
+quest("TRI14 : Quel couplage est utilisé pour un moteur 230/400 V alimenté en 230 V triphasé ?//a");
+rep("[ ] Étoile");
+rep("[x] Triangle");
+rep("[ ] Mixte");
+rep("[ ] Simple");
+aj("images/TRI1.png");
+
+quest("TRI15 : Un moteur triphasé possède généralement combien de bornes de raccordement ?//a");
+rep("[x] 6 bornes");
+rep("[ ] 2 bornes");
+rep("[ ] 3 bornes");
+rep("[ ] 9 bornes");
+aj("images/TRI1.png");
+
+quest("TRI16 : Quel appareil coupe automatiquement en cas de court-circuit ?//a");
+rep("[x] Le disjoncteur");
+rep("[ ] Le contacteur");
+rep("[ ] Le relais thermique");
+rep("[ ] Le voltmètre");
+aj("images/TRI1.png");
+
+quest("TRI17 : Le relais thermique protège principalement contre ://a");
+rep("[x] Les surcharges");
+rep("[ ] Les courts-circuits");
+rep("[ ] Les fuites à la terre");
+rep("[ ] Les baisses de tension");
+aj("images/TRI1.png");
+
+quest("TRI18 : Que mesure un ampèremètre ?//a");
+rep("[x] L’intensité du courant");
+rep("[ ] La tension");
+rep("[ ] La puissance");
+rep("[ ] La fréquence");
+aj("images/TRI1.png");
+
+quest("TRI19 : Que mesure un voltmètre ?//a");
+rep("[x] La tension");
+rep("[ ] L’intensité");
+rep("[ ] La résistance");
+rep("[ ] La puissance");
+aj("images/TRI1.png");
+
+quest("TRI20 : La fréquence standard du réseau triphasé en Europe est de ://a");
+rep("[ ] 25 Hz");
+rep("[x] 50 Hz");
+rep("[ ] 60 Hz");
+rep("[ ] 100 Hz");
+aj("images/TRI1.png");
 
 // ====================================================================================
 // SECTION : La pneumatique
