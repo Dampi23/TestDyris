@@ -682,182 +682,180 @@ rep("[x] Non, c'est impossible par construction");
 theme("Bac 2 : Moteurs CC et Universel");
 debut("Moteurs à courant continu, universels et technologies sans balais.");
 
-quest("Pourquoi appelle-t-on un moteur 'universel' ?");
-rep("[x] Car il peut fonctionner en courant continu et alternatif");
-rep("[ ] Car il possède toutes les protections intégrées");
-rep("[ ] Parce qu'il est vendu partout dans le monde");
-
-quest("Quel composant est responsable de l'inversion du courant dans les bobines d'un moteur CC classique ?");
-rep("[ ] Le roulement à billes");
-rep("[ ] Le stator");
-rep("[x] Le collecteur et les balais");
-
-
-quest("Quelle est la formule de la force contre-électromotrice (E') d'un moteur CC ?");
-rep("[ ] E' = U + RI");
-rep("[ ] E' = P / I");
-rep("[x] E' = U - RI");
-
-
-quest("Quel est le principal inconvénient des moteurs CC à balais ?");
-rep("[ ] Ils sont trop silencieux");
-rep("[x] L'usure des balais nécessite un entretien régulier");
-rep("[ ] Ils ne peuvent pas varier de vitesse");
-
-quest("Quelle est la particularité d'un moteur 'Brushless' ?");
-rep("[x] Il n'a pas de collecteur ni de balais (commutation électronique)");
-rep("[ ] Il utilise des balais en or");
-rep("[ ] Il fonctionne sans électricité");
-
-quest("Dans un moteur Brushless, quel élément est généralement le rotor ?");
-rep("[x] Un ou plusieurs aimants permanents");
-rep("[ ] Un noyau de fer doux uniquement");
-rep("[ ] Une bobine de cuivre");
-
-quest("À quoi servent les capteurs à effet Hall dans un moteur Brushless ?");
-rep("[ ] À mesurer la température");
-rep("[x] À connaître la position du rotor pour piloter les bobines");
-rep("[ ] À protéger contre les courts-circuits");
-
-quest("Quel type de moteur offre la plus grande précision pour le positionnement (ex: imprimante) ?");
-rep("[ ] Le moteur asynchrone");
-rep("[x] Le moteur pas à pas");
-rep("[ ] Le moteur universel");
-
-quest("Que se passe-t-il si un moteur CC est bloqué mécaniquement alors qu'il est sous tension ?");
-rep("[ ] La tension s'annule");
-rep("[x] Le courant devient très élevé et risque d'endommager le moteur");
-rep("[ ] Il passe en mode générateur");
-
-quest("Comment varie la vitesse d'un moteur universel ?");
-rep("[ ] Elle ne dépend que du nombre de pôles");
-rep("[ ] Elle est fixe à 3000 tr/min");
-rep("[x] Elle est proportionnelle à la tension d'alimentation");
-
-quest("CC1 - Quel composant permet d'inverser le sens du courant dans un moteur à courant continu ?");
+quest("CC1 - Quel composant permet d'inverser le sens du courant dans un moteur à courant continu ?//a");
 rep("[ ] L'inducteur");
 rep("[ ] Les paliers");
 rep("[ ] Le rotor seul");
 rep("[ ] Le stator");
 rep("[x] Le collecteur et les balais");
 
-quest("CC2 - Quel est le principal usage des moteurs à courant continu de faible puissance ?");
+quest("CC2 - Quel est le principal usage des moteurs à courant continu de faible puissance ?//a");
 rep("[ ] Applications industrielles de haute puissance");
 rep("[ ] Alimentation de réseaux électriques");
 rep("[ ] Transmission de données");
 rep("[ ] Conversion d'énergie solaire");
 rep("[x] Applications portatives comme les jouets ou brosses à dents");
 
-quest("CC3 - Quel est le principal inconvénient du moteur à courant continu par rapport aux machines asynchrones ?");
+quest("CC3 - Quel est le principal inconvénient du moteur à courant continu par rapport aux machines asynchrones ?//a");
 rep("[ ] Il ne fonctionne qu’en courant alternatif");
 rep("[x] Il est moins robuste");
 rep("[ ] Il ne peut pas être réversible");
 rep("[ ] Il ne peut pas réguler la vitesse");
 
-quest("CC4 - Quelle est la fonction principale du stator dans un moteur à courant continu à aimant permanent ?");
+quest("CC4 - Quelle est la fonction principale du stator dans un moteur à courant continu à aimant permanent ?//a");
 rep("[ ] Supporter le rotor mécaniquement");
 rep("[x] Créer un flux magnétique fixe");
 rep("[ ] Fournir un courant électrique au rotor");
 rep("[ ] Inverser le sens du courant");
 rep("[ ] Générer un courant alternatif");
 
-quest("CC5 - Quelle est la conséquence d'une pression insuffisante des balais sur le collecteur ?");
+quest("CC5 - Quelle est la conséquence d'une pression insuffisante des balais sur le collecteur ?//a");
 rep("[ ] Une meilleure conduction électrique");
 rep("[ ] Une réduction de la consommation électrique");
 rep("[ ] Une usure plus lente des composants");
 rep("[ ] Une augmentation de la vitesse de rotation");
 rep("[x] La formation d'arcs électriques et des parasites");
 
-quest("CC6 - Quelle est la principale caractéristique du moteur à courant continu à aimant permanent ?");
+quest("CC6 - Quelle est la principale caractéristique du moteur à courant continu à aimant permanent ?//a");
 rep("[ ] Il nécessite une alimentation en courant alternatif");
 rep("[x] Il utilise des aimants permanents pour le stator");
 rep("[ ] Il fonctionne uniquement avec une excitation à électroaimant");
 rep("[ ] Il ne comporte pas de collecteur ni de balais");
 rep("[ ] Il ne peut pas être utilisé dans des applications portatives");
 
-quest("CC7 - Quelle relation exprime la puissance mécanique en fonction du couple et de la vitesse de rotation ?");
+quest("CC7 - Quelle relation exprime la puissance mécanique en fonction du couple et de la vitesse de rotation ?//a");
 rep("[ ] P = V × I");
 rep("[ ] P = R × I²");
 rep("[ ] P = U × I");
 rep("[ ] P = N × Ø");
 rep("[x] P = C × ω");
 
-quest("CC8 - Dans un moteur à courant continu à excitation, que peut faire le moteur en mode générateur ?");
+quest("CC8 - Dans un moteur à courant continu à excitation, que peut faire le moteur en mode générateur ?//a");
 rep("[ ] Fonctionner sans alimentation extérieure");
 rep("[x] Restituer de l’énergie au réseau");
 rep("[ ] Ne pas fonctionner en mode générateur");
 rep("[ ] Produire un courant alternatif");
 rep("[ ] Consommer de l’énergie uniquement");
 
-quest("CC9 - Quel est le rôle du rotor dans un moteur à courant continu ?");
+quest("CC9 - Quel est le rôle du rotor dans un moteur à courant continu ?//a");
 rep("[ ] Il sert uniquement de support mécanique");
 rep("[x] Il comporte des bobinages qui créent le champ magnétique");
 rep("[ ] Il fixe le stator");
 rep("[ ] Il ne participe pas au fonctionnement électrique");
 rep("[ ] Il génère le flux magnétique fixe");
 
-quest("CC10 - Quel est l'avantage principal du moteur à courant continu avec variateur électronique ?");
+quest("CC10 - Quel est l'avantage principal du moteur à courant continu avec variateur électronique ?//a");
 rep("[ ] Il ne produit pas de parasites électriques");
 rep("[ ] Il est plus robuste que les moteurs asynchrones");
 rep("[x] Il offre une large plage de variation de vitesse");
 rep("[ ] Il fonctionne sans alimentation électrique");
 rep("[ ] Il ne nécessite pas d'entretien");
 
-quest("CC11 - Quelle est la relation correcte entre la tension appliquée au moteur à courant continu et sa vitesse de rotation ?");
+quest("CC11 - Quelle est la relation correcte entre la tension appliquée au moteur à courant continu et sa vitesse de rotation ?//a");
 rep("[ ] La tension n’a aucun effet sur la vitesse");
 rep("[ ] Plus la tension est élevée, plus le couple diminue systématiquement");
 rep("[x] Une augmentation de la tension entraîne une augmentation de la vitesse de rotation");
 rep("[ ] Une baisse de la tension fait augmenter la vitesse");
 rep("[ ] La tension ne sert qu’à alimenter les balais et n’influence pas le moteur");
 
-quest("CC12 - Pourquoi un moteur à courant continu possède-t-il un couple de démarrage élevé ?");
+quest("CC12 - Pourquoi un moteur à courant continu possède-t-il un couple de démarrage élevé ?//a");
 rep("[ ] Parce que la tension est automatiquement multipliée au démarrage");
 rep("[ ] Parce que le stator produit un flux magnétique variable");
 rep("[x] Parce que le courant dans l’induit est élevé à basse vitesse");
 rep("[ ] Parce que le collecteur supprime totalement les pertes électriques");
 rep("[ ] Parce que la vitesse de rotation est maximale au démarrage");
 
-quest("CC13 - Quel est le rôle principal du collecteur dans un moteur à courant continu ?");
+quest("CC13 - Quel est le rôle principal du collecteur dans un moteur à courant continu ?//a");
 rep("[ ] Diminuer la résistance de l’induit");
 rep("[x] Assurer la commutation du courant entre les bobines du rotor");
 rep("[ ] Réguler la vitesse automatiquement");
 rep("[ ] Alimenter directement le stator");
 rep("[ ] Transformer le courant continu en courant alternatif");
 
-quest("CC14 - Quelle action permet de changer le sens de rotation d’un moteur à courant continu ?");
+quest("CC14 - Quelle action permet de changer le sens de rotation d’un moteur à courant continu ?//a");
 rep("[ ] Changer uniquement la position du stator");
 rep("[ ] Inverser les polarités du collecteur");
 rep("[ ] Réduire la tension d’alimentation");
 rep("[ ] Modifier la fréquence d'alimentation");
 rep("[x] Inverser la polarité de l’alimentation du rotor (ou de l’induit)");
 
-quest("CC15 - Quelle est l’influence de la charge mécanique sur la vitesse d’un moteur à courant continu ?");
+quest("CC15 - Quelle est l’influence de la charge mécanique sur la vitesse d’un moteur à courant continu ?//a");
 rep("[x] Une augmentation de la charge tend à diminuer la vitesse");
 rep("[ ] Une augmentation de la charge augmente la vitesse");
 rep("[ ] La charge n’a aucun effet sur la vitesse");
 rep("[ ] La charge modifie seulement la tension, pas la vitesse");
 rep("[ ] La charge fait varier uniquement la direction du flux magnétique");
 
-quest("CC16 - Pourquoi doit-on entretenir régulièrement les balais d’un moteur à courant continu ?");
+quest("CC16 - Pourquoi doit-on entretenir régulièrement les balais d’un moteur à courant continu ?//a");
 rep("[ ] Pour augmenter la tension fournie au moteur");
 rep("[ ] Pour empêcher le moteur de fonctionner à vide");
 rep("[x] Pour limiter l’usure, les arcs électriques et garantir une bonne conduction");
 rep("[ ] Pour éliminer le flux magnétique du stator");
 rep("[ ] Pour éviter que le moteur tourne trop vite");
 
-quest("CC17 - Dans un moteur à courant continu, que se passe-t-il lorsque la vitesse augmente ?");
+quest("CC17 - Dans un moteur à courant continu, que se passe-t-il lorsque la vitesse augmente ?//a");
 rep("[ ] Le courant dans l’induit augmente systématiquement");
 rep("[ ] Le couple augmente proportionnellement");
 rep("[ ] La tension d’alimentation diminue automatiquement");
 rep("[ ] Le flux magnétique du stator devient variable");
 rep("[x] La force contre-électromotrice (f.c.é.m) augmente");
 
-quest("CC18 - Lorsqu’un moteur à courant continu est bloqué mécaniquement (rotor immobile), que se passe-t-il ?");
+quest("CC18 - Lorsqu’un moteur à courant continu est bloqué mécaniquement (rotor immobile), que se passe-t-il ?//a");
 rep("[ ] La force contre-électromotrice augmente fortement");
 rep("[ ] Le moteur continue à tourner à faible vitesse");
 rep("[ ] Le couple devient nul et la température diminue");
 rep("[x] Le courant dans l’induit devient très élevé et risque d’endommager le moteur");
 rep("[ ] Le moteur génère spontanément du courant");
+
+quest("CC19 - Pourquoi appelle-t-on un moteur 'universel' ?//a");
+rep("[x] Car il peut fonctionner en courant continu et alternatif");
+rep("[ ] Car il possède toutes les protections intégrées");
+rep("[ ] Parce qu'il est vendu partout dans le monde");
+
+quest("CC20 - Quel composant est responsable de l'inversion du courant dans les bobines d'un moteur CC classique ?//a");
+rep("[ ] Le roulement à billes");
+rep("[ ] Le stator");
+rep("[x] Le collecteur et les balais");
+
+quest("CC21 - Quelle est la formule de la force contre-électromotrice (E') d'un moteur CC ?//a");
+rep("[ ] E' = U + RI");
+rep("[ ] E' = P / I");
+rep("[x] E' = U - RI");
+
+quest("CC22 - Quel est le principal inconvénient des moteurs CC à balais ?//a");
+rep("[ ] Ils sont trop silencieux");
+rep("[x] L'usure des balais nécessite un entretien régulier");
+rep("[ ] Ils ne peuvent pas varier de vitesse");
+
+quest("CC23 - Quelle est la particularité d'un moteur 'Brushless' ?//a");
+rep("[x] Il n'a pas de collecteur ni de balais (commutation électronique)");
+rep("[ ] Il utilise des balais en or");
+rep("[ ] Il fonctionne sans électricité");
+
+quest("CC24 - Dans un moteur Brushless, quel élément est généralement le rotor ?//a");
+rep("[x] Un ou plusieurs aimants permanents");
+rep("[ ] Un noyau de fer doux uniquement");
+rep("[ ] Une bobine de cuivre");
+
+quest("CC25 - À quoi servent les capteurs à effet Hall dans un moteur Brushless ?//a");
+rep("[ ] À mesurer la température");
+rep("[x] À connaître la position du rotor pour piloter les bobines");
+rep("[ ] À protéger contre les courts-circuits");
+
+quest("CC26 - Quel type de moteur offre la plus grande précision pour le positionnement (ex: imprimante) ?//a");
+rep("[ ] Le moteur asynchrone");
+rep("[x] Le moteur pas à pas");
+rep("[ ] Le moteur universel");
+
+quest("CC27 - Que se passe-t-il si un moteur CC est bloqué mécaniquement alors qu'il est sous tension ?//a");
+rep("[ ] La tension s'annule");
+rep("[x] Le courant devient très élevé et risque d'endommager le moteur");
+rep("[ ] Il passe en mode générateur");
+
+quest("CC28 - Comment varie la vitesse d'un moteur universel ?//a");
+rep("[ ] Elle ne dépend que du nombre de pôles");
+rep("[ ] Elle est fixe à 3000 tr/min");
+rep("[x] Elle est proportionnelle à la tension d'alimentation");
 
 // ====================================================================================
 // SECTION : Le cournat triphasé
