@@ -5,10 +5,10 @@ mode_evaluation("1");
 mode_sauvegarde("1");
 //code(" "," ");
 //code("essai","essai");
-titre("Moteurs Électriques Industriels et Domestiques");
-introduction("Évaluez vos connaissances sur les différents types de moteurs.");
-introduction("Thèmes abordés : Triphasé, Synchrone/Asynchrone, CC et Universel.");
-introduction("Identifiant : \"\" | Mot de passe : \"\".");
+titre("QCM : Comprendre l'électricité");
+introduction("Évaluez vos connaissances sur les différents thèmes.");
+introduction("N'ayez pas peur de l'échec : une fleur doit se planter pour pousser.");
+//introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
 nombre_questions("1", "2", "3", "10");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
