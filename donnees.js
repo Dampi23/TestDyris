@@ -601,18 +601,18 @@ theme("Bac 2 : Courant Alternatif (AC)");
 
 debut("Le courant du secteur (maison).");
 
-quest("Quel est le symbole du courant alternatif ?");
+quest("Quel est le symbole du courant alternatif ?//a");
 rep("[ ] DC");
 rep("[x] AC (ou une sinusoïde ~)");
 rep("[ ] + / -");
 
-quest("En France, quelle est la fréquence du courant alternatif domestique ?");
+quest("En France, quelle est la fréquence du courant alternatif domestique ?//a");
 rep("[ ] 20 Hz");
 rep("[x] 50 Hz");
 rep("[ ] 60 Hz");
 rep("[ ] 230 Hz");
 
-quest("Comment appelle-t-on la courbe représentative du courant alternatif ?");
+quest("Comment appelle-t-on la courbe représentative du courant alternatif ?//a");
 rep("[ ] Une droite");
 rep("[ ] Une parabole");
 rep("[x] Une sinusoïde");
@@ -623,14 +623,437 @@ rep("[x] Une sinusoïde");
 
 theme("Bac 2 : Appareillage ");
 
-quest("APP01 : Quel composant protège un circuit contre les surintensités ?//");
-rep("[ ] La prise de terre");
-rep("[x] Un fusible ou un disjoncteur");
-rep("[ ] Un interrupteur");
-rep("[ ] Un contacteur");
-aj("");
+quest("APP01 : Pour changer le sens de rotation d'un moteur triphasé ://a");
+rep("[ ] l'équiper d'un condensateur");
+rep("[x] inverser deux phases");
+rep("[ ] utiliser le branchement étoile-triangle");
+rep("[ ] alimenter en 240 V");
 juste("Bien joué ! Un fusible ou un disjoncteur protège le circuit contre les surintensités en coupant le courant en cas de défaut.");
 faux("Erreur. La protection contre les surintensités est assurée par un fusible ou un disjoncteur.");
+
+quest("APP02 : La BTA (basse tension), en courant alternatif, correspond aux tensions ://a");
+rep("[ ] 500 - 1 000 V");
+rep("[ ] 0 - 50 V");
+rep("[ ] 50 - 500 V");
+rep("[x] 0 - 1 000 V");
+
+quest("APP03 : La caractéristique principale d'un condensateur se mesure en ://a");
+rep("[ ] ohm");
+rep("[ ] watt");
+rep("[x] farad");
+rep("[ ] volt");
+
+quest("APP04 : Un moteur électrique triphasé plaqué 380 V et alimenté en 240 V ://a");
+rep("[ ] grillera");
+rep("[ ] est un moteur à démarrage étoile-triangle");
+rep("[ ] tournera en sens inverse");
+rep("[x] tournera plus lentement");
+
+quest("APP05 : L'unité de mesure de la puissance est le ://a");
+rep("[x] watt (W)");
+rep("[ ] ohm (Ω)");
+
+quest("APP06 : Un relais thermique se règle...//a");
+rep("[ ] à 0,9 fois l'intensité plaquée sur le moteur");
+rep("[x] à 1 fois l'intensité plaquée sur le moteur");
+rep("[ ] à 1,1 fois l'intensité plaquée sur le moteur");
+rep("[ ] à 1,2 fois l'intensité plaquée sur le moteur");
+
+quest("APP07 : La puissance absorbée d'un moteur triphasé est déterminée par la formule ://a");
+rep("[x] P = 3.U.I.cos φ");
+rep("[ ] P = 2.U.I.cos φ");
+rep("[ ] P = U.I");
+
+quest("APP08 : La puissance absorbée d'une résistance est ://a");
+rep("[x] P = U.I");
+rep("[ ] P = 3.U.I.cos φ");
+rep("[ ] P = 2.U.I.cos φ");
+
+quest("APP09 : La résistance équivalente de trois résistances en série est ://a");
+rep("[ ] Réq =1/R1 + 1/R2 + 1/R3");
+rep("[x] Réq = R1 + R2 + R3");
+rep("[ ] 1/Réq =1/R1 +1/R2 +1/R3");
+
+quest("APP10 : La résistance équivalente de trois résistances en parallèle est ://a");
+rep("[ ] Réq =1/R1 + 1/R2 + 1/R3");
+rep("[ ] Réq = R1 + R2 + R3");
+rep("[x] 1/Réq =1/R1 +1/R2 +1/R3");
+
+quest("APP11 : Une armoire électrique est alimentée par trois phases (3 x 400 V) et un neutre. Donc ://a");
+rep("[x] la tension composée est 400 V");
+rep("[x] la tension simple est 230 V");
+rep("[ ] la tension composée est 230 V");
+rep("[ ] la tension simple est 400 V");
+
+quest("APP12 : La loi d'Ohm s'écrit ://a");
+rep("[x] U = R . I");
+rep("[ ] I = R . U");
+rep("[ ] R = U . I");
+
+quest("APP13 : Une surcharge électrique peut être due à ://a");
+rep("[ ] deux phases qui se touchent");
+rep("[x] un moteur bloqué");
+rep("[x] un moteur ralenti par un frottement");
+rep("[x] un moteur au démarrage");
+rep("[ ] une phase et un neutre qui se touchent");
+
+quest("APP14 : Un court-circuit électrique peut être due à ://a");
+rep("[x] deux phases qui se touchent");
+rep("[ ] un moteur bloqué");
+rep("[x] une phase et un neutre qui se touchent");
+rep("[ ] un moteur au démarrage");
+
+quest("APP15 : L'isolement d'un moteur se mesure à l'aide de ://a");
+rep("[ ] ampèremètre");
+rep("[ ] voltmètre");
+rep("[x] mégohmmètre");
+rep("[ ] pince-ampèremétrique");
+
+quest("APP16 : L'ohmmètre s'utilise toujours sur un circuit sous tension.//a");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("APP17 : Pour un moteur triphasé, le démarrage étoile-triangle a pour but de ://a");
+rep("[x] diminuer le couple de démarrage");
+rep("[x] ne pas brusquer le moteur");
+rep("[x] diminuer l'intensité du courant de démarrage");
+rep("[x] d'éviter l'échauffement au démarrage");
+
+quest("APP18 : Le courant qui se dirige de la charge négative vers la charge positive est le courant ://a");
+rep("[ ] magnétique");
+rep("[ ] alternatif");
+rep("[ ] conventionnel");
+rep("[x] électronique");
+
+quest("APP19 : Lorsqu'un courant traverse un fil conducteur, il crée autour de celui-ci ://a");
+rep("[ ] une différence de potentiel");
+rep("[ ] un électro-aimant");
+rep("[x] un champ magnétique");
+rep("[ ] un spectre magnétique");
+
+quest("APP20 : Quand deux fils conducteurs sous tension, mais non isolés, sont en contact, il y a ://a");
+rep("[ ] un circuit ouvert");
+rep("[ ] un coupe-circuit");
+rep("[ ] une chute de tension");
+rep("[x] un court-circuit");
+
+quest("APP21 : Sur un circuit électrique, la surcharge déclenche ://a");
+rep("[ ] un disjoncteur magnétique");
+rep("[ ] un disjoncteur différentiel");
+rep("[ ] un sectionneur");
+rep("[x] un disjoncteur thermique");
+
+quest("APP22 : Sur un circuit électrique, le court-circuit déclenche ://a");
+rep("[ ] un sectionneur");
+rep("[ ] un disjoncteur thermique");
+rep("[x] un disjoncteur magnétique");
+rep("[ ] un disjoncteur différentiel");
+
+quest("APP23 : Pour effectuer une mesure, l'ampèremètre se branche en série sur un circuit électrique.//a");
+rep("[x] vrai");
+rep("[ ] faux");
+
+quest("APP24 : Pour effectuer une mesure, le voltmètre se branche en série sur un circuit électrique.//a");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("APP25 : Sur un contacteur, lorsqu'on alimente la bobine, le contact 13-14...//a");
+rep("[ ] s'ouvre");
+rep("[x] se ferme");
+rep("[ ] reste dans sa position de repos");
+
+quest("APP26 : Un relais thermique protège...//a");
+rep("[ ] l'installation des court-circuits");
+rep("[ ] un moteur des court-circuits");
+rep("[x] un moteur des surcharges");
+
+quest("APP27 : Sur un moteur monophasé, si la résistance entre le commun et l'auxiliaire tend vers l'infini, alors,//a");
+rep("[x] le moteur ne démarrera pas");
+rep("[ ] la résistance entre le commun et le principal est également nulle");
+rep("[ ] le moteur peut démarrer");
+
+quest("APP28 : Sur un moteur monophasé, si la résistance entre la terre et l'auxiliaire tend vers 0 (zéro), alors,//a");
+rep("[ ] l'isolement est correct");
+rep("[x] il y a un défaut d'isolement");
+
+quest("APP29 : Parmi ces classes de fusibles, laquelle a un temps de fusion plus rapide ://a");
+rep("[ ] Classe aM");
+rep("[x] Classe uR");
+
+quest("APP30 : Un sectionneur a un pouvoir de coupure ://a");
+rep("[ ] Vrai");
+rep("[x] Faux");
+
+quest("APP31 : Que risque-t-on si on manœuvre un sectionneur en charge ://a");
+rep("[x] Arc électrique et explosion");
+rep("[ ] Rien");
+
+quest("APP32 : Un contacteur a un pouvoir de coupure ://a");
+rep("[x] Vrai");
+rep("[ ] Faux");
+
+quest("APP33 : Un relais thermique n’a pas de pouvoir de coupure ://a");
+rep("[x] Vrai");
+rep("[ ] Faux");
+
+quest("APP34 : Un disjoncteur différentiel permet de protéger ://a");
+rep("[ ] Contre les surcharges");
+rep("[x] Contre les défauts d’isolement");
+
+quest("APP35 : Parmi les dispositifs suivants, lequel possède des contacts de précoupure ://a");
+rep("[ ] Disjoncteur");
+rep("[x] Sectionneur");
+
+quest("APP36 : Quel est l’avantage d’une machine triphasée par rapport à une machine monophasée ://a");
+rep("[ ] Une machine triphasée a une puissance 50 % supérieure");
+rep("[ ] Une machine triphasée a trois phases");
+rep("[x] Une machine triphasée consomme moins de courant");
+
+quest("APP37 : Quel est le composant représenté sur l’image ://a");
+rep("[ ] Un contacteur");
+rep("[ ] Un relais");
+rep("[ ] Un contacteur auxiliaire");
+
+quest("APP38 : À quoi sert le composant représenté sur l’image ://a");
+rep("[ ] Il permet de mesurer la température d’un moteur");
+rep("[x] Il permet de protéger contre les surcharges");
+rep("[ ] Il permet d’augmenter la vitesse d’un moteur");
+
+quest("APP39 : Lorsque je veux tester un appareil dont je ne suis pas sûr qu’il est bien isolé, que dois-je utiliser ://a");
+rep("[x] Un transformateur d’isolement");
+rep("[ ] Un ensemble fusible + porte-fusible");
+rep("[ ] Un relais");
+
+quest("APP40 : Quel est le rôle d’un contacteur tripolaire ://a");
+rep("[ ] Protéger le moteur contre les surchauffes");
+rep("[ ] Augmenter le rendement du moteur");
+rep("[x] Mettre sous tension les enroulements du moteur");
+
+quest("APP41 : Quel est le composant qui permet d’isoler un circuit afin d’effectuer des opérations de maintenance ://a");
+rep("[ ] Contacteur auxiliaire");
+rep("[x] Sectionneur");
+rep("[ ] Disjoncteur");
+
+quest("APP42 : Quel est le rôle d’un relais thermique ://a");
+rep("[ ] Protéger le moteur contre les emballements");
+rep("[ ] Protéger le moteur contre les courts-circuits");
+rep("[x] Protéger le moteur contre les surcharges");
+
+quest("APP43 : Qu’est-ce qu’un transformateur ://a");
+rep("[ ] Une machine qui transforme le courant en tension");
+rep("[ ] Une machine qui transforme un courant alternatif en courant continu");
+rep("[x] Une machine qui transforme une tension alternative U1 en une autre tension alternative U2");
+
+quest("APP44 : Pour tester la bobine d’un contacteur, on utilise ://a");
+rep("[ ] Un ampèremètre");
+rep("[x] Un ohmètre");
+
+quest("APP45 : L’excitation de la bobine d’un contacteur possédant un contact NO entraîne ://a");
+rep("[ ] L’ouverture de celui-ci");
+rep("[x] La fermeture de celui-ci");
+
+quest("APP46 : Comment nomme-t-on usuellement un contacteur ://a");
+rep("[ ] KS");
+rep("[x] KM");
+rep("[ ] KA");
+
+quest("APP47 : Comment nomme-t-on usuellement un contacteur auxiliaire ://a");
+rep("[ ] KV");
+rep("[ ] KM");
+rep("[x] KA");
+
+quest("APP48 : Quel composant permet de protéger un moteur contre les courts-circuits ://a");
+rep("[ ] Le relais thermique");
+rep("[ ] Le contacteur");
+rep("[x] Le disjoncteur moteur");
+rep("[ ] Le transformateur");
+
+quest("APP49 : Le symbole suivant représente ://a");
+rep("[ ] Un contact NO");
+rep("[ ] Un contact NF");
+rep("[ ] Une bobine");
+rep("[ ] Un fusible");
+
+quest("APP50 : La fonction d’un contact NF est ://a");
+rep("[x] De s’ouvrir lors de l’excitation");
+rep("[ ] De rester ouvert en permanence");
+rep("[ ] De se fermer lors de l’excitation");
+rep("[ ] De laisser passer l’alternatif uniquement");
+
+quest("APP51 : Dans un schéma électrique, la commande se trouve généralement ://a");
+rep("[ ] En bas");
+rep("[ ] À gauche");
+rep("[x] En haut");
+rep("[ ] À droite");
+
+quest("APP52 : Un transformateur élévateur ://a");
+rep("[ ] Diminue la tension");
+rep("[x] Augmente la tension");
+rep("[ ] Ne modifie pas la tension");
+rep("[ ] Transforme AC en DC");
+
+quest("APP53 : Sur un moteur triphasé, l’inversion de deux phases provoque ://a");
+rep("[ ] L’arrêt instantané");
+rep("[ ] L’augmentation du couple");
+rep("[x] L’inversion du sens de rotation");
+rep("[ ] Une surintensité systématique");
+
+quest("APP54 : Lorsque le relais thermique déclenche ://a");
+rep("[ ] Le moteur continue de tourner");
+rep("[x] Le contacteur s’ouvre");
+rep("[ ] Le disjoncteur saute");
+rep("[ ] Rien ne se passe");
+
+quest("APP55 : Le courant alternatif est caractérisé par ://a");
+rep("[ ] Une tension constante dans le temps");
+rep("[x] Une tension variable périodiquement");
+rep("[ ] Une tension nulle en permanence");
+rep("[ ] Une tension exclusivement positive");
+
+quest("APP56 : Sur un schéma, la bobine d’un contacteur est représentée par ://a");
+rep("[ ] Deux traits parallèles");
+rep("[ ] Un rectangle");
+rep("[x] Une spirale ou un symbole de bobine");
+rep("[ ] Un triangle");
+
+quest("APP57 : Quelle est la valeur de la fréquence du réseau électrique en Europe ://a");
+rep("[ ] 230 Hz");
+rep("[ ] 60 Hz");
+rep("[x] 50 Hz");
+rep("[ ] 12 Hz");
+
+quest("APP58 : La fonction principale d’un disjoncteur est ://a");
+rep("[ ] Mesurer la tension");
+rep("[ ] Mesurer le courant");
+rep("[x] Protéger contre les surcharges et les courts-circuits");
+rep("[ ] Démarrer un moteur");
+
+quest("APP59 : Dans un câblage industriel, la couleur standard du fil de neutre est ://a");
+rep("[ ] Vert/jaune");
+rep("[ ] Noir");
+rep("[x] Bleu clair");
+rep("[ ] Rouge");
+
+quest("APP60 : La valeur de la tension monophasée en Europe est ://a");
+rep("[x] 230 V");
+rep("[ ] 110 V");
+rep("[ ] 400 V");
+rep("[ ] 24 V");
+
+quest("APP61 : Comment nomme-t-on usuellement un bornier ://a");
+rep("[ ] Y");
+rep("[x] X");
+rep("[ ] Z");
+
+quest("APP62 : Comment nomme-t-on usuellement un relais thermique ://a");
+rep("[ ] R");
+rep("[ ] Q");
+rep("[x] F");
+
+quest("APP63 : Comment nomme-t-on usuellement un sectionneur ://a");
+rep("[ ] F");
+rep("[x] Q");
+rep("[ ] S");
+
+quest("APP64 : Comment nomme-t-on usuellement un voyant ://a");
+rep("[ ] V");
+rep("[x] H");
+rep("[ ] Y");
+
+quest("APP65 : Quel mode de démarrage est représenté sur l’image ://a");
+rep("[ ] Démarrage direct 2 sens de marche");
+rep("[ ] Démarrage étoile-triangle");
+rep("[ ] Démarrage direct 1 sens de marche");
+
+quest("APP66 : Un voyant est un élément de ://a");
+rep("[ ] La partie puissance");
+rep("[x] La partie commande");
+
+quest("APP67 : Quel est le composant électrique représenté sur l'image ?//a");
+rep("[ ] Contacteur");
+rep("[ ] Bloc de contacts auxiliaires");
+rep("[ ] Relais");
+
+quest("APP68 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Capteur photo-électrique");
+rep("[ ] Fin de course");
+rep("[ ] Capteur électromagnétique");
+
+quest("APP69 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Bloc temporisé de repos");
+rep("[ ] Bloc temporisé de travail");
+
+quest("APP70 : En démarrage direct 2 sens de marche, quelle technique permet de protéger le circuit de puissance contre les courts-circuits et l’activation simultanée des contacteurs KM1 et KM2 ://a");
+rep("[ ] Le disjoncteur");
+rep("[x] Le verrouillage mécanique");
+
+quest("APP71 : Dans le démarrage étoile-triangle, le contacteur de ligne sert à ://a");
+rep("[ ] Coupler le moteur en triangle");
+rep("[ ] Coupler le moteur en étoile");
+rep("[x] Commander le moteur");
+
+quest("APP72 : À quel circuit appartiennent les composants suivants : sectionneur, disjoncteur, relais thermique ://a");
+rep("[x] Circuit de puissance");
+rep("[ ] Circuit de commande");
+
+quest("APP73 : Parmi les dispositifs suivants, lequel possède des contacts de précoupure ?//a");
+rep("[ ] Disjoncteur");
+rep("[x] Sectionneur");
+
+quest("APP74 : Quel est le rôle principal d’un sectionneur ://a");
+rep("[x] Isoler le circuit électrique en aval");
+rep("[ ] Protéger contre les surintensités");
+rep("[ ] Protéger les composants électriques contre les surchauffes");
+
+quest("APP75 : Un relais thermique permet de ://a");
+rep("[x] Protéger un moteur contre les surchauffes");
+rep("[ ] Mesurer la température d’un moteur");
+
+quest("APP76 : Lequel protège un moteur électrique contre les surcharges ://a");
+rep("[ ] Sectionneur");
+rep("[ ] Contacteur");
+rep("[x] Relais thermique");
+
+quest("APP77 : Quel est le composant représenté sur l’image ://a");
+rep("[x] Un contacteur");
+rep("[ ] Un relais");
+rep("[ ] Un disjoncteur magnéto-thermique");
+aj("images/APP77.png");
+
+quest("APP78 : À quoi sert le composant représenté sur l’image ://a");
+rep("[ ] Il permet de mesurer la température d’un moteur");
+rep("[x] Il permet de protéger contre les surcharges");
+rep("[ ] Il permet d’augmenter la vitesse d’un moteur");
+aj("images/APP78.png");
+
+quest("APP79 : Quel mode de démarrage est représenté sur l’image ://a");
+rep("[x] Démarrage direct 2 sens de marche");
+rep("[ ] Démarrage étoile-triangle");
+rep("[ ] Démarrage direct 1 sens de marche");
+aj("images/APP79.png");
+
+quest("APP80 : Quel est le composant électrique représenté sur l'image ?//a");
+rep("[ ] Contacteur");
+rep("[x] Bloc de contacts auxiliaires");
+rep("[ ] Relais");
+aj("images/APP80.png");
+
+quest("APP81 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Capteur photo-électrique");
+rep("[x] Fin de course");
+rep("[ ] Capteur électromagnétique");
+aj("images/APP81.png");
+
+quest("APP82 : Quel est le composant représenté sur l'image ?//a");
+rep("[ ] Bloc temporisé à l'enclenchement");
+rep("[x] Bloc temporisé au déclenchement");
+aj("images/APP82.png");
+
+quest("APP83 : La description représentée sur l'image est-elle juste ? Quand on ferme le contact Q1 du sectionneur et que l’on appuie sur le bouton poussoir S1, le courant passe au niveau de la bobine du contacteur KM1 et l’excite. L’excitation de la bobine du contacteur KM1 entraîne la fermeture du contact km1 (en parallèle avec le bouton poussoir S1). Cela a comme effet de maintenir la bobine KM1 alimentée (le moteur piloté par le contacteur KM1 reste allumé). C’est le principe de l’auto-maintien. Un appui sur le bouton poussoir normalement fermé S0 entraîne la désexcitation de la bobine du contacteur KM1 et l’ouverture du contact km1. Le moteur piloté par le contacteur KM1 s’arrête.
+ ?//a");
+rep("[x] Correct");
+rep("[ ] Incorrect");
+aj("images/APP83.png");
 
 // ====================================================================================
 // SECTION : Les moteurs triphasés
