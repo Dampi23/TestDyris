@@ -1014,40 +1014,40 @@ rep("[ ] Sectionneur");
 rep("[ ] Contacteur");
 rep("[x] Relais thermique");
 
-quest("APP77 : Quel est le composant représenté sur l’image ://a");
-rep("[x] Un contacteur");
-rep("[ ] Un relais");
-rep("[ ] Un disjoncteur magnéto-thermique");
-aj("images/APP77.png");
+//quest("APP77 : Quel est le composant représenté sur l’image ://a");
+//rep("[x] Un contacteur");
+//rep("[ ] Un relais");
+//rep("[ ] Un disjoncteur magnéto-thermique");
+//aj("images/APP77.png");
 
-quest("APP78 : À quoi sert le composant représenté sur l’image ://a");
-rep("[ ] Il permet de mesurer la température d’un moteur");
-rep("[x] Il permet de protéger contre les surcharges");
-rep("[ ] Il permet d’augmenter la vitesse d’un moteur");
-aj("images/APP78.png");
+//quest("APP78 : À quoi sert le composant représenté sur l’image ://a");
+//rep("[ ] Il permet de mesurer la température d’un moteur");
+//rep("[x] Il permet de protéger contre les surcharges");
+//rep("[ ] Il permet d’augmenter la vitesse d’un moteur");
+//aj("images/APP78.png");
 
-quest("APP79 : Quel mode de démarrage est représenté sur l’image ://a");
-rep("[x] Démarrage direct 2 sens de marche");
-rep("[ ] Démarrage étoile-triangle");
-rep("[ ] Démarrage direct 1 sens de marche");
-aj("images/APP79.png");
+//quest("APP79 : Quel mode de démarrage est représenté sur l’image ://a");
+//rep("[x] Démarrage direct 2 sens de marche");
+//rep("[ ] Démarrage étoile-triangle");
+//rep("[ ] Démarrage direct 1 sens de marche");
+//aj("images/APP79.png");
 
-quest("APP80 : Quel est le composant électrique représenté sur l'image ?//a");
-rep("[ ] Contacteur");
-rep("[x] Bloc de contacts auxiliaires");
-rep("[ ] Relais");
-aj("images/APP80.png");
+//quest("APP80 : Quel est le composant électrique représenté sur l'image ?//a");
+//rep("[ ] Contacteur");
+//rep("[x] Bloc de contacts auxiliaires");
+//rep("[ ] Relais");
+//aj("images/APP80.png");
 
-quest("APP81 : Quel est le composant représenté sur l'image ?//a");
-rep("[ ] Capteur photo-électrique");
-rep("[x] Fin de course");
-rep("[ ] Capteur électromagnétique");
-aj("images/APP81.png");
+//quest("APP81 : Quel est le composant représenté sur l'image ?//a");
+//rep("[ ] Capteur photo-électrique");
+//rep("[x] Fin de course");
+//rep("[ ] Capteur électromagnétique");
+//aj("images/APP81.png");
 
-quest("APP82 : Quel est le composant représenté sur l'image ?//a");
-rep("[ ] Bloc temporisé à l'enclenchement");
-rep("[x] Bloc temporisé au déclenchement");
-aj("images/APP82.png");
+//quest("APP82 : Quel est le composant représenté sur l'image ?//a");
+//rep("[ ] Bloc temporisé à l'enclenchement");
+//rep("[x] Bloc temporisé au déclenchement");
+//aj("images/APP82.png");
 
 //quest("APP83 : La description représentée sur l'image est-elle juste ? Quand on ferme le contact Q1 du sectionneur et que l’on appuie sur le bouton poussoir S1, le courant passe au niveau de la bobine du contacteur KM1 et l’excite. L’excitation de la bobine du contacteur KM1 entraîne la fermeture du contact km1 (en parallèle avec le bouton poussoir S1). Cela a comme effet de maintenir la bobine KM1 alimentée (le moteur piloté par le contacteur KM1 reste allumé). C’est le principe de l’auto-maintien. Un appui sur le bouton poussoir normalement fermé S0 entraîne la désexcitation de la bobine du contacteur KM1 et l’ouverture du contact km1. Le moteur piloté par le contacteur KM1 s’arrête.
  ?//a");
