@@ -616,6 +616,170 @@ rep("[ ] Une droite");
 rep("[ ] Une parabole");
 rep("[x] Une sinusoïde");
 
+// ====================================================================================
+// SECTION : Electricité et rôles des appareillages
+// ====================================================================================
+
+quest("APP01 : Pour changer le sens de rotation d'un moteur triphasé ://a");
+rep("[ ] l'équiper d'un condensateur");
+rep("[x] inverser deux phases");
+rep("[ ] utiliser le branchement étoile-triangle");
+rep("[ ] alimenter en 240 V");
+juste("Bien joué ! Un fusible ou un disjoncteur protège le circuit contre les surintensités en coupant le courant en cas de défaut.");
+faux("Erreur. La protection contre les surintensités est assurée par un fusible ou un disjoncteur.");
+
+quest("APP02 : La BTA (basse tension), en courant alternatif, correspond aux tensions ://a");
+rep("[ ] 500 - 1 000 V");
+rep("[ ] 0 - 50 V");
+rep("[ ] 50 - 500 V");
+rep("[x] 0 - 1 000 V");
+
+quest("APP03 : La caractéristique principale d'un condensateur se mesure en ://a");
+rep("[ ] ohm");
+rep("[ ] watt");
+rep("[x] farad");
+rep("[ ] volt");
+
+quest("APP04 : Un moteur électrique triphasé plaqué 380 V et alimenté en 240 V ://a");
+rep("[ ] grillera");
+rep("[ ] est un moteur à démarrage étoile-triangle");
+rep("[ ] tournera en sens inverse");
+rep("[x] tournera plus lentement");
+
+quest("APP05 : L'unité de mesure de la puissance est le ://a");
+rep("[x] watt (W)");
+rep("[ ] ohm (Ω)");
+
+quest("APP06 : Un relais thermique se règle...//a");
+rep("[ ] à 0,9 fois l'intensité plaquée sur le moteur");
+rep("[x] à 1 fois l'intensité plaquée sur le moteur");
+rep("[ ] à 1,1 fois l'intensité plaquée sur le moteur");
+rep("[ ] à 1,2 fois l'intensité plaquée sur le moteur");
+
+quest("APP07 : La puissance absorbée d'un moteur triphasé est déterminée par la formule ://a");
+rep("[x] P = 3.U.I.cos φ");
+rep("[ ] P = 2.U.I.cos φ");
+rep("[ ] P = U.I");
+
+quest("APP08 : La puissance absorbée d'une résistance est ://a");
+rep("[x] P = U.I");
+rep("[ ] P = 3.U.I.cos φ");
+rep("[ ] P = 2.U.I.cos φ");
+
+quest("APP09 : La résistance équivalente de trois résistances en série est ://a");
+rep("[ ] Réq =1/R1 + 1/R2 + 1/R3");
+rep("[x] Réq = R1 + R2 + R3");
+rep("[ ] 1/Réq =1/R1 +1/R2 +1/R3");
+
+quest("APP10 : La résistance équivalente de trois résistances en parallèle est ://a");
+rep("[ ] Réq =1/R1 + 1/R2 + 1/R3");
+rep("[ ] Réq = R1 + R2 + R3");
+rep("[x] 1/Réq =1/R1 +1/R2 +1/R3");
+
+quest("APP11 : Une armoire électrique est alimentée par trois phases (3 x 400 V) et un neutre. Donc ://a");
+rep("[x] la tension composée est 400 V");
+rep("[x] la tension simple est 230 V");
+rep("[ ] la tension composée est 230 V");
+rep("[ ] la tension simple est 400 V");
+
+quest("APP12 : La loi d'Ohm s'écrit ://a");
+rep("[x] U = R . I");
+rep("[ ] I = R . U");
+rep("[ ] R = U . I");
+
+quest("APP13 : Une surcharge électrique peut être due à ://a");
+rep("[ ] deux phases qui se touchent");
+rep("[x] un moteur bloqué");
+rep("[x] un moteur ralenti par un frottement");
+rep("[x] un moteur au démarrage");
+rep("[ ] une phase et un neutre qui se touchent");
+
+quest("APP14 : Un court-circuit électrique peut être due à ://a");
+rep("[x] deux phases qui se touchent");
+rep("[ ] un moteur bloqué");
+rep("[x] une phase et un neutre qui se touchent");
+rep("[ ] un moteur au démarrage");
+
+quest("APP15 : L'isolement d'un moteur se mesure à l'aide de ://a");
+rep("[ ] ampèremètre");
+rep("[ ] voltmètre");
+rep("[x] mégohmmètre");
+rep("[ ] pince-ampèremétrique");
+
+quest("APP16 : L'ohmmètre s'utilise toujours sur un circuit sous tension.//a");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("APP17 : Pour un moteur triphasé, le démarrage étoile-triangle a pour but de ://a");
+rep("[x] diminuer le couple de démarrage");
+rep("[x] ne pas brusquer le moteur");
+rep("[x] diminuer l'intensité du courant de démarrage");
+rep("[x] d'éviter l'échauffement au démarrage");
+
+quest("APP18 : Le courant qui se dirige de la charge négative vers la charge positive est le courant ://a");
+rep("[ ] magnétique");
+rep("[ ] alternatif");
+rep("[ ] conventionnel");
+rep("[x] électronique");
+
+quest("APP19 : Lorsqu'un courant traverse un fil conducteur, il crée autour de celui-ci ://a");
+rep("[ ] une différence de potentiel");
+rep("[ ] un électro-aimant");
+rep("[x] un champ magnétique");
+rep("[ ] un spectre magnétique");
+
+quest("APP20 : Quand deux fils conducteurs sous tension, mais non isolés, sont en contact, il y a ://a");
+rep("[ ] un circuit ouvert");
+rep("[ ] un coupe-circuit");
+rep("[ ] une chute de tension");
+rep("[x] un court-circuit");
+
+quest("APP21 : Sur un circuit électrique, la surcharge déclenche ://a");
+rep("[ ] un disjoncteur magnétique");
+rep("[ ] un disjoncteur différentiel");
+rep("[ ] un sectionneur");
+rep("[x] un disjoncteur thermique");
+
+quest("APP22 : Sur un circuit électrique, le court-circuit déclenche ://a");
+rep("[ ] un sectionneur");
+rep("[ ] un disjoncteur thermique");
+rep("[x] un disjoncteur magnétique");
+rep("[ ] un disjoncteur différentiel");
+
+quest("APP23 : Pour effectuer une mesure, l'ampèremètre se branche en série sur un circuit électrique.//a");
+rep("[x] vrai");
+rep("[ ] faux");
+
+quest("APP24 : Pour effectuer une mesure, le voltmètre se branche en série sur un circuit électrique.//a");
+rep("[ ] vrai");
+rep("[x] faux");
+
+quest("APP25 : Sur un contacteur, lorsqu'on alimente la bobine, le contact 13-14...//a");
+rep("[ ] s'ouvre");
+rep("[x] se ferme");
+rep("[ ] reste dans sa position de repos");
+
+quest("APP26 : Un relais thermique protège...//a");
+rep("[ ] l'installation des court-circuits");
+rep("[ ] un moteur des court-circuits");
+rep("[x] un moteur des surcharges");
+
+quest("APP27 : Sur un moteur monophasé, si la résistance entre le commun et l'auxiliaire tend vers l'infini, alors,//a");
+rep("[x] le moteur ne démarrera pas");
+rep("[ ] la résistance entre le commun et le principal est également nulle");
+rep("[ ] le moteur peut démarrer");
+
+quest("APP28 : Sur un moteur monophasé, si la résistance entre la terre et l'auxiliaire tend vers 0 (zéro), alors,//a");
+rep("[ ] l'isolement est correct");
+rep("[x] il y a un défaut d'isolement");
+
+quest("APP29 : Parmi ces classes de fusibles, laquelle a un temps de fusion plus rapide ://a");
+rep("[ ] Classe aM");
+rep("[x] Classe uR");
+
+quest("APP30 : Un sectionneur a un pouvoir de coupure ://a");
+rep("[ ] Vrai");
+rep("[x] Faux");
 
 // ====================================================================================
 // SECTION : Les moteurs triphasés
