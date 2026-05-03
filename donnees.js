@@ -10,7 +10,7 @@ introduction("Évaluez vos connaissances sur les différents thèmes.");
 introduction("N'ayez pas peur de l'échec : une fleur doit se planter pour pousser.");
 //introduction("Identifiant : \"\" | Mot de passe : \"\".");
 
-nombre_questions("5", "10", "20", "50", "70", "100");
+nombre_questions("1", "5", "10", "20", "50", "70", "100");
 fenetre_info("MODE D'EMPLOI","pages/mode_emploi.html");
 fenetre_info("test","ISL");
 url_quitter("http://dyris.free.fr/");
@@ -1883,7 +1883,7 @@ faux("Il faut diviser la tension par la vitesse : 60 / 1000.");
 // ====================================================================================
 // SECTION : Lien vers un site internet
 // ====================================================================================
-theme("St laurent : QCM appareillage ");
+theme("St laurent : QCM appareillage (1 Question : Lien vers un QCM extérieur");
 
 https://electrotoile.eu/qcm/qcm_appareillage/ 
 
