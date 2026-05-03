@@ -1885,7 +1885,9 @@ faux("Il faut diviser la tension par la vitesse : 60 / 1000.");
 // ====================================================================================
 theme("St laurent : QCM appareillage (1 Question : Lien vers un QCM extérieur");
 
-https://electrotoile.eu/qcm/qcm_appareillage/ 
+quest("APP00 : Lancer le QCM electrotoile en ligne//a");
+rep("[x] Démarrer le test");
+url_quitter("https://electrotoile.eu/qcm/qcm_appareillage/");
 
 // ====================================================================================
 // SECTION : L'électronique
